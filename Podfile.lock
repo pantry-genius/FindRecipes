@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.8.2)
+  - InputBarAccessoryView (4.3.0)
+  - SwiftyJSON (5.0.0)
+  - SwipeCellKit (2.6.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - InputBarAccessoryView
+  - SwiftyJSON
+  - SwipeCellKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - InputBarAccessoryView
+    - SwiftyJSON
+    - SwipeCellKit
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  InputBarAccessoryView: 28dca73f28df7822fe5377f83cfc4547e22f90ff
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwipeCellKit: 935ca28c187ec6e1ffb2b578cf8ddca842bfdcbb
+
+PODFILE CHECKSUM: 74de401bbf9b67b3b001b6e23c001c16fcf727e8
+
+COCOAPODS: 1.5.3
