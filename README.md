@@ -1,5 +1,5 @@
 # FindRecipes
-Group Project - README Template
+Group Project
 lmaoooo
 ===
 
@@ -25,25 +25,24 @@ lmaoooo
 - **Scope:** Pantry Genius would initally focus solely on the input of ingredients and return possible recipes for the items. Further implementations would allow for user submission of recipes and a ranking ability to categorize popular/less popular recipes. 
 
 ## Product Spec
+### Milestone 1 Walkthrough GIF
+<img src="http://g.recordit.co/CtDCFoCAlO.gif" width=250><br>
 
 ### 1. User Stories (Required and Optional)
-
 **Required Must-have Stories**
-
-* Enter about 20 food items  ( saves them )
-* View that generates a few meals to cook
-* Create account, Sign in
-* View to search for a recipe
-* Collection view of other user recipes
-* Settings -> create a profile
+- [x] Enter about 20 food items ( Items are saved )
+- [x] View that generates a few meals to cook
+- [] Create account, Sign In
+- [] View to search for a recipe
+- [] Collection view of other user recipes
+- [] Settings -> create a profile
 
 **Optional Nice-to-have Stories**
-
-* Users can submit their own recipes
-* Dark vs light mode
-* Leave comments on others recipes
-* Downvote or upvote recipes
-* User can favorite recipes they like
+- [] Users can submit their own recipes
+- [] Dark vs Light mode
+- [] Leave comments on others recipes
+- [] Downvote or upvote recipes
+- [] User can favorite recipes they like
 
 ### 2. Screen Archetypes
 
@@ -60,7 +59,6 @@ lmaoooo
     * User can add profile picture
     * User can change username 
 
-
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
@@ -75,17 +73,42 @@ lmaoooo
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="<a href="https://ibb.co/Twc3MZ4"><img src="https://i.ibb.co/mRJW5m9/Scannable-Document-on-Apr-22-2019-at-6-54-20-PM.png" alt="Scannable-Document-on-Apr-22-2019-at-6-54-20-PM" border="0"></a>" width=600>
+<img src="<a href="https://ibb.co/Twc3MZ4"><img src="https://i.ibb.co/mRJW5m9/Scannable-Document-on-Apr-22-2019-at-6-54-20-PM.png" alt="Scannable-Document-on-Apr-22-2019-at-6-54-20-PM" border="0"></a>
 
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- Home Feed (Input Ingredients)
+    - (Read/GET) Query all ingredients for specific user
+
+- Sign In/ Sign Up Screen
+    - (Create/POST) User creates an account
+    - (Read/GET) Query User logged in
+    - (Update/PUT) User updates profile image
+        
+- Profile Screen
+    - (Read/Get) Fetch user's saved recipes 
+    
+### Spoonacular API
+    - Base Url: https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/
+
+| Property | Type     | 
+| -------- | -------- | 
+| GET (required params) | findByIngredients?ingredients=apples%2Cflour%2Csugar 
+| GET (optional params)| findByIngredients?number=5&ranking=1&ignorePantry=false&ingredients=apples%2Cflour%2Csugar 
+
+| Sub-Property | Description     | 
+| -------- | -------- |
+ingredients (required)| A comma-separated list of ingredients that the recipes should contain.
+number (optional) | The maximal number of recipes to return (default = 5)
+ranking (optional)  |  Whether to maximize used ingredients (1) or minimize missing ingredients (2) first.
+ignorePantry (optional) | Whether to ignore pantry ingredients such as water, salt, flour etc..
+
+
+    - URL to GET request documentation: https://rapidapi.com/spoonacular/api/recipe-food-nutrition?endpoint=55e1b3e1e4b0b74f06703be6
