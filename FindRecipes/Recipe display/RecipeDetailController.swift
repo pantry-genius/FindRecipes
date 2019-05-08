@@ -15,12 +15,17 @@ class RecipeDetailController: UIViewController {
             guard let recipe = recipe else {return}
             recipeImageView.loadImage(urlString: recipe.imageUrl)
             titleLabel.text = recipe.title
-            currentIngredientsTextView.text = "You currently have thes ingredients: " + recipe.currentIngredients.joined(separator: ",")
-            missingIngredientsTextView.text = "You are missing these ingredients" + recipe.missingIngredients.joined(separator: ",")
+            currentIngredientsTextView.text = "You currently have thes ingredients: \n\n" + recipe.currentIngredients.joined(separator: "\n")
+            missingIngredientsTextView.text = "You are missing these ingredients: \n\n" + recipe.missingIngredients.joined(separator: "\n")
             if missingIngredientsTextView.text == nil {
                 missingIngredientsTextView.text = "None"
             }
-            instructionTextView.text = recipe.instructions
+            if recipe.instructions == "" {
+                sourceUrlButton.setTitle(recipe.sourceUrl, for: .normal)
+            } else {
+                instructionTextView.text = recipe.instructions
+            }
+            
             
             //view.setNeedsDisplay()
         }
@@ -38,7 +43,7 @@ class RecipeDetailController: UIViewController {
     
     lazy var containerView: UIView = {
         let view = UIView()
-        view.backgroundColor = .yellow
+        view.backgroundColor = .white
         view.frame.size = contentViewSize
         return view
     }()
@@ -75,6 +80,16 @@ class RecipeDetailController: UIViewController {
         return miTextView
     }()
     
+    let sourceUrlButton: UIButton = {
+        let sub = UIButton(type: .system)
+        //sub.titleLabel?.text = "url"
+        sub.addTarget(nil, action: #selector(openUrl), for: .touchUpInside)
+        return sub
+    }()
+    
+    @objc func openUrl() {
+        UIApplication.shared.open(URL(string: recipe!.sourceUrl)!, options: [:], completionHandler: nil)
+    }
     
     
     override func viewDidLoad() {
@@ -88,12 +103,16 @@ class RecipeDetailController: UIViewController {
         containerView.addSubview(currentIngredientsTextView)
         containerView.addSubview(missingIngredientsTextView)
         containerView.addSubview(instructionTextView)
+        //containerView.addSubview(sourceUrlButton)
+        instructionTextView.addSubview(sourceUrlButton)
         
         recipeImageView.anchor(top: containerView.topAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: containerView.frame.width)
         titleLabel.anchor(top: recipeImageView.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 20, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 50)
         currentIngredientsTextView.anchor(top: titleLabel.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 20, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 100)
         missingIngredientsTextView.anchor(top: currentIngredientsTextView.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 20, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 100)
         instructionTextView.anchor(top: missingIngredientsTextView.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 20, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 500)
+        sourceUrlButton.anchor(top: instructionTextView.topAnchor, left: containerView.leftAnchor, bottom: nil, right: nil, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 50)
+        
         
         
         

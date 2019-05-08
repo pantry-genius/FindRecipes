@@ -12,6 +12,7 @@ import Vision
 import InputBarAccessoryView
 import Alamofire
 import SwiftyJSON
+import SwipeCellKit
 class AddIngredientController: UICollectionViewController, UICollectionViewDelegateFlowLayout, UIImagePickerControllerDelegate, UINavigationControllerDelegate, InputBarAccessoryViewDelegate{
 
     let cellId = "cellId"
@@ -61,6 +62,7 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! IngredientCell
+        cell.delegate = self
         cell.ingredient = ingredients[indexPath.item]
         return cell
     }
@@ -102,15 +104,17 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
                     }
                     
                     var recipe = Recipe(["id" : id, "title": title, "image": imageUrl, "missing": missedIngredients, "current": currentIngredients])
-                    instructionUrl = instructionUrl + id + "/information"
+                    let inUrl = instructionUrl + id + "/information"
                     //let instructionParameter : Parameters = ["id" : id]
-                    Alamofire.request(instructionUrl, method: .get, parameters: nil, encoding: URLEncoding.default, headers: recipeRequest.getHeaders()).responseJSON(completionHandler: { (response) in
-                        print(response.request)
+                    Alamofire.request(inUrl, method: .get, parameters: nil, encoding: URLEncoding.default, headers: recipeRequest.getHeaders()).responseJSON(completionHandler: { (response) in
+                        //print(response.request)
                         if response.result.isSuccess {
                             let recipeDetailJson : JSON = JSON(response.result.value!)
                             let instructions = recipeDetailJson["instructions"].stringValue
-                            print(instructions)
+                            let sourceUrl = recipeDetailJson["sourceUrl"].stringValue
+                            print(sourceUrl)
                             recipe.instructions = instructions
+                            recipe.sourceUrl = sourceUrl
                             recipes.append(recipe)
                             if Int(key) == recipeJson.arrayValue.count - 1 {
                                 let recipeController = RecipeController(collectionViewLayout: UICollectionViewFlowLayout())
@@ -178,5 +182,23 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
     
     
     
+    
+}
+
+extension AddIngredientController: SwipeCollectionViewCellDelegate {
+    func collectionView(_ collectionView: UICollectionView, editActionsForItemAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> [SwipeAction]? {
+        guard orientation == .right else {return nil}
+        let deleteAction = SwipeAction(style: .destructive, title: "Delete") { (action, indexpath) in
+            self.ingredients.remove(at: indexPath.item)
+        }
+        deleteAction.image = UIImage(named: "delete-icon")
+        return [deleteAction]
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, editActionsOptionsForItemAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> SwipeOptions {
+        var options = SwipeOptions()
+        options.expansionStyle = .destructive
+        return options
+    }
     
 }

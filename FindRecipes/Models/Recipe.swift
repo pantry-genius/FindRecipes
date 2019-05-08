@@ -15,6 +15,7 @@ struct Recipe {
     let currentIngredients : [String]
     let missingIngredients : [String]
     var instructions : String = ""
+    var sourceUrl : String = ""
     init(_ info: [String: Any]) {
         id = info["id"] as? String ?? ""
         title = info["title"] as? String ?? ""
