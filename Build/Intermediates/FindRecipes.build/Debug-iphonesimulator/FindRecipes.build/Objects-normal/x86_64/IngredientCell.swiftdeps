@@ -1,0 +1,848 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IngredientCell"
+provides-nominal:
+- "11FindRecipes14IngredientCellC"
+provides-member:
+- ["11FindRecipes14IngredientCellC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CGRect"
+- "Ingredient"
+- "IngredientCell"
+- "NSCoder"
+- "SwipeCollectionViewCell"
+- !private "UIColor"
+- "UIFont"
+- "UITextView"
+- !private "UIView"
+- !private "fatalError"
+depends-member:
+- !private ["So15CALayerDelegateP", "UIColor"]
+- ["So15CALayerDelegateP", "UIFont"]
+- ["So15CALayerDelegateP", "UITextView"]
+- !private ["So15CALayerDelegateP", "UIView"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "anchor"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "bottomAnchor"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- ["So15CALayerDelegateP", "font"]
+- !private ["So15CALayerDelegateP", "ingredient"]
+- ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", "isScrollEnabled"]
+- !private ["So15CALayerDelegateP", "leftAnchor"]
+- !private ["So15CALayerDelegateP", "rightAnchor"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textView"]
+- !private ["So15CALayerDelegateP", "topAnchor"]
+- !private ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", "UIFont"]
+- ["s7CVarArgP", "UITextView"]
+- !private ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "anchor"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "bottomAnchor"]
+- !private ["s7CVarArgP", "fatalError"]
+- ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "ingredient"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "isScrollEnabled"]
+- !private ["s7CVarArgP", "leftAnchor"]
+- !private ["s7CVarArgP", "rightAnchor"]
+- ["s7CVarArgP", "systemFont"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textView"]
+- !private ["s7CVarArgP", "topAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", "UIFont"]
+- ["s28CustomDebugStringConvertibleP", "UITextView"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "anchor"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "bottomAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "ingredient"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "isScrollEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "leftAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "rightAnchor"]
+- ["s28CustomDebugStringConvertibleP", "systemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textView"]
+- !private ["s28CustomDebugStringConvertibleP", "topAnchor"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", "UIFont"]
+- ["s23CustomStringConvertibleP", "UITextView"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "anchor"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "bottomAnchor"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "ingredient"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "isScrollEnabled"]
+- !private ["s23CustomStringConvertibleP", "leftAnchor"]
+- !private ["s23CustomStringConvertibleP", "rightAnchor"]
+- ["s23CustomStringConvertibleP", "systemFont"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textView"]
+- !private ["s23CustomStringConvertibleP", "topAnchor"]
+- !private ["SQ", "UIColor"]
+- ["SQ", "UIFont"]
+- ["SQ", "UITextView"]
+- !private ["SQ", "UIView"]
+- ["SQ", ""]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "anchor"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "bottomAnchor"]
+- !private ["SQ", "fatalError"]
+- ["SQ", "font"]
+- !private ["SQ", "ingredient"]
+- ["SQ", "init"]
+- ["SQ", "isScrollEnabled"]
+- !private ["SQ", "leftAnchor"]
+- !private ["SQ", "rightAnchor"]
+- ["SQ", "systemFont"]
+- !private ["SQ", "text"]
+- !private ["SQ", "textView"]
+- !private ["SQ", "topAnchor"]
+- !private ["SH", "UIColor"]
+- ["SH", "UIFont"]
+- ["SH", "UITextView"]
+- !private ["SH", "UIView"]
+- ["SH", ""]
+- !private ["SH", "addSubview"]
+- !private ["SH", "anchor"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "bottomAnchor"]
+- !private ["SH", "fatalError"]
+- ["SH", "font"]
+- !private ["SH", "ingredient"]
+- ["SH", "init"]
+- ["SH", "isScrollEnabled"]
+- !private ["SH", "leftAnchor"]
+- !private ["SH", "rightAnchor"]
+- ["SH", "systemFont"]
+- !private ["SH", "text"]
+- !private ["SH", "textView"]
+- !private ["SH", "topAnchor"]
+- !private ["11FindRecipes10IngredientV", "name"]
+- ["11FindRecipes14IngredientCellC", "CGRect"]
+- ["11FindRecipes14IngredientCellC", "Ingredient"]
+- ["11FindRecipes14IngredientCellC", "NSCoder"]
+- !private ["11FindRecipes14IngredientCellC", "UIColor"]
+- ["11FindRecipes14IngredientCellC", "UIFont"]
+- ["11FindRecipes14IngredientCellC", "UITextView"]
+- !private ["11FindRecipes14IngredientCellC", "UIView"]
+- !private ["11FindRecipes14IngredientCellC", "addSubview"]
+- !private ["11FindRecipes14IngredientCellC", "bottomAnchor"]
+- ["11FindRecipes14IngredientCellC", "deinit"]
+- !private ["11FindRecipes14IngredientCellC", "fatalError"]
+- ["11FindRecipes14IngredientCellC", "ingredient"]
+- ["11FindRecipes14IngredientCellC", "init"]
+- !private ["11FindRecipes14IngredientCellC", "leftAnchor"]
+- !private ["11FindRecipes14IngredientCellC", "rightAnchor"]
+- ["11FindRecipes14IngredientCellC", "textView"]
+- !private ["11FindRecipes14IngredientCellC", "topAnchor"]
+- !private ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", "UIFont"]
+- ["So8NSCodingP", "UITextView"]
+- !private ["So8NSCodingP", "UIView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "anchor"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "bottomAnchor"]
+- !private ["So8NSCodingP", "fatalError"]
+- ["So8NSCodingP", "font"]
+- !private ["So8NSCodingP", "ingredient"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "isScrollEnabled"]
+- !private ["So8NSCodingP", "leftAnchor"]
+- !private ["So8NSCodingP", "rightAnchor"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textView"]
+- !private ["So8NSCodingP", "topAnchor"]
+- !private ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "systemFont"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "Ingredient"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIFont"]
+- ["So8NSObjectC", "UITextView"]
+- !private ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "anchor"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "bottomAnchor"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "font"]
+- ["So8NSObjectC", "ingredient"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isScrollEnabled"]
+- !private ["So8NSObjectC", "leftAnchor"]
+- !private ["So8NSObjectC", "rightAnchor"]
+- ["So8NSObjectC", "systemFont"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "textView"]
+- !private ["So8NSObjectC", "topAnchor"]
+- !private ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", "UIFont"]
+- ["So8NSObjectP", "UITextView"]
+- !private ["So8NSObjectP", "UIView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "anchor"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "bottomAnchor"]
+- !private ["So8NSObjectP", "fatalError"]
+- ["So8NSObjectP", "font"]
+- !private ["So8NSObjectP", "ingredient"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isScrollEnabled"]
+- !private ["So8NSObjectP", "leftAnchor"]
+- !private ["So8NSObjectP", "rightAnchor"]
+- ["So8NSObjectP", "systemFont"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "textView"]
+- !private ["So8NSObjectP", "topAnchor"]
+- !private ["So14NSSecureCodingP", "init"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "CGRect"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "Ingredient"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "NSCoder"]
+- !private ["12SwipeCellKit0a14CollectionViewB0C", "UIColor"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "UIFont"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "UITextView"]
+- !private ["12SwipeCellKit0a14CollectionViewB0C", "UIView"]
+- ["12SwipeCellKit0a14CollectionViewB0C", ""]
+- !private ["12SwipeCellKit0a14CollectionViewB0C", "addSubview"]
+- !private ["12SwipeCellKit0a14CollectionViewB0C", "bottomAnchor"]
+- !private ["12SwipeCellKit0a14CollectionViewB0C", "fatalError"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "ingredient"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "init"]
+- !private ["12SwipeCellKit0a14CollectionViewB0C", "leftAnchor"]
+- !private ["12SwipeCellKit0a14CollectionViewB0C", "rightAnchor"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "textView"]
+- !private ["12SwipeCellKit0a14CollectionViewB0C", "topAnchor"]
+- !private ["12SwipeCellKit0A18ControllerDelegateP", "UIColor"]
+- ["12SwipeCellKit0A18ControllerDelegateP", "UIFont"]
+- ["12SwipeCellKit0A18ControllerDelegateP", "UITextView"]
+- !private ["12SwipeCellKit0A18ControllerDelegateP", "UIView"]
+- ["12SwipeCellKit0A18ControllerDelegateP", ""]
+- !private ["12SwipeCellKit0A18ControllerDelegateP", "addSubview"]
+- !private ["12SwipeCellKit0A18ControllerDelegateP", "bottomAnchor"]
+- !private ["12SwipeCellKit0A18ControllerDelegateP", "fatalError"]
+- !private ["12SwipeCellKit0A18ControllerDelegateP", "ingredient"]
+- !private ["12SwipeCellKit0A18ControllerDelegateP", "init"]
+- !private ["12SwipeCellKit0A18ControllerDelegateP", "leftAnchor"]
+- !private ["12SwipeCellKit0A18ControllerDelegateP", "rightAnchor"]
+- !private ["12SwipeCellKit0A18ControllerDelegateP", "textView"]
+- !private ["12SwipeCellKit0A18ControllerDelegateP", "topAnchor"]
+- !private ["12SwipeCellKit9SwipeableP", "UIColor"]
+- ["12SwipeCellKit9SwipeableP", "UIFont"]
+- ["12SwipeCellKit9SwipeableP", "UITextView"]
+- !private ["12SwipeCellKit9SwipeableP", "UIView"]
+- ["12SwipeCellKit9SwipeableP", ""]
+- !private ["12SwipeCellKit9SwipeableP", "addSubview"]
+- !private ["12SwipeCellKit9SwipeableP", "bottomAnchor"]
+- !private ["12SwipeCellKit9SwipeableP", "fatalError"]
+- !private ["12SwipeCellKit9SwipeableP", "ingredient"]
+- !private ["12SwipeCellKit9SwipeableP", "init"]
+- !private ["12SwipeCellKit9SwipeableP", "leftAnchor"]
+- !private ["12SwipeCellKit9SwipeableP", "rightAnchor"]
+- !private ["12SwipeCellKit9SwipeableP", "textView"]
+- !private ["12SwipeCellKit9SwipeableP", "topAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "UIColor"]
+- ["So29UIAccessibilityIdentificationP", "UIFont"]
+- ["So29UIAccessibilityIdentificationP", "UITextView"]
+- !private ["So29UIAccessibilityIdentificationP", "UIView"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "anchor"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "bottomAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- ["So29UIAccessibilityIdentificationP", "font"]
+- !private ["So29UIAccessibilityIdentificationP", "ingredient"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", "isScrollEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "leftAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "rightAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textView"]
+- !private ["So29UIAccessibilityIdentificationP", "topAnchor"]
+- !private ["So12UIAppearanceP", "UIColor"]
+- ["So12UIAppearanceP", "UIFont"]
+- ["So12UIAppearanceP", "UITextView"]
+- !private ["So12UIAppearanceP", "UIView"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "anchor"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "bottomAnchor"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- ["So12UIAppearanceP", "font"]
+- !private ["So12UIAppearanceP", "ingredient"]
+- ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", "isScrollEnabled"]
+- !private ["So12UIAppearanceP", "leftAnchor"]
+- !private ["So12UIAppearanceP", "rightAnchor"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textView"]
+- !private ["So12UIAppearanceP", "topAnchor"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- ["So21UIAppearanceContainerP", "UIFont"]
+- ["So21UIAppearanceContainerP", "UITextView"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "anchor"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "bottomAnchor"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- ["So21UIAppearanceContainerP", "font"]
+- !private ["So21UIAppearanceContainerP", "ingredient"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "isScrollEnabled"]
+- !private ["So21UIAppearanceContainerP", "leftAnchor"]
+- !private ["So21UIAppearanceContainerP", "rightAnchor"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textView"]
+- !private ["So21UIAppearanceContainerP", "topAnchor"]
+- ["So24UICollectionReusableViewC", "CGRect"]
+- ["So24UICollectionReusableViewC", "Ingredient"]
+- ["So24UICollectionReusableViewC", "NSCoder"]
+- !private ["So24UICollectionReusableViewC", "UIColor"]
+- ["So24UICollectionReusableViewC", "UIFont"]
+- ["So24UICollectionReusableViewC", "UITextView"]
+- !private ["So24UICollectionReusableViewC", "UIView"]
+- !private ["So24UICollectionReusableViewC", "addSubview"]
+- !private ["So24UICollectionReusableViewC", "bottomAnchor"]
+- !private ["So24UICollectionReusableViewC", "fatalError"]
+- ["So24UICollectionReusableViewC", "ingredient"]
+- ["So24UICollectionReusableViewC", "init"]
+- !private ["So24UICollectionReusableViewC", "leftAnchor"]
+- !private ["So24UICollectionReusableViewC", "rightAnchor"]
+- ["So24UICollectionReusableViewC", "textView"]
+- !private ["So24UICollectionReusableViewC", "topAnchor"]
+- ["So20UICollectionViewCellC", "CGRect"]
+- ["So20UICollectionViewCellC", "Ingredient"]
+- ["So20UICollectionViewCellC", "NSCoder"]
+- !private ["So20UICollectionViewCellC", "UIColor"]
+- ["So20UICollectionViewCellC", "UIFont"]
+- ["So20UICollectionViewCellC", "UITextView"]
+- !private ["So20UICollectionViewCellC", "UIView"]
+- !private ["So20UICollectionViewCellC", "addSubview"]
+- !private ["So20UICollectionViewCellC", "bottomAnchor"]
+- !private ["So20UICollectionViewCellC", "fatalError"]
+- ["So20UICollectionViewCellC", "ingredient"]
+- ["So20UICollectionViewCellC", "init"]
+- !private ["So20UICollectionViewCellC", "leftAnchor"]
+- !private ["So20UICollectionViewCellC", "rightAnchor"]
+- ["So20UICollectionViewCellC", "textView"]
+- !private ["So20UICollectionViewCellC", "topAnchor"]
+- !private ["So7UIColorC", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "anchor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "bottomAnchor"]
+- ["So30UIContentSizeCategoryAdjustingP", "font"]
+- ["So30UIContentSizeCategoryAdjustingP", "init"]
+- ["So30UIContentSizeCategoryAdjustingP", "isScrollEnabled"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "UIColor"]
+- ["So17UICoordinateSpaceP", "UIFont"]
+- ["So17UICoordinateSpaceP", "UITextView"]
+- !private ["So17UICoordinateSpaceP", "UIView"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "anchor"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "bottomAnchor"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- ["So17UICoordinateSpaceP", "font"]
+- !private ["So17UICoordinateSpaceP", "ingredient"]
+- ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", "isScrollEnabled"]
+- !private ["So17UICoordinateSpaceP", "leftAnchor"]
+- !private ["So17UICoordinateSpaceP", "rightAnchor"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textView"]
+- !private ["So17UICoordinateSpaceP", "topAnchor"]
+- !private ["So13UIDynamicItemP", "UIColor"]
+- ["So13UIDynamicItemP", "UIFont"]
+- ["So13UIDynamicItemP", "UITextView"]
+- !private ["So13UIDynamicItemP", "UIView"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "anchor"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "bottomAnchor"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- ["So13UIDynamicItemP", "font"]
+- !private ["So13UIDynamicItemP", "ingredient"]
+- ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", "isScrollEnabled"]
+- !private ["So13UIDynamicItemP", "leftAnchor"]
+- !private ["So13UIDynamicItemP", "rightAnchor"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textView"]
+- !private ["So13UIDynamicItemP", "topAnchor"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", "UIFont"]
+- ["So18UIFocusEnvironmentP", "UITextView"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "anchor"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "bottomAnchor"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- ["So18UIFocusEnvironmentP", "font"]
+- !private ["So18UIFocusEnvironmentP", "ingredient"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "isScrollEnabled"]
+- !private ["So18UIFocusEnvironmentP", "leftAnchor"]
+- !private ["So18UIFocusEnvironmentP", "rightAnchor"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textView"]
+- !private ["So18UIFocusEnvironmentP", "topAnchor"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- ["So11UIFocusItemP", "UIFont"]
+- ["So11UIFocusItemP", "UITextView"]
+- !private ["So11UIFocusItemP", "UIView"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "anchor"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "bottomAnchor"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- ["So11UIFocusItemP", "font"]
+- !private ["So11UIFocusItemP", "ingredient"]
+- ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", "isScrollEnabled"]
+- !private ["So11UIFocusItemP", "leftAnchor"]
+- !private ["So11UIFocusItemP", "rightAnchor"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textView"]
+- !private ["So11UIFocusItemP", "topAnchor"]
+- !private ["So20UIFocusItemContainerP", "UIColor"]
+- ["So20UIFocusItemContainerP", "UIFont"]
+- ["So20UIFocusItemContainerP", "UITextView"]
+- !private ["So20UIFocusItemContainerP", "UIView"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "anchor"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "bottomAnchor"]
+- !private ["So20UIFocusItemContainerP", "fatalError"]
+- ["So20UIFocusItemContainerP", "font"]
+- !private ["So20UIFocusItemContainerP", "ingredient"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So20UIFocusItemContainerP", "isScrollEnabled"]
+- !private ["So20UIFocusItemContainerP", "leftAnchor"]
+- !private ["So20UIFocusItemContainerP", "rightAnchor"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "textView"]
+- !private ["So20UIFocusItemContainerP", "topAnchor"]
+- !private ["So30UIFocusItemScrollableContainerP", "anchor"]
+- !private ["So30UIFocusItemScrollableContainerP", "bottomAnchor"]
+- ["So30UIFocusItemScrollableContainerP", "font"]
+- ["So30UIFocusItemScrollableContainerP", "init"]
+- ["So30UIFocusItemScrollableContainerP", "isScrollEnabled"]
+- !private ["So30UIFocusItemScrollableContainerP", "text"]
+- ["So6UIFontC", "systemFont"]
+- !private ["So10UIKeyInputP", "anchor"]
+- !private ["So10UIKeyInputP", "bottomAnchor"]
+- ["So10UIKeyInputP", "font"]
+- ["So10UIKeyInputP", "init"]
+- ["So10UIKeyInputP", "isScrollEnabled"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- ["So30UIPasteConfigurationSupportingP", "UITextView"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "anchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "bottomAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- ["So30UIPasteConfigurationSupportingP", "font"]
+- !private ["So30UIPasteConfigurationSupportingP", "ingredient"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "isScrollEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "leftAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "rightAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textView"]
+- !private ["So30UIPasteConfigurationSupportingP", "topAnchor"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "Ingredient"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIFont"]
+- ["So11UIResponderC", "UITextView"]
+- !private ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "anchor"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "bottomAnchor"]
+- !private ["So11UIResponderC", "fatalError"]
+- ["So11UIResponderC", "font"]
+- ["So11UIResponderC", "ingredient"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "isScrollEnabled"]
+- !private ["So11UIResponderC", "leftAnchor"]
+- !private ["So11UIResponderC", "rightAnchor"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "textView"]
+- !private ["So11UIResponderC", "topAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- ["So30UIResponderStandardEditActionsP", "UIFont"]
+- ["So30UIResponderStandardEditActionsP", "UITextView"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "anchor"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "bottomAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- ["So30UIResponderStandardEditActionsP", "font"]
+- !private ["So30UIResponderStandardEditActionsP", "ingredient"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "isScrollEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "leftAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "rightAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textView"]
+- !private ["So30UIResponderStandardEditActionsP", "topAnchor"]
+- !private ["So12UIScrollViewC", "anchor"]
+- !private ["So12UIScrollViewC", "bottomAnchor"]
+- ["So12UIScrollViewC", "font"]
+- ["So12UIScrollViewC", "init"]
+- ["So12UIScrollViewC", "isScrollEnabled"]
+- !private ["So12UIScrollViewC", "text"]
+- !private ["So15UITextDraggableP", "anchor"]
+- !private ["So15UITextDraggableP", "bottomAnchor"]
+- ["So15UITextDraggableP", "font"]
+- ["So15UITextDraggableP", "init"]
+- ["So15UITextDraggableP", "isScrollEnabled"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "anchor"]
+- !private ["So15UITextDroppableP", "bottomAnchor"]
+- ["So15UITextDroppableP", "font"]
+- ["So15UITextDroppableP", "init"]
+- ["So15UITextDroppableP", "isScrollEnabled"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextInputP", "anchor"]
+- !private ["So11UITextInputP", "bottomAnchor"]
+- ["So11UITextInputP", "font"]
+- ["So11UITextInputP", "init"]
+- ["So11UITextInputP", "isScrollEnabled"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "anchor"]
+- !private ["So17UITextInputTraitsP", "bottomAnchor"]
+- ["So17UITextInputTraitsP", "font"]
+- ["So17UITextInputTraitsP", "init"]
+- ["So17UITextInputTraitsP", "isScrollEnabled"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "anchor"]
+- !private ["So34UITextPasteConfigurationSupportingP", "bottomAnchor"]
+- ["So34UITextPasteConfigurationSupportingP", "font"]
+- ["So34UITextPasteConfigurationSupportingP", "init"]
+- ["So34UITextPasteConfigurationSupportingP", "isScrollEnabled"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So10UITextViewC", "anchor"]
+- !private ["So10UITextViewC", "bottomAnchor"]
+- ["So10UITextViewC", "font"]
+- ["So10UITextViewC", "init"]
+- ["So10UITextViewC", "isScrollEnabled"]
+- !private ["So10UITextViewC", "text"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- ["So18UITraitEnvironmentP", "UIFont"]
+- ["So18UITraitEnvironmentP", "UITextView"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "anchor"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "bottomAnchor"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- ["So18UITraitEnvironmentP", "font"]
+- !private ["So18UITraitEnvironmentP", "ingredient"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "isScrollEnabled"]
+- !private ["So18UITraitEnvironmentP", "leftAnchor"]
+- !private ["So18UITraitEnvironmentP", "rightAnchor"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textView"]
+- !private ["So18UITraitEnvironmentP", "topAnchor"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- ["So23UIUserActivityRestoringP", "UIFont"]
+- ["So23UIUserActivityRestoringP", "UITextView"]
+- !private ["So23UIUserActivityRestoringP", "UIView"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "anchor"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "bottomAnchor"]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- ["So23UIUserActivityRestoringP", "font"]
+- !private ["So23UIUserActivityRestoringP", "ingredient"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "isScrollEnabled"]
+- !private ["So23UIUserActivityRestoringP", "leftAnchor"]
+- !private ["So23UIUserActivityRestoringP", "rightAnchor"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "textView"]
+- !private ["So23UIUserActivityRestoringP", "topAnchor"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "Ingredient"]
+- ["So6UIViewC", "NSCoder"]
+- !private ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", "UIFont"]
+- ["So6UIViewC", "UITextView"]
+- !private ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "anchor"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "bottomAnchor"]
+- !private ["So6UIViewC", "fatalError"]
+- ["So6UIViewC", "font"]
+- ["So6UIViewC", "ingredient"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "isScrollEnabled"]
+- !private ["So6UIViewC", "leftAnchor"]
+- !private ["So6UIViewC", "rightAnchor"]
+- !private ["So6UIViewC", "text"]
+- ["So6UIViewC", "textView"]
+- !private ["So6UIViewC", "topAnchor"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UITextView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "anchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bottomAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ingredient"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isScrollEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightAnchor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "UIFont"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "UITextView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIView"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "anchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "bottomAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "font"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "ingredient"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "isScrollEnabled"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "leftAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rightAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "topAnchor"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "11FindRecipes10IngredientV"
+- "11FindRecipes14IngredientCellC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "12SwipeCellKit0a14CollectionViewB0C"
+- "12SwipeCellKit0A18ControllerDelegateP"
+- "12SwipeCellKit9SwipeableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- !private "So7UIColorC"
+- "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIFocusItemScrollableContainerP"
+- "So6UIFontC"
+- "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So12UIScrollViewC"
+- "So15UITextDraggableP"
+- "So15UITextDroppableP"
+- "So11UITextInputP"
+- "So17UITextInputTraitsP"
+- "So34UITextPasteConfigurationSupportingP"
+- "So10UITextViewC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/SwipeCellKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/InputBarAccessoryView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Vision.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessagingExtensionHelper.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-Swift.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-Swift.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Vision.framework/Headers/Vision.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "769ccfc8b5f3b65e6117b29172c133ea"

@@ -1,0 +1,158 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwipeAccessibilityCustomAction"
+provides-nominal:
+- "12SwipeCellKit0A25AccessibilityCustomActionC"
+provides-member:
+- ["12SwipeCellKit0A25AccessibilityCustomActionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "IndexPath"
+- "Selector"
+- !private "StringLiteralType"
+- "SwipeAccessibilityCustomAction"
+- "SwipeAction"
+- "UIAccessibilityCustomAction"
+depends-member:
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "accessibilityIdentifier"]
+- !private ["s7CVarArgP", "accessibilityLabel"]
+- !private ["s7CVarArgP", "action"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "indexPath"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "title"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "accessibilityIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "accessibilityLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "action"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "indexPath"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "accessibilityIdentifier"]
+- !private ["s23CustomStringConvertibleP", "accessibilityLabel"]
+- !private ["s23CustomStringConvertibleP", "action"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "indexPath"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- ["SQ", ""]
+- !private ["SQ", "accessibilityIdentifier"]
+- !private ["SQ", "accessibilityLabel"]
+- !private ["SQ", "action"]
+- !private ["SQ", "image"]
+- !private ["SQ", "indexPath"]
+- !private ["SQ", "init"]
+- !private ["SQ", "title"]
+- ["SH", ""]
+- !private ["SH", "accessibilityIdentifier"]
+- !private ["SH", "accessibilityLabel"]
+- !private ["SH", "action"]
+- !private ["SH", "image"]
+- !private ["SH", "indexPath"]
+- !private ["SH", "init"]
+- !private ["SH", "title"]
+- !private ["So8NSCodingP", "accessibilityIdentifier"]
+- !private ["So21NSItemProviderReadingP", "accessibilityIdentifier"]
+- !private ["So21NSItemProviderWritingP", "accessibilityIdentifier"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Selector"]
+- ["So8NSObjectC", "SwipeAction"]
+- !private ["So8NSObjectC", "accessibilityIdentifier"]
+- !private ["So8NSObjectC", "accessibilityLabel"]
+- ["So8NSObjectC", "action"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "indexPath"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "title"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "accessibilityIdentifier"]
+- !private ["So8NSObjectP", "accessibilityLabel"]
+- !private ["So8NSObjectP", "action"]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "indexPath"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So14NSSecureCodingP", "accessibilityIdentifier"]
+- ["12SwipeCellKit0A25AccessibilityCustomActionC", "IndexPath"]
+- ["12SwipeCellKit0A25AccessibilityCustomActionC", "Selector"]
+- ["12SwipeCellKit0A25AccessibilityCustomActionC", "SwipeAction"]
+- ["12SwipeCellKit0A25AccessibilityCustomActionC", "action"]
+- ["12SwipeCellKit0A25AccessibilityCustomActionC", "deinit"]
+- ["12SwipeCellKit0A25AccessibilityCustomActionC", "indexPath"]
+- ["12SwipeCellKit0A25AccessibilityCustomActionC", "init"]
+- !private ["12SwipeCellKit0A6ActionC", "accessibilityLabel"]
+- !private ["12SwipeCellKit0A6ActionC", "image"]
+- !private ["12SwipeCellKit0A6ActionC", "title"]
+- ["So27UIAccessibilityCustomActionC", "IndexPath"]
+- ["So27UIAccessibilityCustomActionC", "Selector"]
+- ["So27UIAccessibilityCustomActionC", "SwipeAction"]
+- ["So27UIAccessibilityCustomActionC", ""]
+- ["So27UIAccessibilityCustomActionC", "action"]
+- ["So27UIAccessibilityCustomActionC", "indexPath"]
+- ["So27UIAccessibilityCustomActionC", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "accessibilityIdentifier"]
+- !private ["So7UIImageC", "accessibilityIdentifier"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "accessibilityIdentifier"]
+- !private ["s26_ExpressibleByImageLiteralP", "accessibilityIdentifier"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accessibilityIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accessibilityLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "action"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indexPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "12SwipeCellKit0A25AccessibilityCustomActionC"
+- !private "12SwipeCellKit0A6ActionC"
+- "So27UIAccessibilityCustomActionC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Target Support Files/SwipeCellKit/SwipeCellKit-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwipeCellKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "66b3d26f192e1aa7b2fea2194003a069"

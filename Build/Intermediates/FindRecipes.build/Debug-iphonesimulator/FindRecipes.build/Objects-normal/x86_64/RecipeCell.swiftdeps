@@ -1,0 +1,623 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RecipeCell"
+provides-nominal:
+- "11FindRecipes10RecipeCellC"
+provides-member:
+- ["11FindRecipes10RecipeCellC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CGRect"
+- "CustomImageView"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSCoder"
+- "RecipeCell"
+- "String"
+- !private "StringLiteralType"
+- "UICollectionViewCell"
+- !private "fatalError"
+depends-member:
+- ["So15CALayerDelegateP", "CustomImageView"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "anchor"]
+- !private ["So15CALayerDelegateP", "bottomAnchor"]
+- ["So15CALayerDelegateP", "clipsToBounds"]
+- ["So15CALayerDelegateP", "contentMode"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "leftAnchor"]
+- !private ["So15CALayerDelegateP", "loadImage"]
+- !private ["So15CALayerDelegateP", "recipePhotoView"]
+- !private ["So15CALayerDelegateP", "recipeUrl"]
+- !private ["So15CALayerDelegateP", "rightAnchor"]
+- !private ["So15CALayerDelegateP", "topAnchor"]
+- ["s7CVarArgP", "CustomImageView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "anchor"]
+- !private ["s7CVarArgP", "bottomAnchor"]
+- ["s7CVarArgP", "clipsToBounds"]
+- ["s7CVarArgP", "contentMode"]
+- !private ["s7CVarArgP", "fatalError"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "leftAnchor"]
+- !private ["s7CVarArgP", "loadImage"]
+- !private ["s7CVarArgP", "recipePhotoView"]
+- !private ["s7CVarArgP", "recipeUrl"]
+- !private ["s7CVarArgP", "rightAnchor"]
+- !private ["s7CVarArgP", "topAnchor"]
+- ["So17UIViewContentModeV", "scaleAspectFill"]
+- ["s28CustomDebugStringConvertibleP", "CustomImageView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "anchor"]
+- !private ["s28CustomDebugStringConvertibleP", "bottomAnchor"]
+- ["s28CustomDebugStringConvertibleP", "clipsToBounds"]
+- ["s28CustomDebugStringConvertibleP", "contentMode"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "leftAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "loadImage"]
+- !private ["s28CustomDebugStringConvertibleP", "recipePhotoView"]
+- !private ["s28CustomDebugStringConvertibleP", "recipeUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "rightAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "topAnchor"]
+- !private ["11FindRecipes15CustomImageViewC", "anchor"]
+- ["11FindRecipes15CustomImageViewC", "clipsToBounds"]
+- ["11FindRecipes15CustomImageViewC", "contentMode"]
+- ["11FindRecipes15CustomImageViewC", "deinit"]
+- ["11FindRecipes15CustomImageViewC", "init"]
+- !private ["11FindRecipes15CustomImageViewC", "loadImage"]
+- ["s23CustomStringConvertibleP", "CustomImageView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "anchor"]
+- !private ["s23CustomStringConvertibleP", "bottomAnchor"]
+- ["s23CustomStringConvertibleP", "clipsToBounds"]
+- ["s23CustomStringConvertibleP", "contentMode"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "leftAnchor"]
+- !private ["s23CustomStringConvertibleP", "loadImage"]
+- !private ["s23CustomStringConvertibleP", "recipePhotoView"]
+- !private ["s23CustomStringConvertibleP", "recipeUrl"]
+- !private ["s23CustomStringConvertibleP", "rightAnchor"]
+- !private ["s23CustomStringConvertibleP", "topAnchor"]
+- ["SQ", "CustomImageView"]
+- ["SQ", ""]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "anchor"]
+- !private ["SQ", "bottomAnchor"]
+- ["SQ", "clipsToBounds"]
+- ["SQ", "contentMode"]
+- !private ["SQ", "fatalError"]
+- ["SQ", "init"]
+- !private ["SQ", "leftAnchor"]
+- !private ["SQ", "loadImage"]
+- !private ["SQ", "recipePhotoView"]
+- !private ["SQ", "recipeUrl"]
+- !private ["SQ", "rightAnchor"]
+- ["SQ", "scaleAspectFill"]
+- !private ["SQ", "topAnchor"]
+- ["SH", "CustomImageView"]
+- ["SH", ""]
+- !private ["SH", "addSubview"]
+- !private ["SH", "anchor"]
+- !private ["SH", "bottomAnchor"]
+- ["SH", "clipsToBounds"]
+- ["SH", "contentMode"]
+- !private ["SH", "fatalError"]
+- ["SH", "init"]
+- !private ["SH", "leftAnchor"]
+- !private ["SH", "loadImage"]
+- !private ["SH", "recipePhotoView"]
+- !private ["SH", "recipeUrl"]
+- !private ["SH", "rightAnchor"]
+- ["SH", "scaleAspectFill"]
+- !private ["SH", "topAnchor"]
+- ["So8NSCodingP", "CustomImageView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "anchor"]
+- !private ["So8NSCodingP", "bottomAnchor"]
+- ["So8NSCodingP", "clipsToBounds"]
+- ["So8NSCodingP", "contentMode"]
+- !private ["So8NSCodingP", "fatalError"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "leftAnchor"]
+- !private ["So8NSCodingP", "loadImage"]
+- !private ["So8NSCodingP", "recipePhotoView"]
+- !private ["So8NSCodingP", "recipeUrl"]
+- !private ["So8NSCodingP", "rightAnchor"]
+- !private ["So8NSCodingP", "topAnchor"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "CustomImageView"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "anchor"]
+- !private ["So8NSObjectC", "bottomAnchor"]
+- ["So8NSObjectC", "clipsToBounds"]
+- ["So8NSObjectC", "contentMode"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "leftAnchor"]
+- !private ["So8NSObjectC", "loadImage"]
+- ["So8NSObjectC", "recipePhotoView"]
+- ["So8NSObjectC", "recipeUrl"]
+- !private ["So8NSObjectC", "rightAnchor"]
+- !private ["So8NSObjectC", "topAnchor"]
+- ["So8NSObjectP", "CustomImageView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "anchor"]
+- !private ["So8NSObjectP", "bottomAnchor"]
+- ["So8NSObjectP", "clipsToBounds"]
+- ["So8NSObjectP", "contentMode"]
+- !private ["So8NSObjectP", "fatalError"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "leftAnchor"]
+- !private ["So8NSObjectP", "loadImage"]
+- !private ["So8NSObjectP", "recipePhotoView"]
+- !private ["So8NSObjectP", "recipeUrl"]
+- !private ["So8NSObjectP", "rightAnchor"]
+- !private ["So8NSObjectP", "topAnchor"]
+- ["SY", "scaleAspectFill"]
+- ["11FindRecipes10RecipeCellC", "CGRect"]
+- ["11FindRecipes10RecipeCellC", "CustomImageView"]
+- ["11FindRecipes10RecipeCellC", "NSCoder"]
+- ["11FindRecipes10RecipeCellC", "String"]
+- !private ["11FindRecipes10RecipeCellC", "addSubview"]
+- !private ["11FindRecipes10RecipeCellC", "bottomAnchor"]
+- ["11FindRecipes10RecipeCellC", "deinit"]
+- !private ["11FindRecipes10RecipeCellC", "fatalError"]
+- ["11FindRecipes10RecipeCellC", "init"]
+- !private ["11FindRecipes10RecipeCellC", "leftAnchor"]
+- ["11FindRecipes10RecipeCellC", "recipePhotoView"]
+- ["11FindRecipes10RecipeCellC", "recipeUrl"]
+- !private ["11FindRecipes10RecipeCellC", "rightAnchor"]
+- !private ["11FindRecipes10RecipeCellC", "topAnchor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "anchor"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "clipsToBounds"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "contentMode"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "loadImage"]
+- ["So29UIAccessibilityIdentificationP", "CustomImageView"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "anchor"]
+- !private ["So29UIAccessibilityIdentificationP", "bottomAnchor"]
+- ["So29UIAccessibilityIdentificationP", "clipsToBounds"]
+- ["So29UIAccessibilityIdentificationP", "contentMode"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "leftAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "loadImage"]
+- !private ["So29UIAccessibilityIdentificationP", "recipePhotoView"]
+- !private ["So29UIAccessibilityIdentificationP", "recipeUrl"]
+- !private ["So29UIAccessibilityIdentificationP", "rightAnchor"]
+- !private ["So29UIAccessibilityIdentificationP", "topAnchor"]
+- ["So12UIAppearanceP", "CustomImageView"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "anchor"]
+- !private ["So12UIAppearanceP", "bottomAnchor"]
+- ["So12UIAppearanceP", "clipsToBounds"]
+- ["So12UIAppearanceP", "contentMode"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "leftAnchor"]
+- !private ["So12UIAppearanceP", "loadImage"]
+- !private ["So12UIAppearanceP", "recipePhotoView"]
+- !private ["So12UIAppearanceP", "recipeUrl"]
+- !private ["So12UIAppearanceP", "rightAnchor"]
+- !private ["So12UIAppearanceP", "topAnchor"]
+- ["So21UIAppearanceContainerP", "CustomImageView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "anchor"]
+- !private ["So21UIAppearanceContainerP", "bottomAnchor"]
+- ["So21UIAppearanceContainerP", "clipsToBounds"]
+- ["So21UIAppearanceContainerP", "contentMode"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "leftAnchor"]
+- !private ["So21UIAppearanceContainerP", "loadImage"]
+- !private ["So21UIAppearanceContainerP", "recipePhotoView"]
+- !private ["So21UIAppearanceContainerP", "recipeUrl"]
+- !private ["So21UIAppearanceContainerP", "rightAnchor"]
+- !private ["So21UIAppearanceContainerP", "topAnchor"]
+- ["So24UICollectionReusableViewC", "CGRect"]
+- ["So24UICollectionReusableViewC", "CustomImageView"]
+- ["So24UICollectionReusableViewC", "NSCoder"]
+- ["So24UICollectionReusableViewC", "String"]
+- !private ["So24UICollectionReusableViewC", "addSubview"]
+- !private ["So24UICollectionReusableViewC", "bottomAnchor"]
+- !private ["So24UICollectionReusableViewC", "fatalError"]
+- ["So24UICollectionReusableViewC", "init"]
+- !private ["So24UICollectionReusableViewC", "leftAnchor"]
+- ["So24UICollectionReusableViewC", "recipePhotoView"]
+- ["So24UICollectionReusableViewC", "recipeUrl"]
+- !private ["So24UICollectionReusableViewC", "rightAnchor"]
+- !private ["So24UICollectionReusableViewC", "topAnchor"]
+- ["So20UICollectionViewCellC", "CGRect"]
+- ["So20UICollectionViewCellC", "CustomImageView"]
+- ["So20UICollectionViewCellC", "NSCoder"]
+- ["So20UICollectionViewCellC", "String"]
+- ["So20UICollectionViewCellC", ""]
+- !private ["So20UICollectionViewCellC", "addSubview"]
+- !private ["So20UICollectionViewCellC", "bottomAnchor"]
+- !private ["So20UICollectionViewCellC", "fatalError"]
+- ["So20UICollectionViewCellC", "init"]
+- !private ["So20UICollectionViewCellC", "leftAnchor"]
+- ["So20UICollectionViewCellC", "recipePhotoView"]
+- ["So20UICollectionViewCellC", "recipeUrl"]
+- !private ["So20UICollectionViewCellC", "rightAnchor"]
+- !private ["So20UICollectionViewCellC", "topAnchor"]
+- ["So17UICoordinateSpaceP", "CustomImageView"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "anchor"]
+- !private ["So17UICoordinateSpaceP", "bottomAnchor"]
+- ["So17UICoordinateSpaceP", "clipsToBounds"]
+- ["So17UICoordinateSpaceP", "contentMode"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "leftAnchor"]
+- !private ["So17UICoordinateSpaceP", "loadImage"]
+- !private ["So17UICoordinateSpaceP", "recipePhotoView"]
+- !private ["So17UICoordinateSpaceP", "recipeUrl"]
+- !private ["So17UICoordinateSpaceP", "rightAnchor"]
+- !private ["So17UICoordinateSpaceP", "topAnchor"]
+- ["So13UIDynamicItemP", "CustomImageView"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "anchor"]
+- !private ["So13UIDynamicItemP", "bottomAnchor"]
+- ["So13UIDynamicItemP", "clipsToBounds"]
+- ["So13UIDynamicItemP", "contentMode"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "leftAnchor"]
+- !private ["So13UIDynamicItemP", "loadImage"]
+- !private ["So13UIDynamicItemP", "recipePhotoView"]
+- !private ["So13UIDynamicItemP", "recipeUrl"]
+- !private ["So13UIDynamicItemP", "rightAnchor"]
+- !private ["So13UIDynamicItemP", "topAnchor"]
+- ["So18UIFocusEnvironmentP", "CustomImageView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "anchor"]
+- !private ["So18UIFocusEnvironmentP", "bottomAnchor"]
+- ["So18UIFocusEnvironmentP", "clipsToBounds"]
+- ["So18UIFocusEnvironmentP", "contentMode"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "leftAnchor"]
+- !private ["So18UIFocusEnvironmentP", "loadImage"]
+- !private ["So18UIFocusEnvironmentP", "recipePhotoView"]
+- !private ["So18UIFocusEnvironmentP", "recipeUrl"]
+- !private ["So18UIFocusEnvironmentP", "rightAnchor"]
+- !private ["So18UIFocusEnvironmentP", "topAnchor"]
+- ["So11UIFocusItemP", "CustomImageView"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "anchor"]
+- !private ["So11UIFocusItemP", "bottomAnchor"]
+- ["So11UIFocusItemP", "clipsToBounds"]
+- ["So11UIFocusItemP", "contentMode"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "leftAnchor"]
+- !private ["So11UIFocusItemP", "loadImage"]
+- !private ["So11UIFocusItemP", "recipePhotoView"]
+- !private ["So11UIFocusItemP", "recipeUrl"]
+- !private ["So11UIFocusItemP", "rightAnchor"]
+- !private ["So11UIFocusItemP", "topAnchor"]
+- ["So20UIFocusItemContainerP", "CustomImageView"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "anchor"]
+- !private ["So20UIFocusItemContainerP", "bottomAnchor"]
+- ["So20UIFocusItemContainerP", "clipsToBounds"]
+- ["So20UIFocusItemContainerP", "contentMode"]
+- !private ["So20UIFocusItemContainerP", "fatalError"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "leftAnchor"]
+- !private ["So20UIFocusItemContainerP", "loadImage"]
+- !private ["So20UIFocusItemContainerP", "recipePhotoView"]
+- !private ["So20UIFocusItemContainerP", "recipeUrl"]
+- !private ["So20UIFocusItemContainerP", "rightAnchor"]
+- !private ["So20UIFocusItemContainerP", "topAnchor"]
+- !private ["So11UIImageViewC", "anchor"]
+- ["So11UIImageViewC", "clipsToBounds"]
+- ["So11UIImageViewC", "contentMode"]
+- ["So11UIImageViewC", "init"]
+- !private ["So11UIImageViewC", "loadImage"]
+- ["So30UIPasteConfigurationSupportingP", "CustomImageView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "anchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "bottomAnchor"]
+- ["So30UIPasteConfigurationSupportingP", "clipsToBounds"]
+- ["So30UIPasteConfigurationSupportingP", "contentMode"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "leftAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "recipePhotoView"]
+- !private ["So30UIPasteConfigurationSupportingP", "recipeUrl"]
+- !private ["So30UIPasteConfigurationSupportingP", "rightAnchor"]
+- !private ["So30UIPasteConfigurationSupportingP", "topAnchor"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "CustomImageView"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "anchor"]
+- !private ["So11UIResponderC", "bottomAnchor"]
+- ["So11UIResponderC", "clipsToBounds"]
+- ["So11UIResponderC", "contentMode"]
+- !private ["So11UIResponderC", "fatalError"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "leftAnchor"]
+- !private ["So11UIResponderC", "loadImage"]
+- ["So11UIResponderC", "recipePhotoView"]
+- ["So11UIResponderC", "recipeUrl"]
+- !private ["So11UIResponderC", "rightAnchor"]
+- !private ["So11UIResponderC", "topAnchor"]
+- ["So30UIResponderStandardEditActionsP", "CustomImageView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "anchor"]
+- !private ["So30UIResponderStandardEditActionsP", "bottomAnchor"]
+- ["So30UIResponderStandardEditActionsP", "clipsToBounds"]
+- ["So30UIResponderStandardEditActionsP", "contentMode"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "leftAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "loadImage"]
+- !private ["So30UIResponderStandardEditActionsP", "recipePhotoView"]
+- !private ["So30UIResponderStandardEditActionsP", "recipeUrl"]
+- !private ["So30UIResponderStandardEditActionsP", "rightAnchor"]
+- !private ["So30UIResponderStandardEditActionsP", "topAnchor"]
+- ["So18UITraitEnvironmentP", "CustomImageView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "anchor"]
+- !private ["So18UITraitEnvironmentP", "bottomAnchor"]
+- ["So18UITraitEnvironmentP", "clipsToBounds"]
+- ["So18UITraitEnvironmentP", "contentMode"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "leftAnchor"]
+- !private ["So18UITraitEnvironmentP", "loadImage"]
+- !private ["So18UITraitEnvironmentP", "recipePhotoView"]
+- !private ["So18UITraitEnvironmentP", "recipeUrl"]
+- !private ["So18UITraitEnvironmentP", "rightAnchor"]
+- !private ["So18UITraitEnvironmentP", "topAnchor"]
+- ["So23UIUserActivityRestoringP", "CustomImageView"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "anchor"]
+- !private ["So23UIUserActivityRestoringP", "bottomAnchor"]
+- ["So23UIUserActivityRestoringP", "clipsToBounds"]
+- ["So23UIUserActivityRestoringP", "contentMode"]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "leftAnchor"]
+- !private ["So23UIUserActivityRestoringP", "loadImage"]
+- !private ["So23UIUserActivityRestoringP", "recipePhotoView"]
+- !private ["So23UIUserActivityRestoringP", "recipeUrl"]
+- !private ["So23UIUserActivityRestoringP", "rightAnchor"]
+- !private ["So23UIUserActivityRestoringP", "topAnchor"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "CustomImageView"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "anchor"]
+- !private ["So6UIViewC", "bottomAnchor"]
+- ["So6UIViewC", "clipsToBounds"]
+- ["So6UIViewC", "contentMode"]
+- !private ["So6UIViewC", "fatalError"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "leftAnchor"]
+- !private ["So6UIViewC", "loadImage"]
+- ["So6UIViewC", "recipePhotoView"]
+- ["So6UIViewC", "recipeUrl"]
+- !private ["So6UIViewC", "rightAnchor"]
+- !private ["So6UIViewC", "topAnchor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CustomImageView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "anchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bottomAnchor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "clipsToBounds"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "contentMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "recipePhotoView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "recipeUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topAnchor"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "CustomImageView"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "anchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "bottomAnchor"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "clipsToBounds"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "contentMode"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "leftAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "loadImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "recipePhotoView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "recipeUrl"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rightAnchor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "topAnchor"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "So17UIViewContentModeV"
+- "s28CustomDebugStringConvertibleP"
+- "11FindRecipes15CustomImageViewC"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "SY"
+- "11FindRecipes10RecipeCellC"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So11UIImageViewC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/SwipeCellKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/InputBarAccessoryView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Vision.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessagingExtensionHelper.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-Swift.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-Swift.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Vision.framework/Headers/Vision.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f72b1b7e052bcab9bdd50501c48546e7"

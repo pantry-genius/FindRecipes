@@ -1,0 +1,399 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwipeExpansionStyle"
+- "=="
+- "=="
+provides-nominal:
+- "12SwipeCellKit0A14ExpansionStyleV"
+- "12SwipeCellKit0A14ExpansionStyleV6TargetO"
+- "12SwipeCellKit0A14ExpansionStyleV7TriggerO"
+- "12SwipeCellKit0A14ExpansionStyleV19CompletionAnimationO"
+- "12SwipeCellKit0A14ExpansionStyleV11FillOptionsV"
+- "12SwipeCellKit0A14ExpansionStyleV11FillOptionsV23HandlerInvocationTimingO"
+provides-member:
+- ["12SwipeCellKit0A14ExpansionStyleV", ""]
+- ["12SwipeCellKit0A14ExpansionStyleV6TargetO", ""]
+- ["12SwipeCellKit0A14ExpansionStyleV7TriggerO", ""]
+- ["12SwipeCellKit0A14ExpansionStyleV19CompletionAnimationO", ""]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV", ""]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV23HandlerInvocationTimingO", ""]
+- ["12SwipeCellKit0A14ExpansionStyleV", "Target"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "Trigger"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "CompletionAnimation"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "FillOptions"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "<="
+- "=="
+- !private ">"
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "CGFloat"
+- "CGRect"
+- "Equatable"
+- "ExpansionFulfillmentStyle"
+- "SwipeExpansionStyle"
+- "Swipeable"
+- "TernaryPrecedence"
+- "UIPanGestureRecognizer"
+- "UIView"
+- !private "abs"
+- !private "floor"
+- !private "max"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "greatestFiniteMagnitude"]
+- !private ["SB", "greatestFiniteMagnitude"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "orientation"]
+- !private ["So15CALayerDelegateP", "preferredWidth"]
+- !private ["12CoreGraphics7CGFloatV", "greatestFiniteMagnitude"]
+- !private ["So7CGPointV", "x"]
+- !private ["So6CGRectV", "minX"]
+- !private ["So6CGRectV", "origin"]
+- !private ["So6CGRectV", "width"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "greatestFiniteMagnitude"]
+- !private ["s7CVarArgP", "location"]
+- !private ["s7CVarArgP", "orientation"]
+- !private ["s7CVarArgP", "preferredWidth"]
+- !private ["s7CVarArgP", "translation"]
+- !private ["s7CVarArgP", "view"]
+- !private ["SL", "greatestFiniteMagnitude"]
+- ["12SwipeCellKit0A14ExpansionStyleV19CompletionAnimationO", "=="]
+- ["12SwipeCellKit0A14ExpansionStyleV19CompletionAnimationO", "Bool"]
+- ["12SwipeCellKit0A14ExpansionStyleV19CompletionAnimationO", "FillOptions"]
+- ["12SwipeCellKit0A14ExpansionStyleV19CompletionAnimationO", "SwipeExpansionStyle"]
+- ["12SwipeCellKit0A14ExpansionStyleV19CompletionAnimationO", "bounce"]
+- ["12SwipeCellKit0A14ExpansionStyleV19CompletionAnimationO", "deinit"]
+- ["12SwipeCellKit0A14ExpansionStyleV19CompletionAnimationO", "fill"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "minX"]
+- !private ["s28CustomDebugStringConvertibleP", "orientation"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "preferredWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "translation"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s17CustomReflectableP", "greatestFiniteMagnitude"]
+- !private ["s17CustomReflectableP", "minX"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "orientation"]
+- !private ["s23CustomStringConvertibleP", "preferredWidth"]
+- !private ["s23CustomStringConvertibleP", "translation"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["Se", "greatestFiniteMagnitude"]
+- !private ["Se", "minX"]
+- !private ["Se", "origin"]
+- !private ["Se", "width"]
+- !private ["Se", "x"]
+- !private ["SE", "greatestFiniteMagnitude"]
+- !private ["SE", "minX"]
+- !private ["SE", "origin"]
+- !private ["SE", "width"]
+- !private ["SE", "x"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "after"]
+- ["SQ", "bounce"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "delete"]
+- ["SQ", "edgeInset"]
+- ["SQ", "fill"]
+- !private ["SQ", "greatestFiniteMagnitude"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "left"]
+- !private ["SQ", "location"]
+- !private ["SQ", "max"]
+- !private ["SQ", "minX"]
+- !private ["SQ", "offset"]
+- !private ["SQ", "orientation"]
+- !private ["SQ", "origin"]
+- ["SQ", "percentage"]
+- !private ["SQ", "preferredWidth"]
+- !private ["SQ", "translation"]
+- !private ["SQ", "view"]
+- !private ["SQ", "width"]
+- !private ["SQ", "with"]
+- !private ["SQ", "x"]
+- !private ["12SwipeCellKit25ExpansionFulfillmentStyleO", "delete"]
+- !private ["s25ExpressibleByFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "greatestFiniteMagnitude"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV", "ExpansionFulfillmentStyle"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV", "FillOptions"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV", "HandlerInvocationTiming"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV", "autoFulFillmentStyle"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV", "automatic"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV", "init"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV", "manual"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV", "timing"]
+- !private ["SF", "greatestFiniteMagnitude"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV23HandlerInvocationTimingO", "=="]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV23HandlerInvocationTimingO", "__derived_enum_equals"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV23HandlerInvocationTimingO", "_rawHashValue"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV23HandlerInvocationTimingO", "after"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV23HandlerInvocationTimingO", "deinit"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV23HandlerInvocationTimingO", "hash"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV23HandlerInvocationTimingO", "hashValue"]
+- ["12SwipeCellKit0A14ExpansionStyleV11FillOptionsV23HandlerInvocationTimingO", "with"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "after"]
+- !private ["SH", "bounds"]
+- !private ["SH", "delete"]
+- !private ["SH", "greatestFiniteMagnitude"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "left"]
+- !private ["SH", "location"]
+- !private ["SH", "orientation"]
+- !private ["SH", "preferredWidth"]
+- !private ["SH", "translation"]
+- !private ["SH", "view"]
+- !private ["SH", "with"]
+- !private ["s6HasherV", "combine"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "orientation"]
+- !private ["So8NSCodingP", "preferredWidth"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "location"]
+- !private ["So8NSObjectC", "orientation"]
+- !private ["So8NSObjectC", "preferredWidth"]
+- !private ["So8NSObjectC", "translation"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "location"]
+- !private ["So8NSObjectP", "orientation"]
+- !private ["So8NSObjectP", "preferredWidth"]
+- !private ["So8NSObjectP", "translation"]
+- !private ["So8NSObjectP", "view"]
+- !private ["Sj", "greatestFiniteMagnitude"]
+- !private ["SY", "left"]
+- !private ["s13SignedNumericP", "greatestFiniteMagnitude"]
+- !private ["Sx", "greatestFiniteMagnitude"]
+- !private ["12SwipeCellKit0A18ActionsOrientationO", "deinit"]
+- !private ["12SwipeCellKit0A18ActionsOrientationO", "left"]
+- !private ["12SwipeCellKit0A11ActionsViewC", "orientation"]
+- !private ["12SwipeCellKit0A11ActionsViewC", "preferredWidth"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "Bool"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "CGFloat"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "CGRect"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "CompletionAnimation"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "ExpansionFulfillmentStyle"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "FillOptions"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "SwipeExpansionStyle"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "Swipeable"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "Target"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "Trigger"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "UIPanGestureRecognizer"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "UIView"]
+- !private ["12SwipeCellKit0A14ExpansionStyleV", "abs"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "additionalTriggers"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "completionAnimation"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "destructive"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "destructiveAfterFill"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "elasticOverscroll"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "fill"]
+- !private ["12SwipeCellKit0A14ExpansionStyleV", "floor"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "init"]
+- !private ["12SwipeCellKit0A14ExpansionStyleV", "max"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "minimumExpansionTranslation"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "minimumTargetOverscroll"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "selection"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "shouldExpand"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "target"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "targetOffset"]
+- ["12SwipeCellKit0A14ExpansionStyleV", "targetOverscrollElasticity"]
+- !private ["12SwipeCellKit9SwipeableP", "actionsView"]
+- !private ["12SwipeCellKit9SwipeableP", "frame"]
+- ["12SwipeCellKit0A14ExpansionStyleV6TargetO", "=="]
+- ["12SwipeCellKit0A14ExpansionStyleV6TargetO", "Bool"]
+- ["12SwipeCellKit0A14ExpansionStyleV6TargetO", "CGFloat"]
+- ["12SwipeCellKit0A14ExpansionStyleV6TargetO", "SwipeExpansionStyle"]
+- ["12SwipeCellKit0A14ExpansionStyleV6TargetO", "Swipeable"]
+- ["12SwipeCellKit0A14ExpansionStyleV6TargetO", "deinit"]
+- ["12SwipeCellKit0A14ExpansionStyleV6TargetO", "edgeInset"]
+- !private ["12SwipeCellKit0A14ExpansionStyleV6TargetO", "max"]
+- ["12SwipeCellKit0A14ExpansionStyleV6TargetO", "offset"]
+- ["12SwipeCellKit0A14ExpansionStyleV6TargetO", "percentage"]
+- ["12SwipeCellKit0A14ExpansionStyleV7TriggerO", "Bool"]
+- ["12SwipeCellKit0A14ExpansionStyleV7TriggerO", "CGFloat"]
+- ["12SwipeCellKit0A14ExpansionStyleV7TriggerO", "CGRect"]
+- ["12SwipeCellKit0A14ExpansionStyleV7TriggerO", "Swipeable"]
+- ["12SwipeCellKit0A14ExpansionStyleV7TriggerO", "UIPanGestureRecognizer"]
+- ["12SwipeCellKit0A14ExpansionStyleV7TriggerO", "UIView"]
+- !private ["12SwipeCellKit0A14ExpansionStyleV7TriggerO", "abs"]
+- ["12SwipeCellKit0A14ExpansionStyleV7TriggerO", "isTriggered"]
+- ["12SwipeCellKit0A14ExpansionStyleV7TriggerO", "overscroll"]
+- ["12SwipeCellKit0A14ExpansionStyleV7TriggerO", "touchThreshold"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "orientation"]
+- !private ["So29UIAccessibilityIdentificationP", "preferredWidth"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "orientation"]
+- !private ["So12UIAppearanceP", "preferredWidth"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "orientation"]
+- !private ["So21UIAppearanceContainerP", "preferredWidth"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "orientation"]
+- !private ["So17UICoordinateSpaceP", "preferredWidth"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "orientation"]
+- !private ["So13UIDynamicItemP", "preferredWidth"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "orientation"]
+- !private ["So18UIFocusEnvironmentP", "preferredWidth"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "orientation"]
+- !private ["So11UIFocusItemP", "preferredWidth"]
+- !private ["So20UIFocusItemContainerP", "bounds"]
+- !private ["So20UIFocusItemContainerP", "orientation"]
+- !private ["So20UIFocusItemContainerP", "preferredWidth"]
+- !private ["So19UIGestureRecognizerC", "location"]
+- !private ["So19UIGestureRecognizerC", "translation"]
+- !private ["So19UIGestureRecognizerC", "view"]
+- !private ["So22UIPanGestureRecognizerC", "location"]
+- !private ["So22UIPanGestureRecognizerC", "translation"]
+- !private ["So22UIPanGestureRecognizerC", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "orientation"]
+- !private ["So30UIPasteConfigurationSupportingP", "preferredWidth"]
+- !private ["So11UIResponderC", "bounds"]
+- !private ["So11UIResponderC", "orientation"]
+- !private ["So11UIResponderC", "preferredWidth"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "orientation"]
+- !private ["So30UIResponderStandardEditActionsP", "preferredWidth"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "orientation"]
+- !private ["So18UITraitEnvironmentP", "preferredWidth"]
+- !private ["So23UIUserActivityRestoringP", "bounds"]
+- !private ["So23UIUserActivityRestoringP", "orientation"]
+- !private ["So23UIUserActivityRestoringP", "preferredWidth"]
+- !private ["So6UIViewC", "bounds"]
+- !private ["So6UIViewC", "orientation"]
+- !private ["So6UIViewC", "preferredWidth"]
+- !private ["s15_CVarArgAlignedP", "greatestFiniteMagnitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "greatestFiniteMagnitude"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "minX"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "x"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "orientation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "preferredWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["s21_ObjectiveCBridgeableP", "greatestFiniteMagnitude"]
+- !private ["s21_ObjectiveCBridgeableP", "minX"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "orientation"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "preferredWidth"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SB"
+- !private "So15CALayerDelegateP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So7CGPointV"
+- !private "So6CGRectV"
+- !private "s7CVarArgP"
+- !private "SL"
+- "12SwipeCellKit0A14ExpansionStyleV19CompletionAnimationO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "12SwipeCellKit25ExpansionFulfillmentStyleO"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "12SwipeCellKit0A14ExpansionStyleV11FillOptionsV"
+- !private "SF"
+- "12SwipeCellKit0A14ExpansionStyleV11FillOptionsV23HandlerInvocationTimingO"
+- "SH"
+- !private "s6HasherV"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- !private "SY"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "12SwipeCellKit0A18ActionsOrientationO"
+- !private "12SwipeCellKit0A11ActionsViewC"
+- "12SwipeCellKit0A14ExpansionStyleV"
+- !private "12SwipeCellKit9SwipeableP"
+- "12SwipeCellKit0A14ExpansionStyleV6TargetO"
+- "12SwipeCellKit0A14ExpansionStyleV7TriggerO"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So19UIGestureRecognizerC"
+- !private "So22UIPanGestureRecognizerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Target Support Files/SwipeCellKit/SwipeCellKit-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwipeCellKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3b63b943c51ec74a13f6c718bb5e0f58"

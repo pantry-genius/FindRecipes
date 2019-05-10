@@ -1,0 +1,362 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Swipeable"
+- "SwipeState"
+provides-nominal:
+- "12SwipeCellKit9SwipeableP"
+- "12SwipeCellKit0a9TableViewB0C"
+- "12SwipeCellKit0a14CollectionViewB0C"
+- "12SwipeCellKit0A5StateO"
+provides-member:
+- ["12SwipeCellKit9SwipeableP", ""]
+- ["12SwipeCellKit0a9TableViewB0C", ""]
+- ["12SwipeCellKit0a14CollectionViewB0C", ""]
+- ["12SwipeCellKit0A5StateO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CGRect"
+- "IndexPath"
+- "Int"
+- "SwipeActionsOrientation"
+- "SwipeActionsView"
+- "SwipeCollectionViewCell"
+- "SwipeState"
+- "SwipeTableViewCell"
+- "Swipeable"
+- "TernaryPrecedence"
+- "UIGestureRecognizer"
+- "UIScrollView"
+- !private "~="
+depends-member:
+- ["So15CALayerDelegateP", "actionsView"]
+- ["So15CALayerDelegateP", "frame"]
+- ["So15CALayerDelegateP", "indexPath"]
+- ["So15CALayerDelegateP", "panGestureRecognizer"]
+- ["So15CALayerDelegateP", "scrollView"]
+- ["So15CALayerDelegateP", "state"]
+- ["s7CVarArgP", "actionsView"]
+- ["s7CVarArgP", "frame"]
+- ["s7CVarArgP", "indexPath"]
+- ["s7CVarArgP", "panGestureRecognizer"]
+- ["s7CVarArgP", "scrollView"]
+- ["s7CVarArgP", "state"]
+- ["s28CustomDebugStringConvertibleP", "actionsView"]
+- ["s28CustomDebugStringConvertibleP", "frame"]
+- ["s28CustomDebugStringConvertibleP", "indexPath"]
+- ["s28CustomDebugStringConvertibleP", "panGestureRecognizer"]
+- ["s28CustomDebugStringConvertibleP", "scrollView"]
+- ["s28CustomDebugStringConvertibleP", "state"]
+- ["s23CustomStringConvertibleP", "actionsView"]
+- ["s23CustomStringConvertibleP", "frame"]
+- ["s23CustomStringConvertibleP", "indexPath"]
+- ["s23CustomStringConvertibleP", "panGestureRecognizer"]
+- ["s23CustomStringConvertibleP", "scrollView"]
+- ["s23CustomStringConvertibleP", "state"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "actionsView"]
+- !private ["SQ", "center"]
+- ["SQ", "frame"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "indexPath"]
+- ["SQ", "init"]
+- !private ["SQ", "left"]
+- ["SQ", "panGestureRecognizer"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "right"]
+- ["SQ", "scrollView"]
+- ["SQ", "state"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- ["SH", "actionsView"]
+- !private ["SH", "center"]
+- ["SH", "frame"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "indexPath"]
+- ["SH", "init"]
+- !private ["SH", "left"]
+- ["SH", "panGestureRecognizer"]
+- ["SH", "rawValue"]
+- !private ["SH", "right"]
+- ["SH", "scrollView"]
+- ["SH", "state"]
+- ["So8NSCodingP", "actionsView"]
+- ["So8NSCodingP", "frame"]
+- ["So8NSCodingP", "indexPath"]
+- ["So8NSCodingP", "panGestureRecognizer"]
+- ["So8NSCodingP", "scrollView"]
+- ["So8NSCodingP", "state"]
+- ["So8NSObjectC", "actionsView"]
+- ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "indexPath"]
+- ["So8NSObjectC", "panGestureRecognizer"]
+- ["So8NSObjectC", "scrollView"]
+- ["So8NSObjectC", "state"]
+- ["So8NSObjectP", "actionsView"]
+- ["So8NSObjectP", "frame"]
+- ["So8NSObjectP", "indexPath"]
+- ["So8NSObjectP", "panGestureRecognizer"]
+- ["So8NSObjectP", "scrollView"]
+- ["So8NSObjectP", "state"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "center"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "left"]
+- ["SY", "rawValue"]
+- !private ["SY", "right"]
+- !private ["12SwipeCellKit0A18ActionsOrientationO", "deinit"]
+- !private ["12SwipeCellKit0A18ActionsOrientationO", "left"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "actionsView"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "deinit"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "frame"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "indexPath"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "panGestureRecognizer"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "scrollView"]
+- ["12SwipeCellKit0a14CollectionViewB0C", "state"]
+- ["12SwipeCellKit0A18ControllerDelegateP", "actionsView"]
+- ["12SwipeCellKit0A18ControllerDelegateP", "frame"]
+- ["12SwipeCellKit0A18ControllerDelegateP", "indexPath"]
+- ["12SwipeCellKit0A18ControllerDelegateP", "panGestureRecognizer"]
+- ["12SwipeCellKit0A18ControllerDelegateP", "scrollView"]
+- ["12SwipeCellKit0A18ControllerDelegateP", "state"]
+- ["12SwipeCellKit0A5StateO", "=="]
+- ["12SwipeCellKit0A5StateO", "Bool"]
+- ["12SwipeCellKit0A5StateO", "RawValue"]
+- ["12SwipeCellKit0A5StateO", "SwipeActionsOrientation"]
+- ["12SwipeCellKit0A5StateO", "_Default_RawValue"]
+- ["12SwipeCellKit0A5StateO", "_rawHashValue"]
+- ["12SwipeCellKit0A5StateO", "animatingToCenter"]
+- ["12SwipeCellKit0A5StateO", "center"]
+- ["12SwipeCellKit0A5StateO", "deinit"]
+- ["12SwipeCellKit0A5StateO", "dragging"]
+- ["12SwipeCellKit0A5StateO", "hash"]
+- ["12SwipeCellKit0A5StateO", "hashValue"]
+- ["12SwipeCellKit0A5StateO", "init"]
+- ["12SwipeCellKit0A5StateO", "isActive"]
+- ["12SwipeCellKit0A5StateO", "left"]
+- ["12SwipeCellKit0A5StateO", "rawValue"]
+- ["12SwipeCellKit0A5StateO", "right"]
+- ["12SwipeCellKit0a9TableViewB0C", "actionsView"]
+- ["12SwipeCellKit0a9TableViewB0C", "deinit"]
+- ["12SwipeCellKit0a9TableViewB0C", "frame"]
+- ["12SwipeCellKit0a9TableViewB0C", "indexPath"]
+- ["12SwipeCellKit0a9TableViewB0C", "panGestureRecognizer"]
+- ["12SwipeCellKit0a9TableViewB0C", "scrollView"]
+- ["12SwipeCellKit0a9TableViewB0C", "state"]
+- ["12SwipeCellKit9SwipeableP", "CGRect"]
+- ["12SwipeCellKit9SwipeableP", "IndexPath"]
+- ["12SwipeCellKit9SwipeableP", "SwipeActionsView"]
+- ["12SwipeCellKit9SwipeableP", "SwipeState"]
+- ["12SwipeCellKit9SwipeableP", "UIGestureRecognizer"]
+- ["12SwipeCellKit9SwipeableP", "UIScrollView"]
+- ["12SwipeCellKit9SwipeableP", ""]
+- ["12SwipeCellKit9SwipeableP", "actionsView"]
+- ["12SwipeCellKit9SwipeableP", "frame"]
+- ["12SwipeCellKit9SwipeableP", "indexPath"]
+- ["12SwipeCellKit9SwipeableP", "panGestureRecognizer"]
+- ["12SwipeCellKit9SwipeableP", "scrollView"]
+- ["12SwipeCellKit9SwipeableP", "state"]
+- ["So29UIAccessibilityIdentificationP", "actionsView"]
+- ["So29UIAccessibilityIdentificationP", "frame"]
+- ["So29UIAccessibilityIdentificationP", "indexPath"]
+- ["So29UIAccessibilityIdentificationP", "panGestureRecognizer"]
+- ["So29UIAccessibilityIdentificationP", "scrollView"]
+- ["So29UIAccessibilityIdentificationP", "state"]
+- ["So12UIAppearanceP", "actionsView"]
+- ["So12UIAppearanceP", "frame"]
+- ["So12UIAppearanceP", "indexPath"]
+- ["So12UIAppearanceP", "panGestureRecognizer"]
+- ["So12UIAppearanceP", "scrollView"]
+- ["So12UIAppearanceP", "state"]
+- ["So21UIAppearanceContainerP", "actionsView"]
+- ["So21UIAppearanceContainerP", "frame"]
+- ["So21UIAppearanceContainerP", "indexPath"]
+- ["So21UIAppearanceContainerP", "panGestureRecognizer"]
+- ["So21UIAppearanceContainerP", "scrollView"]
+- ["So21UIAppearanceContainerP", "state"]
+- ["So24UICollectionReusableViewC", "actionsView"]
+- ["So24UICollectionReusableViewC", "frame"]
+- ["So24UICollectionReusableViewC", "indexPath"]
+- ["So24UICollectionReusableViewC", "panGestureRecognizer"]
+- ["So24UICollectionReusableViewC", "scrollView"]
+- ["So24UICollectionReusableViewC", "state"]
+- ["So20UICollectionViewCellC", "actionsView"]
+- ["So20UICollectionViewCellC", "frame"]
+- ["So20UICollectionViewCellC", "indexPath"]
+- ["So20UICollectionViewCellC", "panGestureRecognizer"]
+- ["So20UICollectionViewCellC", "scrollView"]
+- ["So20UICollectionViewCellC", "state"]
+- ["So17UICoordinateSpaceP", "actionsView"]
+- ["So17UICoordinateSpaceP", "frame"]
+- ["So17UICoordinateSpaceP", "indexPath"]
+- ["So17UICoordinateSpaceP", "panGestureRecognizer"]
+- ["So17UICoordinateSpaceP", "scrollView"]
+- ["So17UICoordinateSpaceP", "state"]
+- ["So13UIDynamicItemP", "actionsView"]
+- ["So13UIDynamicItemP", "frame"]
+- ["So13UIDynamicItemP", "indexPath"]
+- ["So13UIDynamicItemP", "panGestureRecognizer"]
+- ["So13UIDynamicItemP", "scrollView"]
+- ["So13UIDynamicItemP", "state"]
+- ["So18UIFocusEnvironmentP", "actionsView"]
+- ["So18UIFocusEnvironmentP", "frame"]
+- ["So18UIFocusEnvironmentP", "indexPath"]
+- ["So18UIFocusEnvironmentP", "panGestureRecognizer"]
+- ["So18UIFocusEnvironmentP", "scrollView"]
+- ["So18UIFocusEnvironmentP", "state"]
+- ["So11UIFocusItemP", "actionsView"]
+- ["So11UIFocusItemP", "frame"]
+- ["So11UIFocusItemP", "indexPath"]
+- ["So11UIFocusItemP", "panGestureRecognizer"]
+- ["So11UIFocusItemP", "scrollView"]
+- ["So11UIFocusItemP", "state"]
+- ["So20UIFocusItemContainerP", "actionsView"]
+- ["So20UIFocusItemContainerP", "frame"]
+- ["So20UIFocusItemContainerP", "indexPath"]
+- ["So20UIFocusItemContainerP", "panGestureRecognizer"]
+- ["So20UIFocusItemContainerP", "scrollView"]
+- ["So20UIFocusItemContainerP", "state"]
+- ["So27UIGestureRecognizerDelegateP", "actionsView"]
+- ["So27UIGestureRecognizerDelegateP", "frame"]
+- ["So27UIGestureRecognizerDelegateP", "indexPath"]
+- ["So27UIGestureRecognizerDelegateP", "panGestureRecognizer"]
+- ["So27UIGestureRecognizerDelegateP", "scrollView"]
+- ["So27UIGestureRecognizerDelegateP", "state"]
+- ["So30UIPasteConfigurationSupportingP", "actionsView"]
+- ["So30UIPasteConfigurationSupportingP", "frame"]
+- ["So30UIPasteConfigurationSupportingP", "indexPath"]
+- ["So30UIPasteConfigurationSupportingP", "panGestureRecognizer"]
+- ["So30UIPasteConfigurationSupportingP", "scrollView"]
+- ["So30UIPasteConfigurationSupportingP", "state"]
+- ["So11UIResponderC", "actionsView"]
+- ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "indexPath"]
+- ["So11UIResponderC", "panGestureRecognizer"]
+- ["So11UIResponderC", "scrollView"]
+- ["So11UIResponderC", "state"]
+- ["So30UIResponderStandardEditActionsP", "actionsView"]
+- ["So30UIResponderStandardEditActionsP", "frame"]
+- ["So30UIResponderStandardEditActionsP", "indexPath"]
+- ["So30UIResponderStandardEditActionsP", "panGestureRecognizer"]
+- ["So30UIResponderStandardEditActionsP", "scrollView"]
+- ["So30UIResponderStandardEditActionsP", "state"]
+- ["So15UITableViewCellC", "actionsView"]
+- ["So15UITableViewCellC", "frame"]
+- ["So15UITableViewCellC", "indexPath"]
+- ["So15UITableViewCellC", "panGestureRecognizer"]
+- ["So15UITableViewCellC", "scrollView"]
+- ["So15UITableViewCellC", "state"]
+- ["So18UITraitEnvironmentP", "actionsView"]
+- ["So18UITraitEnvironmentP", "frame"]
+- ["So18UITraitEnvironmentP", "indexPath"]
+- ["So18UITraitEnvironmentP", "panGestureRecognizer"]
+- ["So18UITraitEnvironmentP", "scrollView"]
+- ["So18UITraitEnvironmentP", "state"]
+- ["So23UIUserActivityRestoringP", "actionsView"]
+- ["So23UIUserActivityRestoringP", "frame"]
+- ["So23UIUserActivityRestoringP", "indexPath"]
+- ["So23UIUserActivityRestoringP", "panGestureRecognizer"]
+- ["So23UIUserActivityRestoringP", "scrollView"]
+- ["So23UIUserActivityRestoringP", "state"]
+- ["So6UIViewC", "actionsView"]
+- ["So6UIViewC", "frame"]
+- ["So6UIViewC", "indexPath"]
+- ["So6UIViewC", "panGestureRecognizer"]
+- ["So6UIViewC", "scrollView"]
+- ["So6UIViewC", "state"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "actionsView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "indexPath"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "panGestureRecognizer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "actionsView"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "indexPath"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "panGestureRecognizer"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "scrollView"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "state"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "SY"
+- !private "12SwipeCellKit0A18ActionsOrientationO"
+- "12SwipeCellKit0a14CollectionViewB0C"
+- "12SwipeCellKit0A18ControllerDelegateP"
+- "12SwipeCellKit0A5StateO"
+- "12SwipeCellKit0a9TableViewB0C"
+- "12SwipeCellKit9SwipeableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Target Support Files/SwipeCellKit/SwipeCellKit-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwipeCellKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ee4c2a97eafac50861cf7b61bb8460e3"

@@ -1,0 +1,958 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginController"
+provides-nominal:
+- "11FindRecipes15LoginControllerC"
+provides-member:
+- ["11FindRecipes15LoginControllerC", ""]
+provides-dynamic-lookup:
+- "handleLogin"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "Auth"
+- "LoginController"
+- "UIButton"
+- "UIColor"
+- "UIFont"
+- "UITextField"
+- "UIView"
+- "UIViewController"
+- !private "print"
+depends-member:
+- !private ["So7FIRAuthC", "auth"]
+- !private ["So7FIRAuthC", "signIn"]
+- ["So17UITextBorderStyleV", "roundedRect"]
+- ["So12UIButtonTypeV", "system"]
+- ["So7CALayerC", "cornerRadius"]
+- ["So15CALayerDelegateP", "addTarget"]
+- ["So15CALayerDelegateP", "backgroundColor"]
+- ["So15CALayerDelegateP", "borderStyle"]
+- ["So15CALayerDelegateP", "font"]
+- ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", "isSecureTextEntry"]
+- ["So15CALayerDelegateP", "layer"]
+- ["So15CALayerDelegateP", "placeholder"]
+- ["So15CALayerDelegateP", "setTitle"]
+- ["So15CALayerDelegateP", "setTitleColor"]
+- !private ["So15CALayerDelegateP", "text"]
+- ["So15CALayerDelegateP", "titleLabel"]
+- ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["s7CVarArgP", "Auth"]
+- ["s7CVarArgP", "UIButton"]
+- ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", "UIFont"]
+- ["s7CVarArgP", "UITextField"]
+- ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "auth"]
+- ["s7CVarArgP", "backgroundColor"]
+- ["s7CVarArgP", "boldSystemFont"]
+- ["s7CVarArgP", "borderStyle"]
+- ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "emailTextField"]
+- ["s7CVarArgP", "font"]
+- ["s7CVarArgP", "handleLogin"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "isSecureTextEntry"]
+- ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "passwordTextField"]
+- ["s7CVarArgP", "placeholder"]
+- !private ["s7CVarArgP", "print"]
+- ["s7CVarArgP", "rgb"]
+- ["s7CVarArgP", "setTitle"]
+- ["s7CVarArgP", "setTitleColor"]
+- !private ["s7CVarArgP", "signIn"]
+- ["s7CVarArgP", "systemFont"]
+- !private ["s7CVarArgP", "text"]
+- ["s7CVarArgP", "titleLabel"]
+- ["s7CVarArgP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "Auth"]
+- ["s28CustomDebugStringConvertibleP", "UIButton"]
+- ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", "UIFont"]
+- ["s28CustomDebugStringConvertibleP", "UITextField"]
+- ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
+- ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- ["s28CustomDebugStringConvertibleP", "boldSystemFont"]
+- ["s28CustomDebugStringConvertibleP", "borderStyle"]
+- ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "emailTextField"]
+- ["s28CustomDebugStringConvertibleP", "font"]
+- ["s28CustomDebugStringConvertibleP", "handleLogin"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "isSecureTextEntry"]
+- ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "passwordTextField"]
+- ["s28CustomDebugStringConvertibleP", "placeholder"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- ["s28CustomDebugStringConvertibleP", "rgb"]
+- ["s28CustomDebugStringConvertibleP", "setTitle"]
+- ["s28CustomDebugStringConvertibleP", "setTitleColor"]
+- !private ["s28CustomDebugStringConvertibleP", "signIn"]
+- ["s28CustomDebugStringConvertibleP", "systemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- ["s28CustomDebugStringConvertibleP", "titleLabel"]
+- ["s28CustomDebugStringConvertibleP", "white"]
+- ["s17CustomReflectableP", "white"]
+- !private ["s23CustomStringConvertibleP", "Auth"]
+- ["s23CustomStringConvertibleP", "UIButton"]
+- ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", "UIFont"]
+- ["s23CustomStringConvertibleP", "UITextField"]
+- ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "auth"]
+- ["s23CustomStringConvertibleP", "backgroundColor"]
+- ["s23CustomStringConvertibleP", "boldSystemFont"]
+- ["s23CustomStringConvertibleP", "borderStyle"]
+- ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "emailTextField"]
+- ["s23CustomStringConvertibleP", "font"]
+- ["s23CustomStringConvertibleP", "handleLogin"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "isSecureTextEntry"]
+- ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "passwordTextField"]
+- ["s23CustomStringConvertibleP", "placeholder"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- ["s23CustomStringConvertibleP", "rgb"]
+- ["s23CustomStringConvertibleP", "setTitle"]
+- ["s23CustomStringConvertibleP", "setTitleColor"]
+- !private ["s23CustomStringConvertibleP", "signIn"]
+- ["s23CustomStringConvertibleP", "systemFont"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- ["s23CustomStringConvertibleP", "titleLabel"]
+- ["s23CustomStringConvertibleP", "white"]
+- ["Se", "white"]
+- ["SE", "white"]
+- !private ["SQ", "Auth"]
+- ["SQ", "UIButton"]
+- ["SQ", "UIColor"]
+- ["SQ", "UIFont"]
+- ["SQ", "UITextField"]
+- ["SQ", "UIView"]
+- ["SQ", ""]
+- ["SQ", "addTarget"]
+- !private ["SQ", "auth"]
+- ["SQ", "backgroundColor"]
+- ["SQ", "boldSystemFont"]
+- ["SQ", "borderStyle"]
+- ["SQ", "cornerRadius"]
+- !private ["SQ", "emailTextField"]
+- ["SQ", "font"]
+- ["SQ", "handleLogin"]
+- ["SQ", "init"]
+- ["SQ", "isSecureTextEntry"]
+- ["SQ", "layer"]
+- ["SQ", "normal"]
+- !private ["SQ", "passwordTextField"]
+- ["SQ", "placeholder"]
+- !private ["SQ", "print"]
+- ["SQ", "rgb"]
+- ["SQ", "roundedRect"]
+- ["SQ", "setTitle"]
+- ["SQ", "setTitleColor"]
+- !private ["SQ", "signIn"]
+- ["SQ", "system"]
+- ["SQ", "systemFont"]
+- !private ["SQ", "text"]
+- ["SQ", "titleLabel"]
+- ["SQ", "touchUpInside"]
+- ["SQ", "white"]
+- ["So15UIControlEventsV", "touchUpInside"]
+- ["s25ExpressibleByArrayLiteralP", "normal"]
+- ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
+- ["s23ExpressibleByNilLiteralP", "white"]
+- !private ["SH", "Auth"]
+- ["SH", "UIButton"]
+- ["SH", "UIColor"]
+- ["SH", "UIFont"]
+- ["SH", "UITextField"]
+- ["SH", "UIView"]
+- ["SH", ""]
+- ["SH", "addTarget"]
+- !private ["SH", "auth"]
+- ["SH", "backgroundColor"]
+- ["SH", "boldSystemFont"]
+- ["SH", "borderStyle"]
+- ["SH", "cornerRadius"]
+- !private ["SH", "emailTextField"]
+- ["SH", "font"]
+- ["SH", "handleLogin"]
+- ["SH", "init"]
+- ["SH", "isSecureTextEntry"]
+- ["SH", "layer"]
+- !private ["SH", "passwordTextField"]
+- ["SH", "placeholder"]
+- !private ["SH", "print"]
+- ["SH", "rgb"]
+- ["SH", "roundedRect"]
+- ["SH", "setTitle"]
+- ["SH", "setTitleColor"]
+- !private ["SH", "signIn"]
+- ["SH", "system"]
+- ["SH", "systemFont"]
+- !private ["SH", "text"]
+- ["SH", "titleLabel"]
+- ["SH", "white"]
+- !private ["11FindRecipes15LoginControllerC", "Auth"]
+- ["11FindRecipes15LoginControllerC", "UIButton"]
+- ["11FindRecipes15LoginControllerC", "UIColor"]
+- ["11FindRecipes15LoginControllerC", "UIFont"]
+- ["11FindRecipes15LoginControllerC", "UITextField"]
+- ["11FindRecipes15LoginControllerC", "UIView"]
+- ["11FindRecipes15LoginControllerC", "deinit"]
+- ["11FindRecipes15LoginControllerC", "emailTextField"]
+- ["11FindRecipes15LoginControllerC", "handleLogin"]
+- ["11FindRecipes15LoginControllerC", "init"]
+- ["11FindRecipes15LoginControllerC", "loginButton"]
+- ["11FindRecipes15LoginControllerC", "logoContainerView"]
+- ["11FindRecipes15LoginControllerC", "passwordTextField"]
+- !private ["11FindRecipes15LoginControllerC", "print"]
+- !private ["So8NSCodingP", "Auth"]
+- ["So8NSCodingP", "UIButton"]
+- ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", "UIFont"]
+- ["So8NSCodingP", "UITextField"]
+- ["So8NSCodingP", "UIView"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "addTarget"]
+- ["So8NSCodingP", "backgroundColor"]
+- ["So8NSCodingP", "borderStyle"]
+- ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "emailTextField"]
+- ["So8NSCodingP", "font"]
+- ["So8NSCodingP", "handleLogin"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "isSecureTextEntry"]
+- ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "passwordTextField"]
+- ["So8NSCodingP", "placeholder"]
+- !private ["So8NSCodingP", "print"]
+- ["So8NSCodingP", "rgb"]
+- ["So8NSCodingP", "setTitle"]
+- ["So8NSCodingP", "setTitleColor"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSCodingP", "titleLabel"]
+- ["So8NSCodingP", "white"]
+- ["So9NSCopyingP", "boldSystemFont"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "rgb"]
+- ["So9NSCopyingP", "systemFont"]
+- ["So9NSCopyingP", "white"]
+- !private ["So26NSExtensionRequestHandlingP", "Auth"]
+- ["So26NSExtensionRequestHandlingP", "UIButton"]
+- ["So26NSExtensionRequestHandlingP", "UIColor"]
+- ["So26NSExtensionRequestHandlingP", "UIFont"]
+- ["So26NSExtensionRequestHandlingP", "UITextField"]
+- ["So26NSExtensionRequestHandlingP", "UIView"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "emailTextField"]
+- ["So26NSExtensionRequestHandlingP", "handleLogin"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "passwordTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderReadingP", "rgb"]
+- ["So21NSItemProviderReadingP", "white"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So21NSItemProviderWritingP", "rgb"]
+- ["So21NSItemProviderWritingP", "white"]
+- !private ["So8NSObjectC", "Auth"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIFont"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectC", "auth"]
+- ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "boldSystemFont"]
+- ["So8NSObjectC", "borderStyle"]
+- ["So8NSObjectC", "cornerRadius"]
+- ["So8NSObjectC", "emailTextField"]
+- ["So8NSObjectC", "font"]
+- ["So8NSObjectC", "handleLogin"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isSecureTextEntry"]
+- ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "loginButton"]
+- ["So8NSObjectC", "logoContainerView"]
+- ["So8NSObjectC", "passwordTextField"]
+- ["So8NSObjectC", "placeholder"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "rgb"]
+- ["So8NSObjectC", "setTitle"]
+- ["So8NSObjectC", "setTitleColor"]
+- !private ["So8NSObjectC", "signIn"]
+- ["So8NSObjectC", "systemFont"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "titleLabel"]
+- ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "Auth"]
+- ["So8NSObjectP", "UIButton"]
+- ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", "UIFont"]
+- ["So8NSObjectP", "UITextField"]
+- ["So8NSObjectP", "UIView"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "addTarget"]
+- !private ["So8NSObjectP", "auth"]
+- ["So8NSObjectP", "backgroundColor"]
+- ["So8NSObjectP", "boldSystemFont"]
+- ["So8NSObjectP", "borderStyle"]
+- ["So8NSObjectP", "cornerRadius"]
+- !private ["So8NSObjectP", "emailTextField"]
+- ["So8NSObjectP", "font"]
+- ["So8NSObjectP", "handleLogin"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isSecureTextEntry"]
+- ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "passwordTextField"]
+- ["So8NSObjectP", "placeholder"]
+- !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "rgb"]
+- ["So8NSObjectP", "setTitle"]
+- ["So8NSObjectP", "setTitleColor"]
+- !private ["So8NSObjectP", "signIn"]
+- ["So8NSObjectP", "systemFont"]
+- !private ["So8NSObjectP", "text"]
+- ["So8NSObjectP", "titleLabel"]
+- ["So8NSObjectP", "white"]
+- ["So14NSSecureCodingP", "cornerRadius"]
+- ["So14NSSecureCodingP", "init"]
+- ["So14NSSecureCodingP", "rgb"]
+- ["So14NSSecureCodingP", "white"]
+- ["s9OptionSetP", "normal"]
+- ["s9OptionSetP", "touchUpInside"]
+- ["Sq", "white"]
+- ["SY", "normal"]
+- ["SY", "roundedRect"]
+- ["SY", "system"]
+- ["SY", "touchUpInside"]
+- ["s10SetAlgebraP", "normal"]
+- ["s10SetAlgebraP", "touchUpInside"]
+- ["So14UIControlStateV", "normal"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layer"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitleColor"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "titleLabel"]
+- ["So29UIAccessibilityIdentificationP", "addTarget"]
+- ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- ["So29UIAccessibilityIdentificationP", "borderStyle"]
+- ["So29UIAccessibilityIdentificationP", "font"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", "isSecureTextEntry"]
+- ["So29UIAccessibilityIdentificationP", "layer"]
+- ["So29UIAccessibilityIdentificationP", "placeholder"]
+- ["So29UIAccessibilityIdentificationP", "setTitle"]
+- ["So29UIAccessibilityIdentificationP", "setTitleColor"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- ["So29UIAccessibilityIdentificationP", "titleLabel"]
+- ["So12UIAppearanceP", "addTarget"]
+- ["So12UIAppearanceP", "backgroundColor"]
+- ["So12UIAppearanceP", "borderStyle"]
+- ["So12UIAppearanceP", "font"]
+- ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", "isSecureTextEntry"]
+- ["So12UIAppearanceP", "layer"]
+- ["So12UIAppearanceP", "placeholder"]
+- ["So12UIAppearanceP", "setTitle"]
+- ["So12UIAppearanceP", "setTitleColor"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So12UIAppearanceP", "titleLabel"]
+- !private ["So21UIAppearanceContainerP", "Auth"]
+- ["So21UIAppearanceContainerP", "UIButton"]
+- ["So21UIAppearanceContainerP", "UIColor"]
+- ["So21UIAppearanceContainerP", "UIFont"]
+- ["So21UIAppearanceContainerP", "UITextField"]
+- ["So21UIAppearanceContainerP", "UIView"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "addTarget"]
+- ["So21UIAppearanceContainerP", "backgroundColor"]
+- ["So21UIAppearanceContainerP", "borderStyle"]
+- !private ["So21UIAppearanceContainerP", "emailTextField"]
+- ["So21UIAppearanceContainerP", "font"]
+- ["So21UIAppearanceContainerP", "handleLogin"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "isSecureTextEntry"]
+- ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "passwordTextField"]
+- ["So21UIAppearanceContainerP", "placeholder"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- ["So21UIAppearanceContainerP", "setTitle"]
+- ["So21UIAppearanceContainerP", "setTitleColor"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- ["So21UIAppearanceContainerP", "titleLabel"]
+- ["So8UIButtonC", "addTarget"]
+- ["So8UIButtonC", "backgroundColor"]
+- ["So8UIButtonC", "init"]
+- ["So8UIButtonC", "layer"]
+- ["So8UIButtonC", "setTitle"]
+- ["So8UIButtonC", "setTitleColor"]
+- ["So8UIButtonC", "titleLabel"]
+- ["So7UIColorC", "init"]
+- ["So7UIColorC", "rgb"]
+- ["So7UIColorC", "white"]
+- !private ["So18UIContentContainerP", "Auth"]
+- ["So18UIContentContainerP", "UIButton"]
+- ["So18UIContentContainerP", "UIColor"]
+- ["So18UIContentContainerP", "UIFont"]
+- ["So18UIContentContainerP", "UITextField"]
+- ["So18UIContentContainerP", "UIView"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "emailTextField"]
+- ["So18UIContentContainerP", "handleLogin"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "passwordTextField"]
+- !private ["So18UIContentContainerP", "print"]
+- ["So30UIContentSizeCategoryAdjustingP", "backgroundColor"]
+- ["So30UIContentSizeCategoryAdjustingP", "borderStyle"]
+- ["So30UIContentSizeCategoryAdjustingP", "font"]
+- ["So30UIContentSizeCategoryAdjustingP", "init"]
+- ["So30UIContentSizeCategoryAdjustingP", "isSecureTextEntry"]
+- ["So30UIContentSizeCategoryAdjustingP", "placeholder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- ["So9UIControlC", "addTarget"]
+- ["So9UIControlC", "backgroundColor"]
+- ["So9UIControlC", "borderStyle"]
+- ["So9UIControlC", "font"]
+- ["So9UIControlC", "init"]
+- ["So9UIControlC", "isSecureTextEntry"]
+- ["So9UIControlC", "layer"]
+- ["So9UIControlC", "placeholder"]
+- ["So9UIControlC", "setTitle"]
+- ["So9UIControlC", "setTitleColor"]
+- !private ["So9UIControlC", "text"]
+- ["So9UIControlC", "titleLabel"]
+- ["So17UICoordinateSpaceP", "addTarget"]
+- ["So17UICoordinateSpaceP", "backgroundColor"]
+- ["So17UICoordinateSpaceP", "borderStyle"]
+- ["So17UICoordinateSpaceP", "font"]
+- ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", "isSecureTextEntry"]
+- ["So17UICoordinateSpaceP", "layer"]
+- ["So17UICoordinateSpaceP", "placeholder"]
+- ["So17UICoordinateSpaceP", "setTitle"]
+- ["So17UICoordinateSpaceP", "setTitleColor"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- ["So17UICoordinateSpaceP", "titleLabel"]
+- ["So13UIDynamicItemP", "addTarget"]
+- ["So13UIDynamicItemP", "backgroundColor"]
+- ["So13UIDynamicItemP", "borderStyle"]
+- ["So13UIDynamicItemP", "font"]
+- ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", "isSecureTextEntry"]
+- ["So13UIDynamicItemP", "layer"]
+- ["So13UIDynamicItemP", "placeholder"]
+- ["So13UIDynamicItemP", "setTitle"]
+- ["So13UIDynamicItemP", "setTitleColor"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So13UIDynamicItemP", "titleLabel"]
+- !private ["So18UIFocusEnvironmentP", "Auth"]
+- ["So18UIFocusEnvironmentP", "UIButton"]
+- ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", "UIFont"]
+- ["So18UIFocusEnvironmentP", "UITextField"]
+- ["So18UIFocusEnvironmentP", "UIView"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "addTarget"]
+- ["So18UIFocusEnvironmentP", "backgroundColor"]
+- ["So18UIFocusEnvironmentP", "borderStyle"]
+- !private ["So18UIFocusEnvironmentP", "emailTextField"]
+- ["So18UIFocusEnvironmentP", "font"]
+- ["So18UIFocusEnvironmentP", "handleLogin"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "isSecureTextEntry"]
+- ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "passwordTextField"]
+- ["So18UIFocusEnvironmentP", "placeholder"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- ["So18UIFocusEnvironmentP", "setTitle"]
+- ["So18UIFocusEnvironmentP", "setTitleColor"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So18UIFocusEnvironmentP", "titleLabel"]
+- ["So11UIFocusItemP", "addTarget"]
+- ["So11UIFocusItemP", "backgroundColor"]
+- ["So11UIFocusItemP", "borderStyle"]
+- ["So11UIFocusItemP", "font"]
+- ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", "isSecureTextEntry"]
+- ["So11UIFocusItemP", "layer"]
+- ["So11UIFocusItemP", "placeholder"]
+- ["So11UIFocusItemP", "setTitle"]
+- ["So11UIFocusItemP", "setTitleColor"]
+- !private ["So11UIFocusItemP", "text"]
+- ["So11UIFocusItemP", "titleLabel"]
+- ["So20UIFocusItemContainerP", "addTarget"]
+- ["So20UIFocusItemContainerP", "backgroundColor"]
+- ["So20UIFocusItemContainerP", "borderStyle"]
+- ["So20UIFocusItemContainerP", "font"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So20UIFocusItemContainerP", "isSecureTextEntry"]
+- ["So20UIFocusItemContainerP", "layer"]
+- ["So20UIFocusItemContainerP", "placeholder"]
+- ["So20UIFocusItemContainerP", "setTitle"]
+- ["So20UIFocusItemContainerP", "setTitleColor"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- ["So20UIFocusItemContainerP", "titleLabel"]
+- ["So6UIFontC", "boldSystemFont"]
+- ["So6UIFontC", "systemFont"]
+- ["So10UIKeyInputP", "backgroundColor"]
+- ["So10UIKeyInputP", "borderStyle"]
+- ["So10UIKeyInputP", "font"]
+- ["So10UIKeyInputP", "init"]
+- ["So10UIKeyInputP", "isSecureTextEntry"]
+- ["So10UIKeyInputP", "placeholder"]
+- !private ["So10UIKeyInputP", "text"]
+- ["So7UILabelC", "font"]
+- !private ["So30UIPasteConfigurationSupportingP", "Auth"]
+- ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- ["So30UIPasteConfigurationSupportingP", "UITextField"]
+- ["So30UIPasteConfigurationSupportingP", "UIView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- ["So30UIPasteConfigurationSupportingP", "borderStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "emailTextField"]
+- ["So30UIPasteConfigurationSupportingP", "font"]
+- ["So30UIPasteConfigurationSupportingP", "handleLogin"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "isSecureTextEntry"]
+- ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "passwordTextField"]
+- ["So30UIPasteConfigurationSupportingP", "placeholder"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- ["So30UIPasteConfigurationSupportingP", "setTitle"]
+- ["So30UIPasteConfigurationSupportingP", "setTitleColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "titleLabel"]
+- !private ["So11UIResponderC", "Auth"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIFont"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "addTarget"]
+- ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "borderStyle"]
+- ["So11UIResponderC", "emailTextField"]
+- ["So11UIResponderC", "font"]
+- ["So11UIResponderC", "handleLogin"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "isSecureTextEntry"]
+- ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "loginButton"]
+- ["So11UIResponderC", "logoContainerView"]
+- ["So11UIResponderC", "passwordTextField"]
+- ["So11UIResponderC", "placeholder"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "setTitle"]
+- ["So11UIResponderC", "setTitleColor"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "titleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "Auth"]
+- ["So30UIResponderStandardEditActionsP", "UIButton"]
+- ["So30UIResponderStandardEditActionsP", "UIColor"]
+- ["So30UIResponderStandardEditActionsP", "UIFont"]
+- ["So30UIResponderStandardEditActionsP", "UITextField"]
+- ["So30UIResponderStandardEditActionsP", "UIView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "addTarget"]
+- ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- ["So30UIResponderStandardEditActionsP", "borderStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "emailTextField"]
+- ["So30UIResponderStandardEditActionsP", "font"]
+- ["So30UIResponderStandardEditActionsP", "handleLogin"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "isSecureTextEntry"]
+- ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "passwordTextField"]
+- ["So30UIResponderStandardEditActionsP", "placeholder"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- ["So30UIResponderStandardEditActionsP", "setTitle"]
+- ["So30UIResponderStandardEditActionsP", "setTitleColor"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So30UIResponderStandardEditActionsP", "titleLabel"]
+- ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
+- ["So35UISpringLoadedInteractionSupportingP", "backgroundColor"]
+- ["So35UISpringLoadedInteractionSupportingP", "init"]
+- ["So35UISpringLoadedInteractionSupportingP", "layer"]
+- ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
+- ["So35UISpringLoadedInteractionSupportingP", "setTitleColor"]
+- ["So35UISpringLoadedInteractionSupportingP", "titleLabel"]
+- !private ["So16UIStateRestoringP", "Auth"]
+- ["So16UIStateRestoringP", "UIButton"]
+- ["So16UIStateRestoringP", "UIColor"]
+- ["So16UIStateRestoringP", "UIFont"]
+- ["So16UIStateRestoringP", "UITextField"]
+- ["So16UIStateRestoringP", "UIView"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "emailTextField"]
+- ["So16UIStateRestoringP", "handleLogin"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "passwordTextField"]
+- !private ["So16UIStateRestoringP", "print"]
+- ["So15UITextDraggableP", "backgroundColor"]
+- ["So15UITextDraggableP", "borderStyle"]
+- ["So15UITextDraggableP", "font"]
+- ["So15UITextDraggableP", "init"]
+- ["So15UITextDraggableP", "isSecureTextEntry"]
+- ["So15UITextDraggableP", "placeholder"]
+- !private ["So15UITextDraggableP", "text"]
+- ["So15UITextDroppableP", "backgroundColor"]
+- ["So15UITextDroppableP", "borderStyle"]
+- ["So15UITextDroppableP", "font"]
+- ["So15UITextDroppableP", "init"]
+- ["So15UITextDroppableP", "isSecureTextEntry"]
+- ["So15UITextDroppableP", "placeholder"]
+- !private ["So15UITextDroppableP", "text"]
+- ["So11UITextFieldC", "backgroundColor"]
+- ["So11UITextFieldC", "borderStyle"]
+- ["So11UITextFieldC", "font"]
+- ["So11UITextFieldC", "init"]
+- ["So11UITextFieldC", "isSecureTextEntry"]
+- ["So11UITextFieldC", "placeholder"]
+- !private ["So11UITextFieldC", "text"]
+- ["So11UITextInputP", "backgroundColor"]
+- ["So11UITextInputP", "borderStyle"]
+- ["So11UITextInputP", "font"]
+- ["So11UITextInputP", "init"]
+- ["So11UITextInputP", "isSecureTextEntry"]
+- ["So11UITextInputP", "placeholder"]
+- !private ["So11UITextInputP", "text"]
+- ["So17UITextInputTraitsP", "backgroundColor"]
+- ["So17UITextInputTraitsP", "borderStyle"]
+- ["So17UITextInputTraitsP", "font"]
+- ["So17UITextInputTraitsP", "init"]
+- ["So17UITextInputTraitsP", "isSecureTextEntry"]
+- ["So17UITextInputTraitsP", "placeholder"]
+- !private ["So17UITextInputTraitsP", "text"]
+- ["So34UITextPasteConfigurationSupportingP", "backgroundColor"]
+- ["So34UITextPasteConfigurationSupportingP", "borderStyle"]
+- ["So34UITextPasteConfigurationSupportingP", "font"]
+- ["So34UITextPasteConfigurationSupportingP", "init"]
+- ["So34UITextPasteConfigurationSupportingP", "isSecureTextEntry"]
+- ["So34UITextPasteConfigurationSupportingP", "placeholder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "Auth"]
+- ["So18UITraitEnvironmentP", "UIButton"]
+- ["So18UITraitEnvironmentP", "UIColor"]
+- ["So18UITraitEnvironmentP", "UIFont"]
+- ["So18UITraitEnvironmentP", "UITextField"]
+- ["So18UITraitEnvironmentP", "UIView"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "addTarget"]
+- ["So18UITraitEnvironmentP", "backgroundColor"]
+- ["So18UITraitEnvironmentP", "borderStyle"]
+- !private ["So18UITraitEnvironmentP", "emailTextField"]
+- ["So18UITraitEnvironmentP", "font"]
+- ["So18UITraitEnvironmentP", "handleLogin"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "isSecureTextEntry"]
+- ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "passwordTextField"]
+- ["So18UITraitEnvironmentP", "placeholder"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- ["So18UITraitEnvironmentP", "setTitle"]
+- ["So18UITraitEnvironmentP", "setTitleColor"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So18UITraitEnvironmentP", "titleLabel"]
+- !private ["So23UIUserActivityRestoringP", "Auth"]
+- ["So23UIUserActivityRestoringP", "UIButton"]
+- ["So23UIUserActivityRestoringP", "UIColor"]
+- ["So23UIUserActivityRestoringP", "UIFont"]
+- ["So23UIUserActivityRestoringP", "UITextField"]
+- ["So23UIUserActivityRestoringP", "UIView"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "addTarget"]
+- ["So23UIUserActivityRestoringP", "backgroundColor"]
+- ["So23UIUserActivityRestoringP", "borderStyle"]
+- !private ["So23UIUserActivityRestoringP", "emailTextField"]
+- ["So23UIUserActivityRestoringP", "font"]
+- ["So23UIUserActivityRestoringP", "handleLogin"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "isSecureTextEntry"]
+- ["So23UIUserActivityRestoringP", "layer"]
+- !private ["So23UIUserActivityRestoringP", "passwordTextField"]
+- ["So23UIUserActivityRestoringP", "placeholder"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- ["So23UIUserActivityRestoringP", "setTitle"]
+- ["So23UIUserActivityRestoringP", "setTitleColor"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So23UIUserActivityRestoringP", "titleLabel"]
+- ["So6UIViewC", "addTarget"]
+- ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "borderStyle"]
+- ["So6UIViewC", "font"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "isSecureTextEntry"]
+- ["So6UIViewC", "layer"]
+- ["So6UIViewC", "placeholder"]
+- ["So6UIViewC", "setTitle"]
+- ["So6UIViewC", "setTitleColor"]
+- !private ["So6UIViewC", "text"]
+- ["So6UIViewC", "titleLabel"]
+- !private ["So16UIViewControllerC", "Auth"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UIFont"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "emailTextField"]
+- ["So16UIViewControllerC", "handleLogin"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loginButton"]
+- ["So16UIViewControllerC", "logoContainerView"]
+- ["So16UIViewControllerC", "passwordTextField"]
+- !private ["So16UIViewControllerC", "print"]
+- ["s26_ExpressibleByColorLiteralP", "init"]
+- ["s26_ExpressibleByColorLiteralP", "rgb"]
+- ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIButton"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UITextField"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "boldSystemFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "borderStyle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emailTextField"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "handleLogin"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isSecureTextEntry"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "passwordTextField"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "placeholder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "rgb"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setTitle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setTitleColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signIn"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "titleLabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- ["s21_ObjectiveCBridgeableP", "white"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "borderStyle"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "font"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "isSecureTextEntry"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "layer"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "placeholder"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "setTitle"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "setTitleColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "titleLabel"]
+depends-nominal:
+- !private "So7FIRAuthC"
+- "So17UITextBorderStyleV"
+- "So12UIButtonTypeV"
+- "So7CALayerC"
+- "So15CALayerDelegateP"
+- "So13CAMediaTimingP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "So15UIControlEventsV"
+- "s25ExpressibleByArrayLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "SH"
+- "11FindRecipes15LoginControllerC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "s9OptionSetP"
+- "Sq"
+- "SY"
+- "s10SetAlgebraP"
+- "So14UIControlStateV"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So8UIButtonC"
+- "So7UIColorC"
+- "So18UIContentContainerP"
+- "So30UIContentSizeCategoryAdjustingP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So6UIFontC"
+- "So10UIKeyInputP"
+- "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So15UITextDraggableP"
+- "So15UITextDroppableP"
+- "So11UITextFieldC"
+- "So11UITextInputP"
+- "So17UITextInputTraitsP"
+- "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/SwipeCellKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/InputBarAccessoryView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Vision.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Headers/FIRMessagingExtensionHelper.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-Swift.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Headers/InputBarAccessoryView-Swift.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseMessaging/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/module.modulemap"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Files/Debug-iphonesimulator/InputBarAccessoryView/InputBarAccessoryView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Vision.framework/Headers/Vision.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "63ae4d21c0af0ca220294aac4ad3a279"

@@ -1,0 +1,208 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeyboardNotification"
+provides-nominal:
+- "21InputBarAccessoryView20KeyboardNotificationV"
+provides-member:
+- ["21InputBarAccessoryView20KeyboardNotificationV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "CGRect"
+- "KeyboardEvent"
+- "KeyboardNotification"
+- "NSNotification"
+- "TimeInterval"
+- "UIView"
+depends-member:
+- ["So15CALayerDelegateP", "AnimationOptions"]
+- !private ["So6CGRectV", "zero"]
+- ["s7CVarArgP", "AnimationOptions"]
+- !private ["s7CVarArgP", "animationOptions"]
+- !private ["s7CVarArgP", "endFrame"]
+- !private ["s7CVarArgP", "event"]
+- !private ["s7CVarArgP", "isForCurrentApp"]
+- !private ["s7CVarArgP", "startFrame"]
+- !private ["s7CVarArgP", "timeInterval"]
+- ["s28CustomDebugStringConvertibleP", "AnimationOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "animationOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "endFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "event"]
+- !private ["s28CustomDebugStringConvertibleP", "isForCurrentApp"]
+- !private ["s28CustomDebugStringConvertibleP", "startFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "timeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "zero"]
+- ["s23CustomStringConvertibleP", "AnimationOptions"]
+- !private ["s23CustomStringConvertibleP", "animationOptions"]
+- !private ["s23CustomStringConvertibleP", "endFrame"]
+- !private ["s23CustomStringConvertibleP", "event"]
+- !private ["s23CustomStringConvertibleP", "isForCurrentApp"]
+- !private ["s23CustomStringConvertibleP", "startFrame"]
+- !private ["s23CustomStringConvertibleP", "timeInterval"]
+- !private ["Se", "zero"]
+- !private ["SE", "zero"]
+- ["SQ", "AnimationOptions"]
+- !private ["SQ", "animationOptions"]
+- !private ["SQ", "endFrame"]
+- !private ["SQ", "event"]
+- !private ["SQ", "isForCurrentApp"]
+- !private ["SQ", "startFrame"]
+- !private ["SQ", "timeInterval"]
+- !private ["SQ", "unknown"]
+- !private ["SQ", "zero"]
+- ["SH", "AnimationOptions"]
+- !private ["SH", "animationOptions"]
+- !private ["SH", "endFrame"]
+- !private ["SH", "event"]
+- !private ["SH", "isForCurrentApp"]
+- !private ["SH", "startFrame"]
+- !private ["SH", "timeInterval"]
+- !private ["SH", "unknown"]
+- !private ["21InputBarAccessoryView13KeyboardEventO", "deinit"]
+- !private ["21InputBarAccessoryView13KeyboardEventO", "unknown"]
+- ["21InputBarAccessoryView20KeyboardNotificationV", "Bool"]
+- ["21InputBarAccessoryView20KeyboardNotificationV", "CGRect"]
+- ["21InputBarAccessoryView20KeyboardNotificationV", "KeyboardEvent"]
+- ["21InputBarAccessoryView20KeyboardNotificationV", "NSNotification"]
+- ["21InputBarAccessoryView20KeyboardNotificationV", "TimeInterval"]
+- ["21InputBarAccessoryView20KeyboardNotificationV", "UIView"]
+- ["21InputBarAccessoryView20KeyboardNotificationV", "animationOptions"]
+- ["21InputBarAccessoryView20KeyboardNotificationV", "endFrame"]
+- ["21InputBarAccessoryView20KeyboardNotificationV", "event"]
+- ["21InputBarAccessoryView20KeyboardNotificationV", "init"]
+- ["21InputBarAccessoryView20KeyboardNotificationV", "isForCurrentApp"]
+- ["21InputBarAccessoryView20KeyboardNotificationV", "startFrame"]
+- ["21InputBarAccessoryView20KeyboardNotificationV", "timeInterval"]
+- ["So8NSCodingP", "AnimationOptions"]
+- !private ["So8NSCodingP", "animationOptions"]
+- !private ["So8NSCodingP", "endFrame"]
+- !private ["So8NSCodingP", "event"]
+- !private ["So8NSCodingP", "isForCurrentApp"]
+- !private ["So8NSCodingP", "startFrame"]
+- !private ["So8NSCodingP", "timeInterval"]
+- !private ["So9NSCopyingP", "animationOptions"]
+- !private ["So9NSCopyingP", "endFrame"]
+- !private ["So9NSCopyingP", "event"]
+- !private ["So9NSCopyingP", "isForCurrentApp"]
+- !private ["So9NSCopyingP", "startFrame"]
+- !private ["So9NSCopyingP", "timeInterval"]
+- !private ["So14NSNotificationC", "animationOptions"]
+- !private ["So14NSNotificationC", "endFrame"]
+- !private ["So14NSNotificationC", "event"]
+- !private ["So14NSNotificationC", "isForCurrentApp"]
+- !private ["So14NSNotificationC", "startFrame"]
+- !private ["So14NSNotificationC", "timeInterval"]
+- ["So8NSObjectC", "AnimationOptions"]
+- !private ["So8NSObjectC", "animationOptions"]
+- !private ["So8NSObjectC", "endFrame"]
+- !private ["So8NSObjectC", "event"]
+- !private ["So8NSObjectC", "isForCurrentApp"]
+- !private ["So8NSObjectC", "startFrame"]
+- !private ["So8NSObjectC", "timeInterval"]
+- ["So8NSObjectP", "AnimationOptions"]
+- !private ["So8NSObjectP", "animationOptions"]
+- !private ["So8NSObjectP", "endFrame"]
+- !private ["So8NSObjectP", "event"]
+- !private ["So8NSObjectP", "isForCurrentApp"]
+- !private ["So8NSObjectP", "startFrame"]
+- !private ["So8NSObjectP", "timeInterval"]
+- ["So29UIAccessibilityIdentificationP", "AnimationOptions"]
+- ["So12UIAppearanceP", "AnimationOptions"]
+- ["So21UIAppearanceContainerP", "AnimationOptions"]
+- ["So17UICoordinateSpaceP", "AnimationOptions"]
+- ["So13UIDynamicItemP", "AnimationOptions"]
+- ["So18UIFocusEnvironmentP", "AnimationOptions"]
+- ["So11UIFocusItemP", "AnimationOptions"]
+- ["So20UIFocusItemContainerP", "AnimationOptions"]
+- ["So30UIPasteConfigurationSupportingP", "AnimationOptions"]
+- ["So11UIResponderC", "AnimationOptions"]
+- ["So30UIResponderStandardEditActionsP", "AnimationOptions"]
+- ["So18UITraitEnvironmentP", "AnimationOptions"]
+- ["So23UIUserActivityRestoringP", "AnimationOptions"]
+- ["So6UIViewC", "AnimationOptions"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "animationOptions"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "endFrame"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "event"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isForCurrentApp"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "startFrame"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "timeInterval"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AnimationOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animationOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endFrame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "event"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isForCurrentApp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startFrame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "AnimationOptions"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "SH"
+- !private "21InputBarAccessoryView13KeyboardEventO"
+- "21InputBarAccessoryView20KeyboardNotificationV"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So14NSNotificationC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Target Support Files/InputBarAccessoryView/InputBarAccessoryView-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Intermediates/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8719a08aa493e7665b3d6a4b226c8ac6"

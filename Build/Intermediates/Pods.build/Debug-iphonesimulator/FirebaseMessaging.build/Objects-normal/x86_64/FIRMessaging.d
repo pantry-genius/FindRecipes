@@ -1,0 +1,46 @@
+dependencies: \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessaging.m \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Intermediates/Pods.build/Debug-iphonesimulator/FirebaseMessaging.build/module.modulemap \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/Public/FIRMessaging.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessaging_Private.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingAnalytics.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Headers/Public/FirebaseAnalyticsInterop/FIRAnalyticsInterop.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingClient.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingConstants.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingContextManagerService.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingDataMessageManager.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingDefines.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/Public/FIRMessagingExtensionHelper.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingLogger.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMMessageCode.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingPubSub.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingReceiver.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingRemoteNotificationsProxy.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingRmqManager.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingSyncMessageManager.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingUtilities.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingVersionUtilities.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Intermediates/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Private/FIRAppInternal.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Private/FIRErrors.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Private/FIRErrorCode.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Private/FIRComponent.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentContainer.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentType.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Private/FIRLibrary.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseCore/Firebase/Core/Private/FIRDependency.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Intermediates/Pods.build/Debug-iphonesimulator/FirebaseInstanceID.build/module.modulemap \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FIRInstanceID.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FirebaseInstanceID.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Target\ Support\ Files/FirebaseInstanceID/FirebaseInstanceID-umbrella.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Intermediates/Pods.build/Debug-iphonesimulator/GoogleUtilities.build/module.modulemap \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/GoogleUtilities/GoogleUtilities/Reachability/Private/GULReachabilityChecker.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/GoogleUtilities/GoogleUtilities/UserDefaults/Private/GULUserDefaults.h \
+  /Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/FirebaseMessaging/Firebase/Messaging/NSError+FIRMessaging.h

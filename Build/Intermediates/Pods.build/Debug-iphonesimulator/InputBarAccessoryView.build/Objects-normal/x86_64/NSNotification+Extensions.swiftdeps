@@ -1,0 +1,561 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So14NSNotificationC", ""]
+- ["So14NSNotificationC", "event"]
+- ["So14NSNotificationC", "timeInterval"]
+- ["So14NSNotificationC", "animationCurve"]
+- ["So14NSNotificationC", "animationOptions"]
+- ["So14NSNotificationC", "startFrame"]
+- ["So14NSNotificationC", "endFrame"]
+- ["So14NSNotificationC", "isForCurrentApp"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "<="
+- !private ">="
+- !private "??"
+- "Bool"
+- "CGRect"
+- "CastingPrecedence"
+- "KeyboardEvent"
+- "NSNotification"
+- !private "NSNumber"
+- !private "NSValue"
+- "TimeInterval"
+- !private "UIResponder"
+- "UIView"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["So20UIViewAnimationCurveV", "easeIn"]
+- ["So20UIViewAnimationCurveV", "easeInOut"]
+- ["So20UIViewAnimationCurveV", "easeOut"]
+- !private ["So20UIViewAnimationCurveV", "init"]
+- ["So20UIViewAnimationCurveV", "linear"]
+- !private ["So22UIViewAnimationOptionsV", "curveEaseIn"]
+- !private ["So22UIViewAnimationOptionsV", "curveEaseInOut"]
+- !private ["So22UIViewAnimationOptionsV", "curveEaseOut"]
+- !private ["So22UIViewAnimationOptionsV", "curveLinear"]
+- !private ["SB", "init"]
+- ["So15CALayerDelegateP", "AnimationCurve"]
+- ["So15CALayerDelegateP", "AnimationOptions"]
+- ["s7CVarArgP", "AnimationCurve"]
+- ["s7CVarArgP", "AnimationOptions"]
+- !private ["s7CVarArgP", "TimeInterval"]
+- !private ["s7CVarArgP", "UIResponder"]
+- !private ["s7CVarArgP", "UIView"]
+- !private ["s7CVarArgP", "animationCurve"]
+- !private ["s7CVarArgP", "boolValue"]
+- !private ["s7CVarArgP", "cgRectValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intValue"]
+- !private ["s7CVarArgP", "keyboardAnimationCurveUserInfoKey"]
+- !private ["s7CVarArgP", "keyboardAnimationDurationUserInfoKey"]
+- !private ["s7CVarArgP", "keyboardDidChangeFrameNotification"]
+- !private ["s7CVarArgP", "keyboardDidHideNotification"]
+- !private ["s7CVarArgP", "keyboardDidShowNotification"]
+- !private ["s7CVarArgP", "keyboardFrameBeginUserInfoKey"]
+- !private ["s7CVarArgP", "keyboardFrameEndUserInfoKey"]
+- !private ["s7CVarArgP", "keyboardIsLocalUserInfoKey"]
+- !private ["s7CVarArgP", "keyboardWillChangeFrameNotification"]
+- !private ["s7CVarArgP", "keyboardWillHideNotification"]
+- !private ["s7CVarArgP", "keyboardWillShowNotification"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "AnimationCurve"]
+- ["s28CustomDebugStringConvertibleP", "AnimationOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "UIResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- !private ["s28CustomDebugStringConvertibleP", "animationCurve"]
+- !private ["s28CustomDebugStringConvertibleP", "boolValue"]
+- !private ["s28CustomDebugStringConvertibleP", "cgRectValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardAnimationCurveUserInfoKey"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardAnimationDurationUserInfoKey"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardDidChangeFrameNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardDidHideNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardDidShowNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardFrameBeginUserInfoKey"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardFrameEndUserInfoKey"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardIsLocalUserInfoKey"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardWillChangeFrameNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardWillHideNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "keyboardWillShowNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "linear"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "linear"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "AnimationCurve"]
+- ["s23CustomStringConvertibleP", "AnimationOptions"]
+- !private ["s23CustomStringConvertibleP", "TimeInterval"]
+- !private ["s23CustomStringConvertibleP", "UIResponder"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "animationCurve"]
+- !private ["s23CustomStringConvertibleP", "boolValue"]
+- !private ["s23CustomStringConvertibleP", "cgRectValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "keyboardAnimationCurveUserInfoKey"]
+- !private ["s23CustomStringConvertibleP", "keyboardAnimationDurationUserInfoKey"]
+- !private ["s23CustomStringConvertibleP", "keyboardDidChangeFrameNotification"]
+- !private ["s23CustomStringConvertibleP", "keyboardDidHideNotification"]
+- !private ["s23CustomStringConvertibleP", "keyboardDidShowNotification"]
+- !private ["s23CustomStringConvertibleP", "keyboardFrameBeginUserInfoKey"]
+- !private ["s23CustomStringConvertibleP", "keyboardFrameEndUserInfoKey"]
+- !private ["s23CustomStringConvertibleP", "keyboardIsLocalUserInfoKey"]
+- !private ["s23CustomStringConvertibleP", "keyboardWillChangeFrameNotification"]
+- !private ["s23CustomStringConvertibleP", "keyboardWillHideNotification"]
+- !private ["s23CustomStringConvertibleP", "keyboardWillShowNotification"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["Se", "init"]
+- !private ["Se", "linear"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["Sd", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "linear"]
+- !private ["SE", "subscript"]
+- ["SQ", "AnimationCurve"]
+- ["SQ", "AnimationOptions"]
+- !private ["SQ", "TimeInterval"]
+- !private ["SQ", "UIResponder"]
+- !private ["SQ", "UIView"]
+- !private ["SQ", "animationCurve"]
+- !private ["SQ", "boolValue"]
+- !private ["SQ", "cgRectValue"]
+- !private ["SQ", "curveEaseIn"]
+- !private ["SQ", "curveEaseInOut"]
+- !private ["SQ", "curveEaseOut"]
+- !private ["SQ", "curveLinear"]
+- !private ["SQ", "didChangeFrame"]
+- !private ["SQ", "didHide"]
+- !private ["SQ", "didShow"]
+- ["SQ", "easeIn"]
+- ["SQ", "easeInOut"]
+- ["SQ", "easeOut"]
+- !private ["SQ", "init"]
+- !private ["SQ", "intValue"]
+- !private ["SQ", "keyboardAnimationCurveUserInfoKey"]
+- !private ["SQ", "keyboardAnimationDurationUserInfoKey"]
+- !private ["SQ", "keyboardDidChangeFrameNotification"]
+- !private ["SQ", "keyboardDidHideNotification"]
+- !private ["SQ", "keyboardDidShowNotification"]
+- !private ["SQ", "keyboardFrameBeginUserInfoKey"]
+- !private ["SQ", "keyboardFrameEndUserInfoKey"]
+- !private ["SQ", "keyboardIsLocalUserInfoKey"]
+- !private ["SQ", "keyboardWillChangeFrameNotification"]
+- !private ["SQ", "keyboardWillHideNotification"]
+- !private ["SQ", "keyboardWillShowNotification"]
+- ["SQ", "linear"]
+- !private ["SQ", "name"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unknown"]
+- !private ["SQ", "userInfo"]
+- !private ["SQ", "willChangeFrame"]
+- !private ["SQ", "willHide"]
+- !private ["SQ", "willShow"]
+- !private ["s25ExpressibleByArrayLiteralP", "curveEaseIn"]
+- !private ["s25ExpressibleByArrayLiteralP", "curveEaseInOut"]
+- !private ["s25ExpressibleByArrayLiteralP", "curveEaseOut"]
+- !private ["s25ExpressibleByArrayLiteralP", "curveLinear"]
+- !private ["s27ExpressibleByBooleanLiteralP", "boolValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "boolValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "boolValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s23ExpressibleByNilLiteralP", "linear"]
+- !private ["SF", "init"]
+- ["SH", "AnimationCurve"]
+- ["SH", "AnimationOptions"]
+- !private ["SH", "TimeInterval"]
+- !private ["SH", "UIResponder"]
+- !private ["SH", "UIView"]
+- !private ["SH", "animationCurve"]
+- !private ["SH", "boolValue"]
+- !private ["SH", "cgRectValue"]
+- !private ["SH", "didChangeFrame"]
+- !private ["SH", "didHide"]
+- !private ["SH", "didShow"]
+- ["SH", "easeIn"]
+- ["SH", "easeInOut"]
+- ["SH", "easeOut"]
+- !private ["SH", "init"]
+- !private ["SH", "intValue"]
+- !private ["SH", "keyboardAnimationCurveUserInfoKey"]
+- !private ["SH", "keyboardAnimationDurationUserInfoKey"]
+- !private ["SH", "keyboardDidChangeFrameNotification"]
+- !private ["SH", "keyboardDidHideNotification"]
+- !private ["SH", "keyboardDidShowNotification"]
+- !private ["SH", "keyboardFrameBeginUserInfoKey"]
+- !private ["SH", "keyboardFrameEndUserInfoKey"]
+- !private ["SH", "keyboardIsLocalUserInfoKey"]
+- !private ["SH", "keyboardWillChangeFrameNotification"]
+- !private ["SH", "keyboardWillHideNotification"]
+- !private ["SH", "keyboardWillShowNotification"]
+- ["SH", "linear"]
+- !private ["SH", "name"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unknown"]
+- !private ["SH", "userInfo"]
+- !private ["SH", "willChangeFrame"]
+- !private ["SH", "willHide"]
+- !private ["SH", "willShow"]
+- !private ["21InputBarAccessoryView13KeyboardEventO", "didChangeFrame"]
+- !private ["21InputBarAccessoryView13KeyboardEventO", "didHide"]
+- !private ["21InputBarAccessoryView13KeyboardEventO", "didShow"]
+- !private ["21InputBarAccessoryView13KeyboardEventO", "unknown"]
+- !private ["21InputBarAccessoryView13KeyboardEventO", "willChangeFrame"]
+- !private ["21InputBarAccessoryView13KeyboardEventO", "willHide"]
+- !private ["21InputBarAccessoryView13KeyboardEventO", "willShow"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["So8NSCodingP", "AnimationCurve"]
+- ["So8NSCodingP", "AnimationOptions"]
+- !private ["So8NSCodingP", "TimeInterval"]
+- !private ["So8NSCodingP", "UIResponder"]
+- !private ["So8NSCodingP", "UIView"]
+- !private ["So8NSCodingP", "animationCurve"]
+- !private ["So8NSCodingP", "boolValue"]
+- !private ["So8NSCodingP", "cgRectValue"]
+- !private ["So8NSCodingP", "intValue"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "userInfo"]
+- !private ["So9NSCopyingP", "TimeInterval"]
+- !private ["So9NSCopyingP", "UIResponder"]
+- !private ["So9NSCopyingP", "UIView"]
+- !private ["So9NSCopyingP", "animationCurve"]
+- !private ["So9NSCopyingP", "boolValue"]
+- !private ["So9NSCopyingP", "cgRectValue"]
+- !private ["So9NSCopyingP", "intValue"]
+- !private ["So9NSCopyingP", "name"]
+- !private ["So9NSCopyingP", "userInfo"]
+- ["So14NSNotificationC", "Bool"]
+- ["So14NSNotificationC", "CGRect"]
+- ["So14NSNotificationC", "KeyboardEvent"]
+- !private ["So14NSNotificationC", "NSNumber"]
+- !private ["So14NSNotificationC", "NSValue"]
+- ["So14NSNotificationC", "TimeInterval"]
+- !private ["So14NSNotificationC", "UIResponder"]
+- ["So14NSNotificationC", "UIView"]
+- ["So14NSNotificationC", "animationCurve"]
+- ["So14NSNotificationC", "animationOptions"]
+- ["So14NSNotificationC", "endFrame"]
+- ["So14NSNotificationC", "event"]
+- ["So14NSNotificationC", "isForCurrentApp"]
+- !private ["So14NSNotificationC", "name"]
+- ["So14NSNotificationC", "startFrame"]
+- ["So14NSNotificationC", "timeInterval"]
+- !private ["So14NSNotificationC", "userInfo"]
+- !private ["So8NSNumberC", "boolValue"]
+- !private ["So8NSNumberC", "intValue"]
+- ["So8NSObjectC", "AnimationCurve"]
+- ["So8NSObjectC", "AnimationOptions"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "KeyboardEvent"]
+- !private ["So8NSObjectC", "NSNumber"]
+- !private ["So8NSObjectC", "NSValue"]
+- ["So8NSObjectC", "TimeInterval"]
+- !private ["So8NSObjectC", "UIResponder"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "animationCurve"]
+- ["So8NSObjectC", "animationOptions"]
+- !private ["So8NSObjectC", "boolValue"]
+- !private ["So8NSObjectC", "cgRectValue"]
+- ["So8NSObjectC", "endFrame"]
+- ["So8NSObjectC", "event"]
+- !private ["So8NSObjectC", "intValue"]
+- ["So8NSObjectC", "isForCurrentApp"]
+- !private ["So8NSObjectC", "keyboardAnimationCurveUserInfoKey"]
+- !private ["So8NSObjectC", "keyboardAnimationDurationUserInfoKey"]
+- !private ["So8NSObjectC", "keyboardDidChangeFrameNotification"]
+- !private ["So8NSObjectC", "keyboardDidHideNotification"]
+- !private ["So8NSObjectC", "keyboardDidShowNotification"]
+- !private ["So8NSObjectC", "keyboardFrameBeginUserInfoKey"]
+- !private ["So8NSObjectC", "keyboardFrameEndUserInfoKey"]
+- !private ["So8NSObjectC", "keyboardIsLocalUserInfoKey"]
+- !private ["So8NSObjectC", "keyboardWillChangeFrameNotification"]
+- !private ["So8NSObjectC", "keyboardWillHideNotification"]
+- !private ["So8NSObjectC", "keyboardWillShowNotification"]
+- !private ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "startFrame"]
+- ["So8NSObjectC", "timeInterval"]
+- !private ["So8NSObjectC", "userInfo"]
+- ["So8NSObjectP", "AnimationCurve"]
+- ["So8NSObjectP", "AnimationOptions"]
+- !private ["So8NSObjectP", "TimeInterval"]
+- !private ["So8NSObjectP", "UIResponder"]
+- !private ["So8NSObjectP", "UIView"]
+- !private ["So8NSObjectP", "animationCurve"]
+- !private ["So8NSObjectP", "boolValue"]
+- !private ["So8NSObjectP", "cgRectValue"]
+- !private ["So8NSObjectP", "intValue"]
+- !private ["So8NSObjectP", "keyboardAnimationCurveUserInfoKey"]
+- !private ["So8NSObjectP", "keyboardAnimationDurationUserInfoKey"]
+- !private ["So8NSObjectP", "keyboardDidChangeFrameNotification"]
+- !private ["So8NSObjectP", "keyboardDidHideNotification"]
+- !private ["So8NSObjectP", "keyboardDidShowNotification"]
+- !private ["So8NSObjectP", "keyboardFrameBeginUserInfoKey"]
+- !private ["So8NSObjectP", "keyboardFrameEndUserInfoKey"]
+- !private ["So8NSObjectP", "keyboardIsLocalUserInfoKey"]
+- !private ["So8NSObjectP", "keyboardWillChangeFrameNotification"]
+- !private ["So8NSObjectP", "keyboardWillHideNotification"]
+- !private ["So8NSObjectP", "keyboardWillShowNotification"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "userInfo"]
+- !private ["So14NSSecureCodingP", "boolValue"]
+- !private ["So14NSSecureCodingP", "cgRectValue"]
+- !private ["So14NSSecureCodingP", "intValue"]
+- !private ["So7NSValueC", "boolValue"]
+- !private ["So7NSValueC", "cgRectValue"]
+- !private ["So7NSValueC", "intValue"]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "curveEaseIn"]
+- !private ["s9OptionSetP", "curveEaseInOut"]
+- !private ["s9OptionSetP", "curveEaseOut"]
+- !private ["s9OptionSetP", "curveLinear"]
+- !private ["Sq", "linear"]
+- !private ["SY", "curveEaseIn"]
+- !private ["SY", "curveEaseInOut"]
+- !private ["SY", "curveEaseOut"]
+- !private ["SY", "curveLinear"]
+- ["SY", "easeIn"]
+- ["SY", "easeInOut"]
+- ["SY", "easeOut"]
+- !private ["SY", "init"]
+- ["SY", "linear"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "curveEaseIn"]
+- !private ["s10SetAlgebraP", "curveEaseInOut"]
+- !private ["s10SetAlgebraP", "curveEaseOut"]
+- !private ["s10SetAlgebraP", "curveLinear"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So29UIAccessibilityIdentificationP", "AnimationCurve"]
+- ["So29UIAccessibilityIdentificationP", "AnimationOptions"]
+- ["So12UIAppearanceP", "AnimationCurve"]
+- ["So12UIAppearanceP", "AnimationOptions"]
+- ["So21UIAppearanceContainerP", "AnimationCurve"]
+- ["So21UIAppearanceContainerP", "AnimationOptions"]
+- ["So17UICoordinateSpaceP", "AnimationCurve"]
+- ["So17UICoordinateSpaceP", "AnimationOptions"]
+- ["So13UIDynamicItemP", "AnimationCurve"]
+- ["So13UIDynamicItemP", "AnimationOptions"]
+- ["So18UIFocusEnvironmentP", "AnimationCurve"]
+- ["So18UIFocusEnvironmentP", "AnimationOptions"]
+- ["So11UIFocusItemP", "AnimationCurve"]
+- ["So11UIFocusItemP", "AnimationOptions"]
+- ["So20UIFocusItemContainerP", "AnimationCurve"]
+- ["So20UIFocusItemContainerP", "AnimationOptions"]
+- ["So30UIPasteConfigurationSupportingP", "AnimationCurve"]
+- ["So30UIPasteConfigurationSupportingP", "AnimationOptions"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardAnimationCurveUserInfoKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardAnimationDurationUserInfoKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardDidChangeFrameNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardDidHideNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardDidShowNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardFrameBeginUserInfoKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardFrameEndUserInfoKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardIsLocalUserInfoKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardWillChangeFrameNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardWillHideNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyboardWillShowNotification"]
+- ["So11UIResponderC", "AnimationCurve"]
+- ["So11UIResponderC", "AnimationOptions"]
+- !private ["So11UIResponderC", "keyboardAnimationCurveUserInfoKey"]
+- !private ["So11UIResponderC", "keyboardAnimationDurationUserInfoKey"]
+- !private ["So11UIResponderC", "keyboardDidChangeFrameNotification"]
+- !private ["So11UIResponderC", "keyboardDidHideNotification"]
+- !private ["So11UIResponderC", "keyboardDidShowNotification"]
+- !private ["So11UIResponderC", "keyboardFrameBeginUserInfoKey"]
+- !private ["So11UIResponderC", "keyboardFrameEndUserInfoKey"]
+- !private ["So11UIResponderC", "keyboardIsLocalUserInfoKey"]
+- !private ["So11UIResponderC", "keyboardWillChangeFrameNotification"]
+- !private ["So11UIResponderC", "keyboardWillHideNotification"]
+- !private ["So11UIResponderC", "keyboardWillShowNotification"]
+- ["So30UIResponderStandardEditActionsP", "AnimationCurve"]
+- ["So30UIResponderStandardEditActionsP", "AnimationOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardAnimationCurveUserInfoKey"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardAnimationDurationUserInfoKey"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardDidChangeFrameNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardDidHideNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardDidShowNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardFrameBeginUserInfoKey"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardFrameEndUserInfoKey"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardIsLocalUserInfoKey"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardWillChangeFrameNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardWillHideNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "keyboardWillShowNotification"]
+- ["So18UITraitEnvironmentP", "AnimationCurve"]
+- ["So18UITraitEnvironmentP", "AnimationOptions"]
+- ["So23UIUserActivityRestoringP", "AnimationCurve"]
+- ["So23UIUserActivityRestoringP", "AnimationOptions"]
+- !private ["So23UIUserActivityRestoringP", "keyboardAnimationCurveUserInfoKey"]
+- !private ["So23UIUserActivityRestoringP", "keyboardAnimationDurationUserInfoKey"]
+- !private ["So23UIUserActivityRestoringP", "keyboardDidChangeFrameNotification"]
+- !private ["So23UIUserActivityRestoringP", "keyboardDidHideNotification"]
+- !private ["So23UIUserActivityRestoringP", "keyboardDidShowNotification"]
+- !private ["So23UIUserActivityRestoringP", "keyboardFrameBeginUserInfoKey"]
+- !private ["So23UIUserActivityRestoringP", "keyboardFrameEndUserInfoKey"]
+- !private ["So23UIUserActivityRestoringP", "keyboardIsLocalUserInfoKey"]
+- !private ["So23UIUserActivityRestoringP", "keyboardWillChangeFrameNotification"]
+- !private ["So23UIUserActivityRestoringP", "keyboardWillHideNotification"]
+- !private ["So23UIUserActivityRestoringP", "keyboardWillShowNotification"]
+- ["So6UIViewC", "AnimationCurve"]
+- ["So6UIViewC", "AnimationOptions"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "TimeInterval"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "UIResponder"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "UIView"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "animationCurve"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "boolValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "intValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "name"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "userInfo"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AnimationCurve"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AnimationOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimeInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animationCurve"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boolValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgRectValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardAnimationCurveUserInfoKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardAnimationDurationUserInfoKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardDidChangeFrameNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardDidHideNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardDidShowNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardFrameBeginUserInfoKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardFrameEndUserInfoKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardIsLocalUserInfoKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardWillChangeFrameNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardWillHideNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyboardWillShowNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "linear"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "AnimationCurve"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "AnimationOptions"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "So20UIViewAnimationCurveV"
+- !private "So22UIViewAnimationOptionsV"
+- !private "SB"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SF"
+- "SH"
+- !private "21InputBarAccessoryView13KeyboardEventO"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So14NSNotificationC"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "SY"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Target Support Files/InputBarAccessoryView/InputBarAccessoryView-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Intermediates/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b38d082369a75a50a4fdfd8865e91b0c"

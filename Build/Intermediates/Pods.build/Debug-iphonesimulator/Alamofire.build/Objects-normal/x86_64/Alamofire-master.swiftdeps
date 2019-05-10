@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "2fc6d844b353b2fbadaed4df5a4524b8"
+build_time: [1557454914, 90978000]
+inputs:
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/AFError.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/Alamofire.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/MultipartFormData.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/Notifications.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/ParameterEncoding.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/Request.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/Response.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/ResponseSerialization.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/Result.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/SessionDelegate.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/SessionManager.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/TaskDelegate.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/Timeline.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Alamofire/Source/Validation.swift": [1557452246, 0]

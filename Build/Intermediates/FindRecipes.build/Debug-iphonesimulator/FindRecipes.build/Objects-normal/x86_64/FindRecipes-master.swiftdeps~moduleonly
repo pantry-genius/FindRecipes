@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "113386ccc2ec9db02244a26b45fa16fb"
+build_time: [1557454945, 621729000]
+inputs:
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/InstructionRequest.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/AddIngredientController.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/IngredientCell.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/Recipe display/RecipeCell.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/Models/Ingredient.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/RecipeService.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/AppDelegate.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/SignUpController.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/Utils/Extensions.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/RecipeRequest.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/Recipe display/RecipeDetailController.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/Recipe display/RecipeController.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/LoginController.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/Models/Recipe.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/FindRecipes/Utils/CustomImageView.swift": [1557452246, 0]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Intermediates/FindRecipes.build/Debug-iphonesimulator/FindRecipes.build/DerivedSources/CoreMLGenerated/Food101/Food101.swift": [1557454945, 586958846]
+  "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Intermediates/FindRecipes.build/Debug-iphonesimulator/FindRecipes.build/DerivedSources/CoreMLGenerated/Inceptionv3-1/Inceptionv3-1.swift": [1557454945, 602614527]

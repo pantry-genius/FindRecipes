@@ -1,0 +1,416 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AutocompleteManagerDataSource"
+provides-nominal:
+- "21InputBarAccessoryView29AutocompleteManagerDataSourceP"
+provides-member:
+- ["21InputBarAccessoryView29AutocompleteManagerDataSourceP", ""]
+- ["21InputBarAccessoryView29AutocompleteManagerDataSourceP", "autocompleteManager"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-"
+- !private "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- !private "AutocompleteCell"
+- "AutocompleteCompletion"
+- "AutocompleteManager"
+- "AutocompleteManagerDataSource"
+- "AutocompleteSession"
+- "CastingPrecedence"
+- "IndexPath"
+- "String"
+- "UITableView"
+- "UITableViewCell"
+- !private "fatalError"
+depends-member:
+- !private ["21InputBarAccessoryView16AutocompleteCellC", "backgroundColor"]
+- !private ["21InputBarAccessoryView16AutocompleteCellC", "reuseIdentifier"]
+- !private ["21InputBarAccessoryView16AutocompleteCellC", "separatorLine"]
+- !private ["21InputBarAccessoryView16AutocompleteCellC", "textLabel"]
+- !private ["21InputBarAccessoryView19AutocompleteManagerC", "attributedText"]
+- !private ["21InputBarAccessoryView29AutocompleteManagerDataSourceP", "AutocompleteCell"]
+- ["21InputBarAccessoryView29AutocompleteManagerDataSourceP", "AutocompleteCompletion"]
+- ["21InputBarAccessoryView29AutocompleteManagerDataSourceP", "AutocompleteManager"]
+- ["21InputBarAccessoryView29AutocompleteManagerDataSourceP", "AutocompleteSession"]
+- ["21InputBarAccessoryView29AutocompleteManagerDataSourceP", "IndexPath"]
+- ["21InputBarAccessoryView29AutocompleteManagerDataSourceP", "String"]
+- ["21InputBarAccessoryView29AutocompleteManagerDataSourceP", "UITableView"]
+- ["21InputBarAccessoryView29AutocompleteManagerDataSourceP", "UITableViewCell"]
+- ["21InputBarAccessoryView29AutocompleteManagerDataSourceP", "autocompleteManager"]
+- !private ["21InputBarAccessoryView29AutocompleteManagerDataSourceP", "fatalError"]
+- !private ["SK", "row"]
+- !private ["SK", "section"]
+- !private ["So15CALayerDelegateP", "attributedText"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "numberOfRows"]
+- !private ["So15CALayerDelegateP", "reuseIdentifier"]
+- !private ["So15CALayerDelegateP", "separatorLine"]
+- !private ["So15CALayerDelegateP", "textLabel"]
+- !private ["s7CVarArgP", "attributedText"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "numberOfRows"]
+- !private ["s7CVarArgP", "reuseIdentifier"]
+- !private ["s7CVarArgP", "separatorLine"]
+- !private ["s7CVarArgP", "textLabel"]
+- !private ["s7CVarArgP", "white"]
+- !private ["Sl", "row"]
+- !private ["Sl", "section"]
+- !private ["SL", "row"]
+- !private ["SL", "section"]
+- !private ["s28CustomDebugStringConvertibleP", "attributedText"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfRows"]
+- !private ["s28CustomDebugStringConvertibleP", "reuseIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "section"]
+- !private ["s28CustomDebugStringConvertibleP", "separatorLine"]
+- !private ["s28CustomDebugStringConvertibleP", "textLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "section"]
+- !private ["s17CustomReflectableP", "white"]
+- !private ["s23CustomStringConvertibleP", "attributedText"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "numberOfRows"]
+- !private ["s23CustomStringConvertibleP", "reuseIdentifier"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "section"]
+- !private ["s23CustomStringConvertibleP", "separatorLine"]
+- !private ["s23CustomStringConvertibleP", "textLabel"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["Se", "row"]
+- !private ["Se", "section"]
+- !private ["Se", "white"]
+- !private ["SE", "row"]
+- !private ["SE", "section"]
+- !private ["SE", "white"]
+- !private ["SQ", "attributedText"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "dequeueReusableCell"]
+- !private ["SQ", "isHidden"]
+- !private ["SQ", "numberOfRows"]
+- !private ["SQ", "reuseIdentifier"]
+- !private ["SQ", "row"]
+- !private ["SQ", "section"]
+- !private ["SQ", "separatorLine"]
+- !private ["SQ", "textLabel"]
+- !private ["SQ", "white"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "section"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- !private ["SH", "attributedText"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "dequeueReusableCell"]
+- !private ["SH", "isHidden"]
+- !private ["SH", "numberOfRows"]
+- !private ["SH", "reuseIdentifier"]
+- !private ["SH", "row"]
+- !private ["SH", "section"]
+- !private ["SH", "separatorLine"]
+- !private ["SH", "textLabel"]
+- !private ["SH", "white"]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["10Foundation9IndexPathV", "section"]
+- !private ["21InputBarAccessoryView0A6PluginP", "attributedText"]
+- !private ["SM", "row"]
+- !private ["SM", "section"]
+- !private ["So8NSCodingP", "attributedText"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "numberOfRows"]
+- !private ["So8NSCodingP", "reuseIdentifier"]
+- !private ["So8NSCodingP", "separatorLine"]
+- !private ["So8NSCodingP", "textLabel"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So8NSObjectC", "attributedText"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "numberOfRows"]
+- !private ["So8NSObjectC", "reuseIdentifier"]
+- !private ["So8NSObjectC", "separatorLine"]
+- !private ["So8NSObjectC", "textLabel"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "attributedText"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "dequeueReusableCell"]
+- !private ["So8NSObjectP", "isHidden"]
+- !private ["So8NSObjectP", "numberOfRows"]
+- !private ["So8NSObjectP", "reuseIdentifier"]
+- !private ["So8NSObjectP", "separatorLine"]
+- !private ["So8NSObjectP", "textLabel"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["Sq", "white"]
+- !private ["Sk", "row"]
+- !private ["Sk", "section"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["10Foundation20ReferenceConvertibleP", "section"]
+- !private ["21InputBarAccessoryView13SeparatorLineC", "isHidden"]
+- !private ["ST", "row"]
+- !private ["ST", "section"]
+- !private ["So29UIAccessibilityIdentificationP", "attributedText"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "numberOfRows"]
+- !private ["So29UIAccessibilityIdentificationP", "reuseIdentifier"]
+- !private ["So29UIAccessibilityIdentificationP", "separatorLine"]
+- !private ["So29UIAccessibilityIdentificationP", "textLabel"]
+- !private ["So12UIAppearanceP", "attributedText"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "numberOfRows"]
+- !private ["So12UIAppearanceP", "reuseIdentifier"]
+- !private ["So12UIAppearanceP", "separatorLine"]
+- !private ["So12UIAppearanceP", "textLabel"]
+- !private ["So21UIAppearanceContainerP", "attributedText"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "numberOfRows"]
+- !private ["So21UIAppearanceContainerP", "reuseIdentifier"]
+- !private ["So21UIAppearanceContainerP", "separatorLine"]
+- !private ["So21UIAppearanceContainerP", "textLabel"]
+- !private ["So7UIColorC", "white"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "attributedText"]
+- !private ["So17UICoordinateSpaceP", "attributedText"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "numberOfRows"]
+- !private ["So17UICoordinateSpaceP", "reuseIdentifier"]
+- !private ["So17UICoordinateSpaceP", "separatorLine"]
+- !private ["So17UICoordinateSpaceP", "textLabel"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "numberOfRows"]
+- !private ["So13UIDynamicItemP", "attributedText"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "numberOfRows"]
+- !private ["So13UIDynamicItemP", "reuseIdentifier"]
+- !private ["So13UIDynamicItemP", "separatorLine"]
+- !private ["So13UIDynamicItemP", "textLabel"]
+- !private ["So18UIFocusEnvironmentP", "attributedText"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "numberOfRows"]
+- !private ["So18UIFocusEnvironmentP", "reuseIdentifier"]
+- !private ["So18UIFocusEnvironmentP", "separatorLine"]
+- !private ["So18UIFocusEnvironmentP", "textLabel"]
+- !private ["So11UIFocusItemP", "attributedText"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "numberOfRows"]
+- !private ["So11UIFocusItemP", "reuseIdentifier"]
+- !private ["So11UIFocusItemP", "separatorLine"]
+- !private ["So11UIFocusItemP", "textLabel"]
+- !private ["So20UIFocusItemContainerP", "attributedText"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "dequeueReusableCell"]
+- !private ["So20UIFocusItemContainerP", "isHidden"]
+- !private ["So20UIFocusItemContainerP", "numberOfRows"]
+- !private ["So20UIFocusItemContainerP", "reuseIdentifier"]
+- !private ["So20UIFocusItemContainerP", "separatorLine"]
+- !private ["So20UIFocusItemContainerP", "textLabel"]
+- !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCell"]
+- !private ["So30UIFocusItemScrollableContainerP", "numberOfRows"]
+- !private ["So27UIGestureRecognizerDelegateP", "backgroundColor"]
+- !private ["So27UIGestureRecognizerDelegateP", "reuseIdentifier"]
+- !private ["So27UIGestureRecognizerDelegateP", "separatorLine"]
+- !private ["So27UIGestureRecognizerDelegateP", "textLabel"]
+- !private ["So7UILabelC", "attributedText"]
+- !private ["So30UIPasteConfigurationSupportingP", "attributedText"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "numberOfRows"]
+- !private ["So30UIPasteConfigurationSupportingP", "reuseIdentifier"]
+- !private ["So30UIPasteConfigurationSupportingP", "separatorLine"]
+- !private ["So30UIPasteConfigurationSupportingP", "textLabel"]
+- !private ["So11UIResponderC", "attributedText"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "numberOfRows"]
+- !private ["So11UIResponderC", "reuseIdentifier"]
+- !private ["So11UIResponderC", "separatorLine"]
+- !private ["So11UIResponderC", "textLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "attributedText"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "numberOfRows"]
+- !private ["So30UIResponderStandardEditActionsP", "reuseIdentifier"]
+- !private ["So30UIResponderStandardEditActionsP", "separatorLine"]
+- !private ["So30UIResponderStandardEditActionsP", "textLabel"]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "numberOfRows"]
+- !private ["So20UIScrollViewDelegateP", "attributedText"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "numberOfRows"]
+- !private ["So11UITableViewC", "dequeueReusableCell"]
+- !private ["So11UITableViewC", "numberOfRows"]
+- !private ["So15UITableViewCellC", "backgroundColor"]
+- !private ["So15UITableViewCellC", "reuseIdentifier"]
+- !private ["So15UITableViewCellC", "separatorLine"]
+- !private ["So15UITableViewCellC", "textLabel"]
+- !private ["So21UITableViewDataSourceP", "attributedText"]
+- !private ["So19UITableViewDelegateP", "attributedText"]
+- !private ["So18UITextViewDelegateP", "attributedText"]
+- !private ["So18UITraitEnvironmentP", "attributedText"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "numberOfRows"]
+- !private ["So18UITraitEnvironmentP", "reuseIdentifier"]
+- !private ["So18UITraitEnvironmentP", "separatorLine"]
+- !private ["So18UITraitEnvironmentP", "textLabel"]
+- !private ["So23UIUserActivityRestoringP", "attributedText"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "dequeueReusableCell"]
+- !private ["So23UIUserActivityRestoringP", "isHidden"]
+- !private ["So23UIUserActivityRestoringP", "numberOfRows"]
+- !private ["So23UIUserActivityRestoringP", "reuseIdentifier"]
+- !private ["So23UIUserActivityRestoringP", "separatorLine"]
+- !private ["So23UIUserActivityRestoringP", "textLabel"]
+- !private ["So6UIViewC", "attributedText"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "numberOfRows"]
+- !private ["So6UIViewC", "reuseIdentifier"]
+- !private ["So6UIViewC", "separatorLine"]
+- !private ["So6UIViewC", "textLabel"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributedText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfRows"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reuseIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "separatorLine"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "section"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "attributedText"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "numberOfRows"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "reuseIdentifier"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "separatorLine"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textLabel"]
+depends-nominal:
+- !private "21InputBarAccessoryView16AutocompleteCellC"
+- !private "21InputBarAccessoryView19AutocompleteManagerC"
+- "21InputBarAccessoryView29AutocompleteManagerDataSourceP"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "10Foundation9IndexPathV"
+- !private "21InputBarAccessoryView0A6PluginP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "Sk"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "21InputBarAccessoryView13SeparatorLineC"
+- !private "ST"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So11UITableViewC"
+- !private "So15UITableViewCellC"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- !private "So18UITextViewDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Target Support Files/InputBarAccessoryView/InputBarAccessoryView-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Intermediates/Pods.build/Debug-iphonesimulator/InputBarAccessoryView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3189d770f7656d77745691601329e99d"

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>733377012486-mjb6qa8u4evbalvu51fneio4j1089lhu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.733377012486-mjb6qa8u4evbalvu51fneio4j1089lhu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA5K81QvjCq-utGeH9ylhWd1umIlkZDCXk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>733377012486</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.damonqiu26.FindRecipes</string>
+	<key>PROJECT_ID</key>
+	<string>findrecipe-96f20</string>
+	<key>STORAGE_BUCKET</key>
+	<string>findrecipe-96f20.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:733377012486:ios:28ffddd6b1701d23</string>
+	<key>DATABASE_URL</key>
+	<string>https://findrecipe-96f20.firebaseio.com</string>
+</dict>
+</plist>

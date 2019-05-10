@@ -1,0 +1,147 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwipeTableOptions"
+- "SwipeOptions"
+- "SwipeTransitionStyle"
+- "SwipeActionsOrientation"
+- "SwipeVerticalAlignment"
+provides-nominal:
+- "12SwipeCellKit0A7OptionsV"
+- "12SwipeCellKit0A15TransitionStyleO"
+- "12SwipeCellKit0A18ActionsOrientationO"
+- "12SwipeCellKit0A17VerticalAlignmentO"
+provides-member:
+- ["12SwipeCellKit0A7OptionsV", ""]
+- ["12SwipeCellKit0A15TransitionStyleO", ""]
+- ["12SwipeCellKit0A18ActionsOrientationO", ""]
+- ["12SwipeCellKit0A17VerticalAlignmentO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "CGFloat"
+- "SwipeActionsOrientation"
+- "SwipeExpanding"
+- "SwipeExpansionStyle"
+- "SwipeOptions"
+- "SwipeTableOptions"
+- "SwipeTransitionStyle"
+- "SwipeVerticalAlignment"
+- "UIColor"
+- !private "~="
+depends-member:
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "border"]
+- ["SQ", "centerFirstBaseline"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- ["SH", "border"]
+- ["SH", "centerFirstBaseline"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["s6HasherV", "combine"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- ["12SwipeCellKit0A18ActionsOrientationO", "=="]
+- ["12SwipeCellKit0A18ActionsOrientationO", "CGFloat"]
+- ["12SwipeCellKit0A18ActionsOrientationO", "RawValue"]
+- ["12SwipeCellKit0A18ActionsOrientationO", "_Default_RawValue"]
+- ["12SwipeCellKit0A18ActionsOrientationO", "_rawHashValue"]
+- ["12SwipeCellKit0A18ActionsOrientationO", "deinit"]
+- ["12SwipeCellKit0A18ActionsOrientationO", "hash"]
+- ["12SwipeCellKit0A18ActionsOrientationO", "hashValue"]
+- ["12SwipeCellKit0A18ActionsOrientationO", "init"]
+- ["12SwipeCellKit0A18ActionsOrientationO", "left"]
+- ["12SwipeCellKit0A18ActionsOrientationO", "rawValue"]
+- ["12SwipeCellKit0A18ActionsOrientationO", "right"]
+- ["12SwipeCellKit0A18ActionsOrientationO", "scale"]
+- ["12SwipeCellKit0A7OptionsV", "CGFloat"]
+- ["12SwipeCellKit0A7OptionsV", "SwipeExpanding"]
+- ["12SwipeCellKit0A7OptionsV", "SwipeExpansionStyle"]
+- ["12SwipeCellKit0A7OptionsV", "SwipeTransitionStyle"]
+- ["12SwipeCellKit0A7OptionsV", "SwipeVerticalAlignment"]
+- ["12SwipeCellKit0A7OptionsV", "UIColor"]
+- ["12SwipeCellKit0A7OptionsV", "backgroundColor"]
+- ["12SwipeCellKit0A7OptionsV", "buttonPadding"]
+- ["12SwipeCellKit0A7OptionsV", "buttonSpacing"]
+- ["12SwipeCellKit0A7OptionsV", "buttonVerticalAlignment"]
+- ["12SwipeCellKit0A7OptionsV", "expansionDelegate"]
+- ["12SwipeCellKit0A7OptionsV", "expansionStyle"]
+- ["12SwipeCellKit0A7OptionsV", "init"]
+- ["12SwipeCellKit0A7OptionsV", "maximumButtonWidth"]
+- ["12SwipeCellKit0A7OptionsV", "minimumButtonWidth"]
+- ["12SwipeCellKit0A7OptionsV", "transitionStyle"]
+- ["12SwipeCellKit0A15TransitionStyleO", "=="]
+- ["12SwipeCellKit0A15TransitionStyleO", "__derived_enum_equals"]
+- ["12SwipeCellKit0A15TransitionStyleO", "_rawHashValue"]
+- ["12SwipeCellKit0A15TransitionStyleO", "border"]
+- ["12SwipeCellKit0A15TransitionStyleO", "deinit"]
+- ["12SwipeCellKit0A15TransitionStyleO", "drag"]
+- ["12SwipeCellKit0A15TransitionStyleO", "hash"]
+- ["12SwipeCellKit0A15TransitionStyleO", "hashValue"]
+- ["12SwipeCellKit0A15TransitionStyleO", "reveal"]
+- ["12SwipeCellKit0A17VerticalAlignmentO", "=="]
+- ["12SwipeCellKit0A17VerticalAlignmentO", "__derived_enum_equals"]
+- ["12SwipeCellKit0A17VerticalAlignmentO", "_rawHashValue"]
+- ["12SwipeCellKit0A17VerticalAlignmentO", "center"]
+- ["12SwipeCellKit0A17VerticalAlignmentO", "centerFirstBaseline"]
+- ["12SwipeCellKit0A17VerticalAlignmentO", "deinit"]
+- ["12SwipeCellKit0A17VerticalAlignmentO", "hash"]
+- ["12SwipeCellKit0A17VerticalAlignmentO", "hashValue"]
+depends-nominal:
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "SY"
+- "12SwipeCellKit0A18ActionsOrientationO"
+- "12SwipeCellKit0A7OptionsV"
+- "12SwipeCellKit0A15TransitionStyleO"
+- "12SwipeCellKit0A17VerticalAlignmentO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Pods/Target Support Files/SwipeCellKit/SwipeCellKit-umbrella.h"
+- "/Users/Thomas_Stuart/Desktop/CodePathBootcamp/FindRecipes-master/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwipeCellKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "510d025fbd171681a7b034bffa0310cb"
