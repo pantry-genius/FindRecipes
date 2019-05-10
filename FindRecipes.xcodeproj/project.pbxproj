@@ -23,6 +23,7 @@
 		E41F7F4D226D661700E8533A /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F7F4C226D661700E8533A /* Ingredient.swift */; };
 		E421BC202284E9750091DC58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E421BC1F2284E9750091DC58 /* GoogleService-Info.plist */; };
 		E421BC222284F1680091DC58 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421BC212284F1680091DC58 /* LoginController.swift */; };
+		E421BC2422850D400091DC58 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421BC2322850D400091DC58 /* SignUpController.swift */; };
 		E44589C222791AAC006ACD82 /* InstructionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44589C122791AAC006ACD82 /* InstructionRequest.swift */; };
 		E46273EE226E782900EBE95F /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E46273ED226E782900EBE95F /* Food101.mlmodel */; };
 		E4856525227512B000B82367 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4856524227512B000B82367 /* Recipe.swift */; };
@@ -77,6 +78,7 @@
 		E41F7F4C226D661700E8533A /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		E421BC1F2284E9750091DC58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E421BC212284F1680091DC58 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		E421BC2322850D400091DC58 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		E44589C122791AAC006ACD82 /* InstructionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionRequest.swift; sourceTree = "<group>"; };
 		E46273ED226E782900EBE95F /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
 		E4856524227512B000B82367 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				E41F7F4E226D661B00E8533A /* Models */,
 				E41F7F47226D623700E8533A /* Utils */,
 				E421BC212284F1680091DC58 /* LoginController.swift */,
+				E421BC2322850D400091DC58 /* SignUpController.swift */,
 			);
 			path = FindRecipes;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				E4BAD08522729DFE00314B46 /* RecipeService.swift in Sources */,
 				E41F7F12226D5D6000E8533A /* AppDelegate.swift in Sources */,
 				E41F7F40226D5D7500E8533A /* Inceptionv3-1.mlmodel in Sources */,
+				E421BC2422850D400091DC58 /* SignUpController.swift in Sources */,
 				E41F7F49226D624E00E8533A /* Extensions.swift in Sources */,
 				E4BAD08322729ACB00314B46 /* RecipeRequest.swift in Sources */,
 				E416939D227BBC0700F68F0E /* RecipeDetailController.swift in Sources */,
