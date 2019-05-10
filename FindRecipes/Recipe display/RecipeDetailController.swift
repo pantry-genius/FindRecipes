@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class RecipeDetailController: UIViewController {
     
@@ -30,6 +31,8 @@ class RecipeDetailController: UIViewController {
             //view.setNeedsDisplay()
         }
     }
+    
+    
     
     lazy var contentViewSize = CGSize(width: view.frame.width, height: view.frame.height + 400)
     
@@ -113,11 +116,17 @@ class RecipeDetailController: UIViewController {
         instructionTextView.anchor(top: missingIngredientsTextView.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 20, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 500)
         sourceUrlButton.anchor(top: instructionTextView.topAnchor, left: containerView.leftAnchor, bottom: nil, right: nil, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 50)
         
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Save", style: .plain, target: self, action: #selector(handleSave))
+    }
+    
+    
+    @objc func handleSave() {
+        navigationItem.rightBarButtonItem?.isEnabled = false
+        guard let uid = Auth.auth().currentUser?.uid else {return}
+        let userRecipeRef = Database.database().reference().child("recipes").child(uid)
+        let ref = userRecipeRef.childByAutoId()
         
-        
-        
-        
-        
+        let values = ["title": recipe?.title, "id" : recipe?.id, "imageUrl" : recipe?.imageUrl, "currentIngredients": recipe?.currentIngredients, "missingIngredients" : recipe?.missingIngredients, "]
         
     }
 }

@@ -13,6 +13,7 @@ import InputBarAccessoryView
 import Alamofire
 import SwiftyJSON
 import SwipeCellKit
+import Firebase
 class AddIngredientController: UICollectionViewController, UICollectionViewDelegateFlowLayout, UIImagePickerControllerDelegate, UINavigationControllerDelegate, InputBarAccessoryViewDelegate{
 
     let cellId = "cellId"
@@ -25,6 +26,13 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
         return bar
     }()
     
+    
+    let cameraButton : UIButton = {
+       let button = UIButton(type: .system)
+        button.setImage(UIImage(named: "camera3")?.withRenderingMode(.alwaysOriginal), for: .normal)
+        button.addTarget(nil, action: #selector(handleCamera), for: .touchUpInside)
+        return button
+    }()
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.backgroundColor = .white
@@ -68,9 +76,21 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
     }
     
     fileprivate func setUpNavigationItems() {
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "camera3")?.withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(handleCamera))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "My Recipes", style: .plain
+            , target: self, action: #selector(handleProfile))
+        //navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "camera3")?.withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(handleCamera))
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Submit", style: .plain, target: self, action: #selector(handleSubmit))
+       navigationItem.titleView = cameraButton
+            //UIBarButtonItem(image: UIImage(named: "camera3")?.withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(handleCamera))
+        
+    }
     
+    @objc func handleProfile() {
+        if Auth.auth().currentUser == nil {
+            navigationController?.pushViewController(LoginController(), animated: true)
+        } else {
+            
+        }
     }
     
     @objc func handleCamera() {
