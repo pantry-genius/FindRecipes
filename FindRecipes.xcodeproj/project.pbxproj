@@ -21,6 +21,8 @@
 		E41F7F49226D624E00E8533A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F7F48226D624E00E8533A /* Extensions.swift */; };
 		E41F7F4B226D64D400E8533A /* IngredientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F7F4A226D64D400E8533A /* IngredientCell.swift */; };
 		E41F7F4D226D661700E8533A /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F7F4C226D661700E8533A /* Ingredient.swift */; };
+		E421BC202284E9750091DC58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E421BC1F2284E9750091DC58 /* GoogleService-Info.plist */; };
+		E421BC222284F1680091DC58 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421BC212284F1680091DC58 /* LoginController.swift */; };
 		E44589C222791AAC006ACD82 /* InstructionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44589C122791AAC006ACD82 /* InstructionRequest.swift */; };
 		E46273EE226E782900EBE95F /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E46273ED226E782900EBE95F /* Food101.mlmodel */; };
 		E4856525227512B000B82367 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4856524227512B000B82367 /* Recipe.swift */; };
@@ -73,6 +75,8 @@
 		E41F7F48226D624E00E8533A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E41F7F4A226D64D400E8533A /* IngredientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCell.swift; sourceTree = "<group>"; };
 		E41F7F4C226D661700E8533A /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		E421BC1F2284E9750091DC58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E421BC212284F1680091DC58 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		E44589C122791AAC006ACD82 /* InstructionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionRequest.swift; sourceTree = "<group>"; };
 		E46273ED226E782900EBE95F /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
 		E4856524227512B000B82367 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
@@ -175,6 +179,7 @@
 				E41F7F18226D5D6000E8533A /* Assets.xcassets */,
 				E41F7F1A226D5D6000E8533A /* LaunchScreen.storyboard */,
 				E41F7F1D226D5D6000E8533A /* Info.plist */,
+				E421BC1F2284E9750091DC58 /* GoogleService-Info.plist */,
 				E41F7F45226D5F9F00E8533A /* AddIngredientController.swift */,
 				E41F7F4A226D64D400E8533A /* IngredientCell.swift */,
 				E46273ED226E782900EBE95F /* Food101.mlmodel */,
@@ -185,6 +190,7 @@
 				E416939B227BBBBB00F68F0E /* Recipe display */,
 				E41F7F4E226D661B00E8533A /* Models */,
 				E41F7F47226D623700E8533A /* Utils */,
+				E421BC212284F1680091DC58 /* LoginController.swift */,
 			);
 			path = FindRecipes;
 			sourceTree = "<group>";
@@ -335,6 +341,7 @@
 			files = (
 				E41F7F1C226D5D6000E8533A /* LaunchScreen.storyboard in Resources */,
 				E41F7F19226D5D6000E8533A /* Assets.xcassets in Resources */,
+				E421BC202284E9750091DC58 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,16 +370,26 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FindRecipes/Pods-FindRecipes-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/InputBarAccessoryView/InputBarAccessoryView.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InputBarAccessoryView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -453,6 +470,7 @@
 				E4BAD08322729ACB00314B46 /* RecipeRequest.swift in Sources */,
 				E416939D227BBC0700F68F0E /* RecipeDetailController.swift in Sources */,
 				E48565272275191200B82367 /* RecipeController.swift in Sources */,
+				E421BC222284F1680091DC58 /* LoginController.swift in Sources */,
 				E4856525227512B000B82367 /* Recipe.swift in Sources */,
 				E485652B2275343D00B82367 /* CustomImageView.swift in Sources */,
 			);

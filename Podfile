@@ -10,6 +10,11 @@ target 'FindRecipes' do
     pod 'InputBarAccessoryView'
     pod 'Alamofire'
     pod 'SwiftyJSON'
+    pod 'Firebase/Core'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Database'
+    pod 'Firebase/Storage'
+    pod 'Firebase/Messaging'
   target 'FindRecipesTests' do
     inherit! :search_paths
     # Pods for testing
