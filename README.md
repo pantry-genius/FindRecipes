@@ -26,7 +26,7 @@ lmaoooo
 
 ## Product Spec
 ### Milestone 2 Walkthrough GIF
-<img src="http://recordit.co/wslbLQvJxp" width=250><br>
+<img src="http://g.recordit.co/wslbLQvJxp.gif" width=250><br>
 
 ### Milestone 1 Walkthrough GIF
 <img src="http://g.recordit.co/CtDCFoCAlO.gif" width=250><br>
