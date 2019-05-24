@@ -25,6 +25,12 @@ lmaoooo
 - **Scope:** Pantry Genius would initally focus solely on the input of ingredients and return possible recipes for the items. Further implementations would allow for user submission of recipes and a ranking ability to categorize popular/less popular recipes. 
 
 ## Product Spec
+### Milestone 3 Walkthrough GIF
+<img src="http://g.recordit.co/2ongHugnGz.gif" width=250><br>
+
+### Milestone 2 Walkthrough GIF
+<img src="http://g.recordit.co/wslbLQvJxp.gif" width=250><br>
+
 ### Milestone 1 Walkthrough GIF
 <img src="http://g.recordit.co/CtDCFoCAlO.gif" width=250><br>
 
@@ -32,9 +38,9 @@ lmaoooo
 **Required Must-have Stories**
 - [x] Enter about 20 food items ( Items are saved )
 - [x] View that generates a few meals to cook
-- [] Create account, Sign In
-- [] View to search for a recipe
-- [] Collection view of other user recipes
+- [x] Create account, Sign In
+- [x] View to search for a recipe
+- [x] Collection view of other user recipes
 - [] Settings -> create a profile
 
 **Optional Nice-to-have Stories**
