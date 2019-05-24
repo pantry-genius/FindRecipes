@@ -18,6 +18,8 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
 
     let cellId = "cellId"
     
+    let userDefaults = UserDefaults.standard
+    
     lazy var addBar : InputBarAccessoryView = {
         let bar = InputBarAccessoryView()
         bar.inputTextView.placeholder = "new ingredient item"
@@ -35,6 +37,7 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
+        ingredientsString = userDefaults.object(forKey: "ingredientsStrings") as? [String] ?? [String]()
         collectionView.backgroundColor = .white
         collectionView.alwaysBounceVertical = true
         collectionView.keyboardDismissMode = .interactive
@@ -54,10 +57,10 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
         return true
     }
     
-    var ingredients = [Ingredient]()
+    var ingredientsString = [String]()
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return ingredients.count
+        return ingredientsString.count
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
@@ -71,7 +74,7 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! IngredientCell
         cell.delegate = self
-        cell.ingredient = ingredients[indexPath.item]
+        cell.ingredient = ingredientsString[indexPath.item]
         return cell
     }
     
@@ -89,6 +92,9 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
         if Auth.auth().currentUser == nil {
             navigationController?.pushViewController(LoginController(), animated: true)
         } else {
+            let savedRecipeController = SavedRecipeController(collectionViewLayout: UICollectionViewFlowLayout())
+            navigationController?.pushViewController(savedRecipeController, animated: true)
+            savedRecipeController.navigationItem.title = "Saved Recipes"
             
         }
     }
@@ -102,7 +108,7 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
     }
     
     @objc func handleSubmit() {
-        let recipeRequest = RecipeRequest(info: ["ingredients": ingredients, "number": 10])
+        let recipeRequest = RecipeRequest(info: ["ingredients": ingredientsString, "number": 10])
         let baseUrl = RecipeService(recipeRequest, "findByIngredients").getPath()
         var instructionUrl = RecipeService(recipeRequest, "").getPath()
         
@@ -114,16 +120,17 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
                     let id = subJson["id"].stringValue
                     let title = subJson["title"].stringValue
                     let imageUrl = subJson["image"].stringValue
-                    var missedIngredients = [String]()
+                    var ingredients = [Ingredient]()
+                    //var missedIngredients = [Ingredient]()
                     for (_, subJson): (String, JSON) in subJson["missedIngredients"] {
-                        missedIngredients.append(subJson["originalString"].stringValue)
+                        ingredients.append(Ingredient(name: subJson["originalString"].stringValue, imageUrl: subJson["image"].stringValue, missing: true))
                     }
-                    var currentIngredients = [String]()
+                    //var currentIngredients = [Ingredient]()
                     for (_, subJson): (String, JSON) in subJson["usedIngredients"] {
-                        currentIngredients.append(subJson["originalString"].stringValue)
+                        ingredients.append(Ingredient(name: subJson["originalString"].stringValue, imageUrl: subJson["image"].stringValue, missing: false))
                     }
                     
-                    var recipe = Recipe(["id" : id, "title": title, "image": imageUrl, "missing": missedIngredients, "current": currentIngredients])
+                    var recipe = Recipe(["id" : id, "title": title, "imageUrl": imageUrl, "ingredients" : ingredients])
                     let inUrl = instructionUrl + id + "/information"
                     //let instructionParameter : Parameters = ["id" : id]
                     Alamofire.request(inUrl, method: .get, parameters: nil, encoding: URLEncoding.default, headers: recipeRequest.getHeaders()).responseJSON(completionHandler: { (response) in
@@ -139,7 +146,9 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
                             if Int(key) == recipeJson.arrayValue.count - 1 {
                                 let recipeController = RecipeController(collectionViewLayout: UICollectionViewFlowLayout())
                                 self.navigationController?.pushViewController(recipeController, animated: true)
+                                
                                 recipeController.recipes = recipes
+                                recipeController.navigationItem.title = "Recipes"
                             }
                         }
                     })
@@ -178,8 +187,9 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
             guard let result = request.results as? [VNClassificationObservation] else {fatalError("model failed to request image")}
             
             if let firstResult = result.first {
-                self.ingredients.append(Ingredient(name: firstResult.identifier) )
+                self.ingredientsString.append(firstResult.identifier)
                 self.collectionView.reloadData()
+                self.userDefaults.set(self.ingredientsString, forKey: "ingredientsStrings")
             }
         }
         
@@ -193,8 +203,9 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
     }
     
     func inputBar(_ inputBar: InputBarAccessoryView, didPressSendButtonWith text: String) {
-        ingredients.append(Ingredient(name: inputBar.inputTextView.text))
+        ingredientsString.append(inputBar.inputTextView.text)
         collectionView.reloadData()
+        self.userDefaults.set(self.ingredientsString, forKey: "ingredientsStrings")
         addBar.inputTextView.text = nil
     }
     
@@ -209,7 +220,7 @@ extension AddIngredientController: SwipeCollectionViewCellDelegate {
     func collectionView(_ collectionView: UICollectionView, editActionsForItemAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> [SwipeAction]? {
         guard orientation == .right else {return nil}
         let deleteAction = SwipeAction(style: .destructive, title: "Delete") { (action, indexpath) in
-            self.ingredients.remove(at: indexPath.item)
+            self.ingredientsString.remove(at: indexPath.item)
         }
         deleteAction.image = UIImage(named: "delete-icon")
         return [deleteAction]

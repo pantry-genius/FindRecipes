@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Firebase
 class RecipeController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     let cellId = "recipeCell"
@@ -20,7 +20,9 @@ class RecipeController: UICollectionViewController, UICollectionViewDelegateFlow
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.isNavigationBarHidden = false
         collectionView.backgroundColor = .white
+        
         collectionView.register(RecipeCell.self, forCellWithReuseIdentifier: "recipeCell")
     }
     
@@ -53,5 +55,15 @@ class RecipeController: UICollectionViewController, UICollectionViewDelegateFlow
         cell.recipeUrl = recipes?[indexPath.item].imageUrl
         return cell
     }
+    
+//    fileprivate func fetchUserRecipes() {
+//        guard let uid = Auth.auth().currentUser?.uid else {return}
+//        let ref = Database.database().reference().child("recipes").child(uid)
+//        ref.queryOrdered(byChild: "creationDate").observe(.childAdded) { (snapshot) in
+//            guard let dictionary = snapshot.value as? [String: Any] else {return}
+//            
+//            
+//        }
+//    }
 
 }

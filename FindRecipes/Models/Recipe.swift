@@ -12,16 +12,22 @@ struct Recipe {
     let title : String
     let id : String
     let imageUrl : String
-    let currentIngredients : [String]
-    let missingIngredients : [String]
+    //let currentIngredients : [Ingredient]
+    //let missingIngredients : [Ingredient]
+    let ingredients: [Ingredient]
     var instructions : String = ""
     var sourceUrl : String = ""
+    let creationDate: TimeInterval
     init(_ info: [String: Any]) {
         id = info["id"] as? String ?? ""
         title = info["title"] as? String ?? ""
-        imageUrl = info["image"] as? String ?? ""
-        currentIngredients = info["current"] as? [String] ?? [String]()
-        missingIngredients = info["missing"] as? [String] ?? [String]()
+        imageUrl = info["imageUrl"] as? String ?? ""
+        //currentIngredients = info["current"] as? [Ingredient] ?? [Ingredient]()
+        //missingIngredients = info["missing"] as? [Ingredient] ?? [Ingredient]()
+        ingredients = info["ingredients"] as? [Ingredient] ?? [Ingredient]()
+        instructions = info["instructions"] as? String ?? ""
+        sourceUrl = info["sourceUrl"] as? String ?? ""
+        creationDate = info["creationDate"] as? TimeInterval ?? 0
         //instructions = info["instructions"] as? String ?? ""
         //print(title, imageUrl, currentIngredients, missingIngredients, instructions)
         

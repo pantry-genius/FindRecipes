@@ -25,9 +25,9 @@ class RecipeRequest {
     
     func getParameters() -> Parameters {
         var ingredientString = ""
-        if let ingredients = info["ingredients"] as? [Ingredient] {
+        if let ingredients = info["ingredients"] as? [String] {
             for ingredient in ingredients {
-                ingredientString = ingredientString + ingredient.name + ","
+                ingredientString = ingredientString + ingredient + ","
             }
             if !ingredientString.isEmpty {
                 ingredientString.removeLast()                

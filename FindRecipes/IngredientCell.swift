@@ -10,10 +10,10 @@ import UIKit
 import SwipeCellKit
 class IngredientCell: SwipeCollectionViewCell {
     
-    var ingredient: Ingredient? {
+    var ingredient: String? {
         didSet {
             guard let ingredient = ingredient else {return}
-            textView.text = ingredient.name
+            textView.text = ingredient
         }
     }
     

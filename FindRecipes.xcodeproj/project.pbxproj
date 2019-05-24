@@ -25,6 +25,7 @@
 		E421BC222284F1680091DC58 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421BC212284F1680091DC58 /* LoginController.swift */; };
 		E421BC2422850D400091DC58 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421BC2322850D400091DC58 /* SignUpController.swift */; };
 		E44589C222791AAC006ACD82 /* InstructionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44589C122791AAC006ACD82 /* InstructionRequest.swift */; };
+		E45A3CAF22939BAC00411F6B /* SavedRecipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A3CAE22939BAC00411F6B /* SavedRecipeController.swift */; };
 		E46273EE226E782900EBE95F /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E46273ED226E782900EBE95F /* Food101.mlmodel */; };
 		E4856525227512B000B82367 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4856524227512B000B82367 /* Recipe.swift */; };
 		E48565272275191200B82367 /* RecipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48565262275191200B82367 /* RecipeController.swift */; };
@@ -32,6 +33,7 @@
 		E485652B2275343D00B82367 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485652A2275343D00B82367 /* CustomImageView.swift */; };
 		E4BAD08322729ACB00314B46 /* RecipeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD08222729ACB00314B46 /* RecipeRequest.swift */; };
 		E4BAD08522729DFE00314B46 /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD08422729DFE00314B46 /* RecipeService.swift */; };
+		E4D3A7842294E4D90097487A /* RecipeDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D3A7832294E4D90097487A /* RecipeDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,7 @@
 		E421BC212284F1680091DC58 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		E421BC2322850D400091DC58 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		E44589C122791AAC006ACD82 /* InstructionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionRequest.swift; sourceTree = "<group>"; };
+		E45A3CAE22939BAC00411F6B /* SavedRecipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedRecipeController.swift; sourceTree = "<group>"; };
 		E46273ED226E782900EBE95F /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
 		E4856524227512B000B82367 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		E48565262275191200B82367 /* RecipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeController.swift; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 		E485652A2275343D00B82367 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		E4BAD08222729ACB00314B46 /* RecipeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRequest.swift; sourceTree = "<group>"; };
 		E4BAD08422729DFE00314B46 /* RecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
+		E4D3A7822294CCE60097487A /* FindRecipes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FindRecipes.entitlements; sourceTree = "<group>"; };
+		E4D3A7832294E4D90097487A /* RecipeDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailTableViewCell.swift; sourceTree = "<group>"; };
 		EA9F80C68BE3D654A1E13F3B /* Pods-FindRecipesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindRecipesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindRecipesTests/Pods-FindRecipesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB6730660E405DA5553FB218 /* Pods-FindRecipesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindRecipesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindRecipesTests/Pods-FindRecipesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +152,9 @@
 			children = (
 				E4856528227532C700B82367 /* RecipeCell.swift */,
 				E48565262275191200B82367 /* RecipeController.swift */,
+				E45A3CAE22939BAC00411F6B /* SavedRecipeController.swift */,
 				E416939C227BBC0700F68F0E /* RecipeDetailController.swift */,
+				E4D3A7832294E4D90097487A /* RecipeDetailTableViewCell.swift */,
 			);
 			path = "Recipe display";
 			sourceTree = "<group>";
@@ -177,6 +184,7 @@
 		E41F7F10226D5D6000E8533A /* FindRecipes */ = {
 			isa = PBXGroup;
 			children = (
+				E4D3A7822294CCE60097487A /* FindRecipes.entitlements */,
 				E41F7F11226D5D6000E8533A /* AppDelegate.swift */,
 				E41F7F18226D5D6000E8533A /* Assets.xcassets */,
 				E41F7F1A226D5D6000E8533A /* LaunchScreen.storyboard */,
@@ -306,6 +314,11 @@
 				TargetAttributes = {
 					E41F7F0D226D5D6000E8533A = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					E41F7F21226D5D6000E8533A = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -463,6 +476,7 @@
 				E44589C222791AAC006ACD82 /* InstructionRequest.swift in Sources */,
 				E46273EE226E782900EBE95F /* Food101.mlmodel in Sources */,
 				E41F7F46226D5F9F00E8533A /* AddIngredientController.swift in Sources */,
+				E45A3CAF22939BAC00411F6B /* SavedRecipeController.swift in Sources */,
 				E41F7F4B226D64D400E8533A /* IngredientCell.swift in Sources */,
 				E4856529227532C700B82367 /* RecipeCell.swift in Sources */,
 				E41F7F4D226D661700E8533A /* Ingredient.swift in Sources */,
@@ -474,6 +488,7 @@
 				E4BAD08322729ACB00314B46 /* RecipeRequest.swift in Sources */,
 				E416939D227BBC0700F68F0E /* RecipeDetailController.swift in Sources */,
 				E48565272275191200B82367 /* RecipeController.swift in Sources */,
+				E4D3A7842294E4D90097487A /* RecipeDetailTableViewCell.swift in Sources */,
 				E421BC222284F1680091DC58 /* LoginController.swift in Sources */,
 				E4856525227512B000B82367 /* Recipe.swift in Sources */,
 				E485652B2275343D00B82367 /* CustomImageView.swift in Sources */,
@@ -644,6 +659,7 @@
 			baseConfigurationReference = 27B1107506ACE6E05F688F21 /* Pods-FindRecipes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FindRecipes/FindRecipes.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 783VTM2647;
 				INFOPLIST_FILE = FindRecipes/Info.plist;
@@ -663,6 +679,7 @@
 			baseConfigurationReference = A39816CBA140EA0852D656C8 /* Pods-FindRecipes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FindRecipes/FindRecipes.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 783VTM2647;
 				INFOPLIST_FILE = FindRecipes/Info.plist;
