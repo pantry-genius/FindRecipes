@@ -11,35 +11,23 @@ import Firebase
 //import UserNotifications
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate,UNUserNotificationCenterDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    static let NOTIFICATION_URL = ""
-    static var DEVICEID = String()
-    static let SERVERKEY = ""
+//    static let NOTIFICATION_URL = ""
+//    static var DEVICEID = String()
+//    static let SERVERKEY = ""
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     
-        
-        
-        if #available(iOS 10.0, *) {
-            // For iOS 10 display notification (sent via APNS)
-            UNUserNotificationCenter.current().delegate = self
-            
-            let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
-            UNUserNotificationCenter.current().requestAuthorization(
-                options: authOptions,
-                completionHandler: {_, _ in })
-        } else {
-            let settings: UIUserNotificationSettings =
-                UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
-            application.registerUserNotificationSettings(settings)
-        }
-        Messaging.messaging().delegate = self
-        application.registerForRemoteNotifications()
-
         FirebaseApp.configure()
+        if let uid = Auth.auth().currentUser?.uid {
+            let pushManager = PushNotificationManager(userID: uid)
+            pushManager.registerForPushNotifications()
+            
+        }
+        
         // Override point for customization after application launch.
         window = UIWindow()
         let addIngredienController = AddIngredientController(collectionViewLayout: UICollectionViewFlowLayout())

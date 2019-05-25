@@ -89,12 +89,18 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
     }
     
     @objc func handleProfile() {
+        let savedRecipeController = SavedRecipeController(collectionViewLayout: UICollectionViewFlowLayout())
+        navigationController?.pushViewController(savedRecipeController, animated: true)
+        savedRecipeController.navigationItem.title = "Saved Recipes"
         if Auth.auth().currentUser == nil {
-            navigationController?.pushViewController(LoginController(), animated: true)
+            let loginController = LoginController()
+            let navController = UINavigationController(rootViewController: loginController)
+            self.present(navController, animated: true, completion: nil)
+            //navigationController?.pushViewController(LoginController(), animated: true)
         } else {
-            let savedRecipeController = SavedRecipeController(collectionViewLayout: UICollectionViewFlowLayout())
-            navigationController?.pushViewController(savedRecipeController, animated: true)
-            savedRecipeController.navigationItem.title = "Saved Recipes"
+//            let savedRecipeController = SavedRecipeController(collectionViewLayout: UICollectionViewFlowLayout())
+//            navigationController?.pushViewController(savedRecipeController, animated: true)
+//            savedRecipeController.navigationItem.title = "Saved Recipes"
             
         }
     }
@@ -139,7 +145,7 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
                             let recipeDetailJson : JSON = JSON(response.result.value!)
                             let instructions = recipeDetailJson["instructions"].stringValue
                             let sourceUrl = recipeDetailJson["sourceUrl"].stringValue
-                            print(sourceUrl)
+                            //print(sourceUrl)
                             recipe.instructions = instructions
                             recipe.sourceUrl = sourceUrl
                             recipes.append(recipe)
@@ -177,7 +183,7 @@ class AddIngredientController: UICollectionViewController, UICollectionViewDeleg
     
     
     private func detect(image: CIImage) {
-        guard let model = try? VNCoreMLModel(for: Food101().model) else { fatalError(" failed to load coreml model" )}
+        guard let model = try? VNCoreMLModel(for: Inceptionv3_1_1().model) else { fatalError(" failed to load coreml model" )}
         let request = VNCoreMLRequest(model: model) { (request, err) in
             if let err = err {
                 print("err making request", err)
@@ -221,6 +227,7 @@ extension AddIngredientController: SwipeCollectionViewCellDelegate {
         guard orientation == .right else {return nil}
         let deleteAction = SwipeAction(style: .destructive, title: "Delete") { (action, indexpath) in
             self.ingredientsString.remove(at: indexPath.item)
+            self.userDefaults.set(self.ingredientsString, forKey: "ingredientsStrings")
         }
         deleteAction.image = UIImage(named: "delete-icon")
         return [deleteAction]
@@ -231,5 +238,7 @@ extension AddIngredientController: SwipeCollectionViewCellDelegate {
         options.expansionStyle = .destructive
         return options
     }
+    
+    
     
 }

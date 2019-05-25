@@ -20,11 +20,16 @@ class SavedRecipeController: UICollectionViewController, UICollectionViewDelegat
         collectionView.backgroundColor = .white
         //try? Auth.auth().signOut()
         collectionView.register(RecipeCell.self, forCellWithReuseIdentifier: "recipeCell")
+        //fetchUserRecipes()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         fetchUserRecipes()
     }
     
     @objc func signOut() {
         try! Auth.auth().signOut()
+        navigationController?.popViewController(animated: true)
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -63,7 +68,17 @@ class SavedRecipeController: UICollectionViewController, UICollectionViewDelegat
         guard let uid = Auth.auth().currentUser?.uid else {return}
         let ref = Database.database().reference().child("recipes").child(uid)
         ref.queryOrdered(byChild: "creationDate").observe(.childAdded, with: { (snapshot) in
-            guard let dictionary = snapshot.value as? [String: Any] else {return}
+            guard var dictionary = snapshot.value as? [String: Any] else {return}
+            guard let ingredientsArray = dictionary["ingredients"] as? [[String: Any]] else {return}
+            var ingredients = [Ingredient]()
+            for ingredi in ingredientsArray {
+                guard let name = ingredi["name"] as? String else {return}
+                guard let imageUrl = ingredi["imageUrl"] as? String else {return}
+                guard let missing = ingredi["missing"] as? Bool else {return}
+                ingredients.append(Ingredient(name: name, imageUrl: imageUrl, missing: missing))
+            }
+            
+            dictionary["ingredients"] = ingredients
             let recipe = Recipe(dictionary)
             self.recipes.insert(recipe, at: 0)
             self.collectionView.reloadData()

@@ -8,8 +8,12 @@
 
 import UIKit
 import Firebase
-
+import Alamofire
+import SwiftyJSON
 class RecipeDetailController: UIViewController, UITableViewDelegate, UITableViewDataSource{
+    
+    let sender = PushNotificationSender()
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return recipe?.ingredients.count ?? 0
     }
@@ -42,7 +46,7 @@ class RecipeDetailController: UIViewController, UITableViewDelegate, UITableView
             } else {
                 instructionTextView.text = recipe.instructions
             }
-            
+            //tableView.heightAnchor.constraint(equalToConstant: CGFloat(recipe.ingredients.count * 100)).isActive = true
             tableView.reloadData()
             
             
@@ -60,7 +64,7 @@ class RecipeDetailController: UIViewController, UITableViewDelegate, UITableView
     
     
     
-    lazy var contentViewSize = CGSize(width: view.frame.width, height: view.frame.height + 400)
+    lazy var contentViewSize = CGSize(width: view.frame.width, height: view.frame.height + 800)
     
     lazy var scrollView : UIScrollView = {
         let scrollView = UIScrollView()
@@ -92,7 +96,8 @@ class RecipeDetailController: UIViewController, UITableViewDelegate, UITableView
     
     let titleLabel: UILabel = {
        let tl = UILabel()
-        tl.font = UIFont.systemFont(ofSize: 30)
+        tl.font = UIFont.boldSystemFont(ofSize: 20.0)
+        tl.textAlignment = .center
         tl.numberOfLines = 0
         return tl
     }()
@@ -111,7 +116,6 @@ class RecipeDetailController: UIViewController, UITableViewDelegate, UITableView
     
     let sourceUrlButton: UIButton = {
         let sub = UIButton(type: .system)
-        //sub.titleLabel?.text = "url"
         sub.addTarget(nil, action: #selector(openUrl), for: .touchUpInside)
         return sub
     }()
@@ -141,14 +145,114 @@ class RecipeDetailController: UIViewController, UITableViewDelegate, UITableView
     
     let nutrientsButton : UIButton = {
        let nb = UIButton(type: .system)
-        nb.titleLabel?.text = "Get Nutritional Information"
+        nb.setTitle("get nutritents info", for: .normal)
         nb.addTarget(nil, action: #selector(goToNutrientView), for: .touchUpInside)
         return nb
     }()
     
     @objc func goToNutrientView() {
+        let recipeRequest = RecipeRequest(info: ["ingredients": "", "number": 10])
+
+        var instructionUrl = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes"
+        guard let id = recipe?.id else {return}
+        let inUrl = instructionUrl + "/" + id + "/nutritionWidget.json"
         
-    }
+        Alamofire.request(inUrl, method: .get, parameters: nil, encoding: URLEncoding.default, headers: recipeRequest.getHeaders()).responseJSON(completionHandler: { (response) in
+            
+            if response.result.isSuccess {
+                let nutritionalInfoJson : JSON = JSON(response.result.value!)
+                let calories = nutritionalInfoJson["calories"].stringValue
+                var bothArray = [nutritionalData]()
+                var goodNutrients = [nutritionalData]()
+                var badNutrients = [nutritionalData]()
+                let nutrientController = NutrientsViewController()
+                for (key,subJson):(String, JSON) in nutritionalInfoJson {
+                    if( key == "bad"){
+                        let badDictionary = subJson
+                        for(subKey,subValue) in badDictionary{
+                            let info = subValue
+                            var percent  = ""
+                            var amount = ""
+                            var title = ""
+                            for( name,value ) in info{
+                                if( name == "percentOfDailyNeeds"){
+                                    percent = value.stringValue
+                                }
+                                if( name == "amount"){
+                                    amount = value.stringValue
+                                }
+                                if( name == "title" ){
+                                    title = value.stringValue
+                                }
+                            }
+                            var newNutritionalElement = nutritionalData(dailyIntake: percent, amount: amount, title: title, c:1)
+                            if( title == "Calories"){
+                                newNutritionalElement.color = 2
+                            }
+                            badNutrients.append(newNutritionalElement)
+                            
+                            //print( "What is the size in the method ?? ", self.nutritionalInfo.count )
+                            
+                        }// for every pair in the nad
+                        
+                        //nutrientController.badArray = badNutrients
+                        
+                    }//if the key is bad
+                    
+                    
+                    if (key == "good") {
+                        let goodDictionary = subJson
+                        for(subKey,subValue) in goodDictionary{
+                            let info = subValue
+                            var percent  = ""
+                            var amount = ""
+                            var title = ""
+                            for( name,value ) in info{
+                                if( name == "percentOfDailyNeeds"){
+                                    percent = value.stringValue
+                                }
+                                if( name == "amount"){
+                                    amount = value.stringValue
+                                }
+                                if( name == "title" ){
+                                    title = value.stringValue
+                                }
+                            }
+                            let newNutritionalElement = nutritionalData(dailyIntake: percent, amount: amount, title: title, c:0)
+                            goodNutrients.append(newNutritionalElement)
+                            //print( "What is the size in the method ?? ", self.nutritionalInfo.count )
+                        }
+                        
+                        for  index in 0 ..< badNutrients.count {
+                            //print(index)
+                            bothArray.append(goodNutrients[index])
+                            bothArray.append(badNutrients[index])
+                        }
+                        print("------ SPLIT -----")
+                        for  index in badNutrients.count..<goodNutrients.count {
+                            //print(index)
+                            bothArray.append(goodNutrients[index])
+                            //bothArray.append(blank)
+                        }
+                        
+                        nutrientController.bothArray = bothArray
+                        
+                         //nutrientController.goodArray = goodNutrients
+                    }
+                    
+                   
+                    
+                }// end of nutritioanelInfoJson
+                
+               
+                
+                self.navigationController?.pushViewController(nutrientController, animated: true)
+                
+            }
+            
+        })//End AlamoFireRequest
+        
+    }//END getInstructions
     
     
     override func viewDidLoad() {
@@ -176,7 +280,7 @@ class RecipeDetailController: UIViewController, UITableViewDelegate, UITableView
         
         recipeImageView.anchor(top: containerView.topAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: containerView.frame.width)
         titleLabel.anchor(top: recipeImageView.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 20, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 50)
-        tableView.anchor(top: titleLabel.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 20, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 500)
+        tableView.anchor(top: titleLabel.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 20, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 300)
         //currentIngredientsTextView.anchor(top: titleLabel.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 20, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 100)
         ///missingIngredientsTextView.anchor(top: currentIngredientsTextView.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 20, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 100)
         instructionTextView.anchor(top: tableView.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 20, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 500)
@@ -184,23 +288,43 @@ class RecipeDetailController: UIViewController, UITableViewDelegate, UITableView
         
         //tableView.anchor(top: sourceUrlButton.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 1000)
         containerView.addSubview(nutrientsButton)
-        nutrientsButton.anchor(top: sourceUrlButton.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 200, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 50)
+        //nutrientsButton.anchor(top: sourceUrlButton.bottomAnchor, left: containerView.leftAnchor, bottom: nil, right: containerView.rightAnchor, paddingTop: 100, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 50)
+        
+        nutrientsButton.translatesAutoresizingMaskIntoConstraints = false
+        nutrientsButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
+        nutrientsButton.widthAnchor.constraint(equalToConstant: 0).isActive = false
+        nutrientsButton.heightAnchor.constraint(equalToConstant: 25).isActive = true
+        nutrientsButton.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -5).isActive = true
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Save", style: .plain, target: self, action: #selector(handleSave))
     }
     
     
     @objc func handleSave() {
         navigationItem.rightBarButtonItem?.isEnabled = false
-        guard let uid = Auth.auth().currentUser?.uid else {return}
+        guard let uid = Auth.auth().currentUser?.uid else {
+            let loginController = LoginController()
+            let navController = UINavigationController(rootViewController: loginController)
+            self.present(navController, animated: true, completion: nil)
+            navigationItem.rightBarButtonItem?.isEnabled = true
+            return
+        }
         let userRecipeRef = Database.database().reference().child("recipes").child(uid)
         let ref = userRecipeRef.childByAutoId()
-        let ingredientsNames = recipe?.ingredients.map({$0.name})
-        
-        let values = ["title": recipe?.title, "id" : recipe?.id, "imageUrl" : recipe?.imageUrl, "ingredients": ingredientsNames, "instructions" : recipe?.instructions, "sourceUrl" : recipe?.sourceUrl, "creationDate": Date().timeIntervalSince1970] as [String : Any]
+        guard let ingredients = recipe?.ingredients else {return}
+        //let ingredientsNames = recipe?.ingredients.map({$0.name})
+        var ingredientArray = [[String: Any]]()
+        for ingredi in ingredients {
+            ingredientArray.append(["name" : ingredi.name, "imageUrl": ingredi.imageUrl, "missing": ingredi.missing])
+        }
+        let values = ["title": recipe?.title, "id" : recipe?.id, "imageUrl" : recipe?.imageUrl, "ingredients": ingredientArray, "instructions" : recipe?.instructions, "sourceUrl" : recipe?.sourceUrl, "creationDate": Date().timeIntervalSince1970] as [String : Any]
         
         ref.updateChildValues(values) { (err, ref) in
             if let err = err {
                 print("err uploading to firebase", err)
+            }
+            
+            if let token = Messaging.messaging().fcmToken {
+                self.sender.sendPushNotification(to: token, title: "saved", body: "saved successfully")
             }
             
             DispatchQueue.main.async {

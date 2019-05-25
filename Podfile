@@ -15,6 +15,7 @@ target 'FindRecipes' do
     pod 'Firebase/Database'
     pod 'Firebase/Storage'
     pod 'Firebase/Messaging'
+    pod 'Firebase/Firestore'
   target 'FindRecipesTests' do
     inherit! :search_paths
     # Pods for testing

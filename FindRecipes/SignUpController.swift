@@ -10,6 +10,20 @@ import UIKit
 import Firebase
 
 class SignUpController: UIViewController {
+    
+    let logoContainerView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .white
+        let logoImageView = UIImageView(image: UIImage(named: "Logo_trans"))
+        logoImageView.contentMode = .scaleAspectFill
+        view.addSubview(logoImageView)
+        logoImageView.anchor(top: nil, left: nil, bottom: nil, right: nil, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 200, height: 50)
+        logoImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        logoImageView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        
+        
+        return view
+    }()
     let emailTextField : UITextField = {
        let tf = UITextField()
         tf.placeholder = "Email"
@@ -60,11 +74,15 @@ class SignUpController: UIViewController {
                 return
             }
             
-            self.navigationController?.popViewController(animated: true)
-            self.navigationController?.popViewController(animated: true)
-            let recipeController = RecipeController(collectionViewLayout: UICollectionViewFlowLayout())
-            self.navigationController?.pushViewController(recipeController, animated: true)
-            recipeController.navigationItem.title = "Saved Recipes"
+            self.dismiss(animated: true, completion: nil)
+            //let recipeController = RecipeController(collectionViewLayout: UICollectionViewFlowLayout())
+            //self.navigationController?.pushViewController(recipeController, animated: true)
+            //recipeController.navigationItem.title = "Saved Recipes"
+//            self.navigationController?.popViewController(animated: true)
+//            self.navigationController?.popViewController(animated: true)
+//            let recipeController = RecipeController(collectionViewLayout: UICollectionViewFlowLayout())
+//            self.navigationController?.pushViewController(recipeController, animated: true)
+//            recipeController.navigationItem.title = "Saved Recipes"
             
         }
     }
@@ -91,6 +109,8 @@ class SignUpController: UIViewController {
         super.viewDidLoad()
         hideKeyboardWhenTappedAround()
         view.addSubview(alreadyHaveAccountButton)
+        view.addSubview(logoContainerView)
+        logoContainerView.anchor(top: view.topAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 50, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 150)
         alreadyHaveAccountButton.anchor(top: nil, left: view.leftAnchor, bottom: view.bottomAnchor, right: view.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 50)
         view.backgroundColor = .white
         
@@ -106,9 +126,9 @@ class SignUpController: UIViewController {
         
         view.addSubview(stackView)
         
-        stackView.anchor(top: nil, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 0, paddingLeft: 40, paddingBottom: 0, paddingRight: -40, width: 0, height: 200)
+        stackView.anchor(top: logoContainerView.bottomAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 0, paddingLeft: 40, paddingBottom: 0, paddingRight: -40, width: 0, height: 200)
         
-        stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        //stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         
         
     }

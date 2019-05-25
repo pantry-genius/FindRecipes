@@ -32,7 +32,7 @@ class RecipeRequest {
             if !ingredientString.isEmpty {
                 ingredientString.removeLast()                
             }
-            print("ingredientstring is ", ingredientString)
+            //print("ingredientstring is ", ingredientString)
         }
         let numberOfIngredients = info["number"] ?? 5
         let parameters : Parameters = ["ingredients": ingredientString, "number": numberOfIngredients]

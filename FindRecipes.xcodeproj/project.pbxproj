@@ -24,6 +24,10 @@
 		E421BC202284E9750091DC58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E421BC1F2284E9750091DC58 /* GoogleService-Info.plist */; };
 		E421BC222284F1680091DC58 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421BC212284F1680091DC58 /* LoginController.swift */; };
 		E421BC2422850D400091DC58 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421BC2322850D400091DC58 /* SignUpController.swift */; };
+		E43BBF092298E4B700403AED /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43BBF082298E4B700403AED /* PushNotificationManager.swift */; };
+		E43BBF0B2298F93A00403AED /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43BBF0A2298F93A00403AED /* PushNotificationSender.swift */; };
+		E43BBF1822991D1100403AED /* NutrientsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43BBF1722991D1100403AED /* NutrientsController.swift */; };
+		E43BBF1A22991DD200403AED /* NutrientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43BBF1922991DD200403AED /* NutrientCell.swift */; };
 		E44589C222791AAC006ACD82 /* InstructionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44589C122791AAC006ACD82 /* InstructionRequest.swift */; };
 		E45A3CAF22939BAC00411F6B /* SavedRecipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A3CAE22939BAC00411F6B /* SavedRecipeController.swift */; };
 		E46273EE226E782900EBE95F /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E46273ED226E782900EBE95F /* Food101.mlmodel */; };
@@ -33,6 +37,11 @@
 		E485652B2275343D00B82367 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E485652A2275343D00B82367 /* CustomImageView.swift */; };
 		E4BAD08322729ACB00314B46 /* RecipeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD08222729ACB00314B46 /* RecipeRequest.swift */; };
 		E4BAD08522729DFE00314B46 /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BAD08422729DFE00314B46 /* RecipeService.swift */; };
+		E4C19D0022999398007A43D7 /* CircularGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C19CFF22999398007A43D7 /* CircularGraph.swift */; };
+		E4C19D0222999420007A43D7 /* NutrientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C19D0122999420007A43D7 /* NutrientsViewController.swift */; };
+		E4C19D04229994EC007A43D7 /* NutritionalDataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C19D03229994EC007A43D7 /* NutritionalDataCollectionViewCell.swift */; };
+		E4C19D06229998D2007A43D7 /* nutritionalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C19D05229998D2007A43D7 /* nutritionalData.swift */; };
+		E4C19D082299A378007A43D7 /* DS_Store in Resources */ = {isa = PBXBuildFile; fileRef = E4C19D072299A378007A43D7 /* DS_Store */; };
 		E4D3A7842294E4D90097487A /* RecipeDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D3A7832294E4D90097487A /* RecipeDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +90,10 @@
 		E421BC1F2284E9750091DC58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E421BC212284F1680091DC58 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		E421BC2322850D400091DC58 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		E43BBF082298E4B700403AED /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
+		E43BBF0A2298F93A00403AED /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
+		E43BBF1722991D1100403AED /* NutrientsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientsController.swift; sourceTree = "<group>"; };
+		E43BBF1922991DD200403AED /* NutrientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientCell.swift; sourceTree = "<group>"; };
 		E44589C122791AAC006ACD82 /* InstructionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionRequest.swift; sourceTree = "<group>"; };
 		E45A3CAE22939BAC00411F6B /* SavedRecipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedRecipeController.swift; sourceTree = "<group>"; };
 		E46273ED226E782900EBE95F /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
@@ -90,6 +103,11 @@
 		E485652A2275343D00B82367 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		E4BAD08222729ACB00314B46 /* RecipeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRequest.swift; sourceTree = "<group>"; };
 		E4BAD08422729DFE00314B46 /* RecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
+		E4C19CFF22999398007A43D7 /* CircularGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularGraph.swift; sourceTree = "<group>"; };
+		E4C19D0122999420007A43D7 /* NutrientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientsViewController.swift; sourceTree = "<group>"; };
+		E4C19D03229994EC007A43D7 /* NutritionalDataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionalDataCollectionViewCell.swift; sourceTree = "<group>"; };
+		E4C19D05229998D2007A43D7 /* nutritionalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutritionalData.swift; sourceTree = "<group>"; };
+		E4C19D072299A378007A43D7 /* DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = DS_Store; sourceTree = "<group>"; };
 		E4D3A7822294CCE60097487A /* FindRecipes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FindRecipes.entitlements; sourceTree = "<group>"; };
 		E4D3A7832294E4D90097487A /* RecipeDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailTableViewCell.swift; sourceTree = "<group>"; };
 		EA9F80C68BE3D654A1E13F3B /* Pods-FindRecipesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindRecipesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindRecipesTests/Pods-FindRecipesTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -185,6 +203,8 @@
 			isa = PBXGroup;
 			children = (
 				E4D3A7822294CCE60097487A /* FindRecipes.entitlements */,
+				E43BBF0A2298F93A00403AED /* PushNotificationSender.swift */,
+				E43BBF082298E4B700403AED /* PushNotificationManager.swift */,
 				E41F7F11226D5D6000E8533A /* AppDelegate.swift */,
 				E41F7F18226D5D6000E8533A /* Assets.xcassets */,
 				E41F7F1A226D5D6000E8533A /* LaunchScreen.storyboard */,
@@ -197,7 +217,10 @@
 				E4BAD08422729DFE00314B46 /* RecipeService.swift */,
 				E4BAD08222729ACB00314B46 /* RecipeRequest.swift */,
 				E44589C122791AAC006ACD82 /* InstructionRequest.swift */,
+				E4C19D072299A378007A43D7 /* DS_Store */,
 				E416939B227BBBBB00F68F0E /* Recipe display */,
+				E43BBF1B22992D9700403AED /* ThomasNutritientGraphs */,
+				E43BBF1622991CF300403AED /* Nutrient display */,
 				E41F7F4E226D661B00E8533A /* Models */,
 				E41F7F47226D623700E8533A /* Utils */,
 				E421BC212284F1680091DC58 /* LoginController.swift */,
@@ -238,8 +261,28 @@
 			children = (
 				E41F7F4C226D661700E8533A /* Ingredient.swift */,
 				E4856524227512B000B82367 /* Recipe.swift */,
+				E4C19D05229998D2007A43D7 /* nutritionalData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E43BBF1622991CF300403AED /* Nutrient display */ = {
+			isa = PBXGroup;
+			children = (
+				E43BBF1722991D1100403AED /* NutrientsController.swift */,
+				E43BBF1922991DD200403AED /* NutrientCell.swift */,
+			);
+			path = "Nutrient display";
+			sourceTree = "<group>";
+		};
+		E43BBF1B22992D9700403AED /* ThomasNutritientGraphs */ = {
+			isa = PBXGroup;
+			children = (
+				E4C19CFF22999398007A43D7 /* CircularGraph.swift */,
+				E4C19D0122999420007A43D7 /* NutrientsViewController.swift */,
+				E4C19D03229994EC007A43D7 /* NutritionalDataCollectionViewCell.swift */,
+			);
+			path = ThomasNutritientGraphs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +401,7 @@
 				E41F7F1C226D5D6000E8533A /* LaunchScreen.storyboard in Resources */,
 				E41F7F19226D5D6000E8533A /* Assets.xcassets in Resources */,
 				E421BC202284E9750091DC58 /* GoogleService-Info.plist in Resources */,
+				E4C19D082299A378007A43D7 /* DS_Store in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,24 +430,30 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FindRecipes/Pods-FindRecipes-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/InputBarAccessoryView/InputBarAccessoryView.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InputBarAccessoryView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -474,7 +524,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E44589C222791AAC006ACD82 /* InstructionRequest.swift in Sources */,
+				E43BBF0B2298F93A00403AED /* PushNotificationSender.swift in Sources */,
+				E43BBF1822991D1100403AED /* NutrientsController.swift in Sources */,
 				E46273EE226E782900EBE95F /* Food101.mlmodel in Sources */,
+				E43BBF092298E4B700403AED /* PushNotificationManager.swift in Sources */,
+				E43BBF1A22991DD200403AED /* NutrientCell.swift in Sources */,
+				E4C19D06229998D2007A43D7 /* nutritionalData.swift in Sources */,
 				E41F7F46226D5F9F00E8533A /* AddIngredientController.swift in Sources */,
 				E45A3CAF22939BAC00411F6B /* SavedRecipeController.swift in Sources */,
 				E41F7F4B226D64D400E8533A /* IngredientCell.swift in Sources */,
@@ -484,12 +539,15 @@
 				E41F7F12226D5D6000E8533A /* AppDelegate.swift in Sources */,
 				E41F7F40226D5D7500E8533A /* Inceptionv3-1.mlmodel in Sources */,
 				E421BC2422850D400091DC58 /* SignUpController.swift in Sources */,
+				E4C19D0022999398007A43D7 /* CircularGraph.swift in Sources */,
 				E41F7F49226D624E00E8533A /* Extensions.swift in Sources */,
+				E4C19D04229994EC007A43D7 /* NutritionalDataCollectionViewCell.swift in Sources */,
 				E4BAD08322729ACB00314B46 /* RecipeRequest.swift in Sources */,
 				E416939D227BBC0700F68F0E /* RecipeDetailController.swift in Sources */,
 				E48565272275191200B82367 /* RecipeController.swift in Sources */,
 				E4D3A7842294E4D90097487A /* RecipeDetailTableViewCell.swift in Sources */,
 				E421BC222284F1680091DC58 /* LoginController.swift in Sources */,
+				E4C19D0222999420007A43D7 /* NutrientsViewController.swift in Sources */,
 				E4856525227512B000B82367 /* Recipe.swift in Sources */,
 				E485652B2275343D00B82367 /* CustomImageView.swift in Sources */,
 			);

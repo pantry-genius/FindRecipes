@@ -71,10 +71,16 @@ class LoginController: UIViewController {
                 print("failed to log in ", err )
                 return
             }
-            self.navigationController?.popViewController(animated: true)
-            let recipeController = RecipeController(collectionViewLayout: UICollectionViewFlowLayout())
-            self.navigationController?.pushViewController(recipeController, animated: true)
-            recipeController.navigationItem.title = "Saved Recipes"
+            
+            self.dismiss(animated: true, completion: nil)
+            //let recipeController = RecipeController(collectionViewLayout: UICollectionViewFlowLayout())
+            //self.navigationController?.pushViewController(recipeController, animated: true)
+            //recipeController.navigationItem.title = "Saved Recipes"
+
+//            self.navigationController?.popViewController(animated: true)
+//            let recipeController = RecipeController(collectionViewLayout: UICollectionViewFlowLayout())
+//            self.navigationController?.pushViewController(recipeController, animated: true)
+//            recipeController.navigationItem.title = "Saved Recipes"
             
             
         }
@@ -99,7 +105,7 @@ class LoginController: UIViewController {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
         view.addSubview(logoContainerView)
-        logoContainerView.anchor(top: view.topAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 150)
+        logoContainerView.anchor(top: view.topAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 50, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: 0, height: 150)
         navigationController?.isNavigationBarHidden = true
         view.backgroundColor = .white
         view.addSubview(dontHaveAccountButton)
