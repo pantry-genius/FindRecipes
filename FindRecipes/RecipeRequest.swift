@@ -18,7 +18,7 @@ class RecipeRequest {
     
     func getHeaders() -> HTTPHeaders{
         let xMashapeHost = "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com"
-        let xMashapeKey = "bc59c27cebmsha71cfb371bc4627p1afddbjsnf58ac3ca8faa"
+        let xMashapeKey = "//insert your personal key here (sign up on website )"
         let headers: HTTPHeaders = ["X-RapidAPI-Host": xMashapeHost, "X-RapidAPI-Key": xMashapeKey]
         return headers
     }
